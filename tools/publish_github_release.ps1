@@ -1,4 +1,4 @@
-﻿param(
+param(
   [string]$RepoName = "VKPack",
   [string]$Owner = "",
   [string]$ArtifactsDir = "..\release-assets-2026-06-30",
@@ -84,10 +84,10 @@ Visual setup tutorial: see `docs/PLAYER_SETUP_TUTORIAL.md` in the source repo.
 "@ | Set-Content -LiteralPath $Notes -Encoding UTF8
 
   $FixedAssets = @(
-    Join-Path $ArtifactPath "VKPack-GitHub-Source-2026-06-30-source.zip",
-    Join-Path $ArtifactPath "GrindingGear-1.0.0+mc1.21.1-neoforge.jar",
-    Join-Path $ArtifactPath "VKPack-2026-06-30-resolved-only-DRAFT.mrpack",
-    Join-Path $ArtifactPath "RELEASE_AUDIT.json"
+    (Join-Path $ArtifactPath "VKPack-GitHub-Source-2026-06-30-source.zip"),
+    (Join-Path $ArtifactPath "GrindingGear-1.0.0+mc1.21.1-neoforge.jar"),
+    (Join-Path $ArtifactPath "VKPack-2026-06-30-resolved-only-DRAFT.mrpack"),
+    (Join-Path $ArtifactPath "RELEASE_AUDIT.json")
   )
   $FinalMrpacks = @(Get-ChildItem -LiteralPath $ArtifactPath -File -Filter "VKPack-*-FINAL.mrpack" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })
   $Assets = @($FixedAssets + $FinalMrpacks) | Where-Object { Test-Path -LiteralPath $_ }
@@ -111,5 +111,3 @@ Visual setup tutorial: see `docs/PLAYER_SETUP_TUTORIAL.md` in the source repo.
 finally {
   Pop-Location
 }
-
-
