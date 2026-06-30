@@ -36,12 +36,12 @@ try {
   }
 
   if (!$RepoExists) {
-    & $Gh repo create $RepoFull $Visibility --source $Root --remote origin --description "VKPack public source release: KubeJS, configs, manifests, and first-party GrindingGear source." --push
-  } else {
-    & $Git remote remove origin 2>$null
-    & $Git remote add origin "https://github.com/$RepoFull.git"
-    & $Git push -u origin main
+    & $Gh repo create $RepoFull $Visibility --description "VKPack public source release: KubeJS, configs, manifests, and first-party GrindingGear source."
   }
+
+  try { & $Git remote remove origin 2>$null } catch {}
+  & $Git remote add origin "https://github.com/$RepoFull.git"
+  & $Git push -u origin main
 
   & $Git tag -l $Tag | ForEach-Object { if ($_ -eq $Tag) { & $Git tag -d $Tag | Out-Null } }
   & $Git tag -a $Tag -m "VKPack public source release $Tag"
@@ -52,7 +52,7 @@ try {
     & $BuildSourceZip -OutDir $ArtifactsDir
   }
 
-  $ArtifactPath = Resolve-Path -LiteralPath (Join-Path $Root $ArtifactsDir)
+  $ArtifactPath = (Resolve-Path -LiteralPath (Join-Path $Root $ArtifactsDir)).Path
   $AuditSource = Join-Path $Root "manifest\RELEASE_AUDIT.json"
   if (Test-Path -LiteralPath $AuditSource) {
     Copy-Item -LiteralPath $AuditSource -Destination (Join-Path $ArtifactPath "RELEASE_AUDIT.json") -Force
@@ -111,4 +111,5 @@ Visual setup tutorial: see `docs/PLAYER_SETUP_TUTORIAL.md` in the source repo.
 finally {
   Pop-Location
 }
+
 
