@@ -44,23 +44,37 @@ try {
   if (Test-Path -LiteralPath $BuildSourceZip) {
     & $BuildSourceZip -OutDir $ArtifactsDir
   }
+
   $ArtifactPath = Resolve-Path -LiteralPath (Join-Path $Root $ArtifactsDir)
+  $AuditSource = Join-Path $Root "manifest\RELEASE_AUDIT.json"
+  if (Test-Path -LiteralPath $AuditSource) {
+    Copy-Item -LiteralPath $AuditSource -Destination (Join-Path $ArtifactPath "RELEASE_AUDIT.json") -Force
+  }
+
+  $ManualTemplate = Join-Path $Root "manifest\manual-downloads.template.json"
+  $UnresolvedCount = "unknown"
+  if (Test-Path -LiteralPath $ManualTemplate) {
+    $UnresolvedCount = @((Get-Content -LiteralPath $ManualTemplate -Raw | ConvertFrom-Json)).Count
+  }
+
   $Notes = Join-Path $ArtifactPath "GITHUB_RELEASE_NOTES.md"
-  if (!(Test-Path -LiteralPath $Notes)) {
-    @"
+  @"
 # VKPack $Tag
 
 This release contains the open-source pack source snapshot and release artifacts.
 
-Important: `VKPack-2026-06-30-resolved-only-DRAFT.mrpack` is a draft import pack. It resolves the Modrinth-hosted dependency set and includes overrides, but files listed in `manifest/MANUAL_DOWNLOADS_REQUIRED.md` still need legal direct-download resolution or Modrinth-hosted replacements before this is truly one-click/server-complete.
+For players: use `VKPack-...-FINAL.mrpack` when present. Import it into Modrinth App; do not use GitHub's source-code zip to play.
 
-Attach/download notes:
-- Final mrpack, if present: the player-facing Modrinth import file.
+Current note: `VKPack-2026-06-30-resolved-only-DRAFT.mrpack` is a draft import pack. It resolves the Modrinth-hosted dependency set and includes overrides, but `$UnresolvedCount` files listed in `manifest/MANUAL_DOWNLOADS_REQUIRED.md` still need legal direct-download resolution or Modrinth-hosted replacements before this is truly one-click/server-complete.
+
+Attached/download notes:
 - Source zip: safe GitHub source snapshot.
 - GrindingGear jar: first-party mod jar owned by this pack.
 - Draft mrpack: not final until manual-download blockers are resolved.
+- Final mrpack, if present: the player-facing Modrinth import file.
+
+Visual setup tutorial: see `docs/PLAYER_SETUP_TUTORIAL.md` in the source repo.
 "@ | Set-Content -LiteralPath $Notes -Encoding UTF8
-  }
 
   $FixedAssets = @(
     Join-Path $ArtifactPath "VKPack-GitHub-Source-2026-06-30-source.zip",
@@ -83,4 +97,3 @@ Attach/download notes:
 finally {
   Pop-Location
 }
-
