@@ -27,8 +27,15 @@ try {
   $RepoFull = "$Owner/$RepoName"
   $Visibility = if ($Private) { "--private" } else { "--public" }
 
-  & $Gh repo view $RepoFull *> $null
-  if ($LASTEXITCODE -ne 0) {
+  $RepoExists = $false
+  try {
+    & $Gh repo view $RepoFull *> $null
+    $RepoExists = ($LASTEXITCODE -eq 0)
+  } catch {
+    $RepoExists = $false
+  }
+
+  if (!$RepoExists) {
     & $Gh repo create $RepoFull $Visibility --source $Root --remote origin --description "VKPack public source release: KubeJS, configs, manifests, and first-party GrindingGear source." --push
   } else {
     & $Git remote remove origin 2>$null
@@ -85,8 +92,15 @@ Visual setup tutorial: see `docs/PLAYER_SETUP_TUTORIAL.md` in the source repo.
   $FinalMrpacks = @(Get-ChildItem -LiteralPath $ArtifactPath -File -Filter "VKPack-*-FINAL.mrpack" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })
   $Assets = @($FixedAssets + $FinalMrpacks) | Where-Object { Test-Path -LiteralPath $_ }
 
-  & $Gh release view $Tag --repo $RepoFull *> $null
-  if ($LASTEXITCODE -eq 0) {
+  $ReleaseExists = $false
+  try {
+    & $Gh release view $Tag --repo $RepoFull *> $null
+    $ReleaseExists = ($LASTEXITCODE -eq 0)
+  } catch {
+    $ReleaseExists = $false
+  }
+
+  if ($ReleaseExists) {
     & $Gh release upload $Tag @Assets --repo $RepoFull --clobber
   } else {
     & $Gh release create $Tag @Assets --repo $RepoFull --title "VKPack $Tag" --notes-file $Notes
@@ -97,3 +111,4 @@ Visual setup tutorial: see `docs/PLAYER_SETUP_TUTORIAL.md` in the source repo.
 finally {
   Pop-Location
 }
+
