@@ -1,0 +1,31 @@
+		[Interactions.Stoves.Normal]
+			#Controls the volume at which this sound ambient plays at (only supports oaksdelight stoves).
+			"Stove Ambient Volume" = 0.5
+			#Controls the volume at which this sound ambient plays at (only supports oaksdelight stoves).
+			"Stove Ambient Pitch" = 1.0
+			#Controls the volume at which this interaction happens (only supports oaksdelight stoves).
+			"Stove Ignite Volume" = 0.4
+			#Controls the volume at which this interaction happens (only supports oaksdelight stoves).
+			"Stove Ignite Pitch" = 1.0
+			#Controls the volume at which this interaction happens (only supports oaksdelight stoves).
+			"Stove Ash Volume" = 0.3
+			#Controls the volume at which this interaction happens (only supports oaksdelight stoves).
+			"Stove Ash Pitch" = 1.0
+
+		[Interactions.Stoves.End]
+			#Controls the volume at which this sound ambient plays at (only supports oaksdelight stoves).
+			"End Stove Ambient" = 0.5
+			#Controls the volume at which this sound ambient plays at (only supports oaksdelight stoves).
+			"End Stove Pitch" = 1.0
+
+		[Interactions.Stoves.Nether]
+			#Controls the volume at which this sound ambient plays at (only supports oaksdelight stoves).
+			"Nether Stove Ambient" = 0.5
+			#Controls the volume at which this sound ambient plays at (only supports oaksdelight stoves).
+			"Nether Stove Pitch" = 1.0
+
+	[Interactions.Drawers]
+		#Volume at which the opening Drawers Sound is played
+		"Drawers Interaction Volume" = 0.2
+		#Volume at which the opening Drawers Sound is played
+		"Drawers Interaction Pitch" = 1.0

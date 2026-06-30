@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/titanium"
+    },
+    {
+      "tag": "c:ingots/silicon"
+    },
+    {
+      "tag": "gigani:carbon_sources"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:titanium_silicon_carbide_max_phase"
+  }
+}

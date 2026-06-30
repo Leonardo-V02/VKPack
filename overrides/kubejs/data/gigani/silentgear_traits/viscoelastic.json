@@ -1,0 +1,32 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.viscoelastic.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:armor_durability": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_speed": {
+          "base_multiplier": 0.006,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.viscoelastic"
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/titanium_platinum_iridium_surgical_alloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFEDE8CF",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.titanium_platinum_iridium_surgical_alloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 24.0,
+      "armor/boots": 3.4,
+      "armor/chestplate": 9.1,
+      "armor/helmet": 4.1,
+      "armor/leggings": 7.4,
+      "armor_durability": 58.0,
+      "armor_toughness": 13.0,
+      "attack_damage": 6.0,
+      "attack_speed": 0.14,
+      "charging_value": 0.18,
+      "draw_speed": 0.16,
+      "durability": 2860,
+      "enchantment_value": 46,
+      "harvest_speed": 14.4,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 10.0,
+      "magic_damage": 7.4,
+      "projectile_accuracy": 1.23,
+      "projectile_speed": 1.13,
+      "ranged_damage": 3.0,
+      "rarity": 122,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:lucky"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 8.12
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.92
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 400.4
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.592
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.59
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.84
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:lucky"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.089
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.053
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.086
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:lucky"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.163
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.081
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.15
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.6
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.888
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.14
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.144
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.072
+      }
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 5.52
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.8
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.332
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:lucky"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.094
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.625
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.2
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:lucky"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.267
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.075
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.24
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.12,
+      "projectile_speed": 1.07,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.252
+      }
+    }
+  }
+}

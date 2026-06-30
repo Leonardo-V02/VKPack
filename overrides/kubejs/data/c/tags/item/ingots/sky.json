@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "naturesaura:sky_ingot",
+      "required": false
+    }
+  ]
+}

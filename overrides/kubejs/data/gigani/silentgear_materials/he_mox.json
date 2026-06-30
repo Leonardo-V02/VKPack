@@ -1,0 +1,375 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/he_mox"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFB68C67",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.he_mox"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 30.2,
+      "armor/boots": 4.2,
+      "armor/chestplate": 11.5,
+      "armor/helmet": 5.1,
+      "armor/leggings": 9.4,
+      "armor_durability": 76.7,
+      "armor_toughness": 19.4,
+      "attack_damage": 8.8,
+      "attack_speed": -0.14,
+      "charging_value": 0,
+      "draw_speed": -0.1,
+      "durability": 3450,
+      "enchantment_value": 14,
+      "harvest_speed": 6.8,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 10.8,
+      "magic_damage": 12.6,
+      "projectile_accuracy": 1,
+      "projectile_speed": 1,
+      "ranged_damage": 0.8,
+      "rarity": 120,
+      "repair_value": 0.05,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cryostable"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.23
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.022
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.077
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.055
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 8.846
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.992
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 517.5
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.904
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.008
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.176
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cryostable"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.111
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.425
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.15
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.038
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.6
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.52
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.016
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cryostable"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.133
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.042
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.035
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cryostable"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.119
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.062
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cryostable"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.108
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.771
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 4.5
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.16
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cryostable"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": -0.02
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.02
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.02
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        }
+      ]
+    }
+  }
+}

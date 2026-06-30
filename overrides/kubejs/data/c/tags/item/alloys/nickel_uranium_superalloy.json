@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:nickel_uranium_superalloy",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    },
+    {
+      "tag": "c:gems/rutile"
+    },
+    {
+      "tag": "c:gems/ilmenite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:rutilmenite_tool_steel"
+  }
+}

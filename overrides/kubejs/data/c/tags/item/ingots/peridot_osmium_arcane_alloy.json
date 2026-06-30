@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:peridot_osmium_arcane_alloy",
+      "required": false
+    }
+  ]
+}

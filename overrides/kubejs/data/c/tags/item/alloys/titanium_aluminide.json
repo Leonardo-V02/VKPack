@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:titanium_aluminide",
+      "required": false
+    }
+  ]
+}

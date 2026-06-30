@@ -1,0 +1,45 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.scintillating.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "all/any": [
+          {
+            "attribute": "minecraft:generic.luck",
+            "operation": "add_value",
+            "values": [
+              0.15,
+              0.35,
+              0.6,
+              0.9,
+              1.25
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:enchantment_value": {
+          "base_multiplier": 0.06,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_armor": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.scintillating"
+  }
+}

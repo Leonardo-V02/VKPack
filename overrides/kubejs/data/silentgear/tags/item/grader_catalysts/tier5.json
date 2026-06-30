@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "apotheosis:mythic_material",
+    {
+      "id": "#gigani:apotheosis_bridge/mythic_alloys",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/nickel"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/uranium"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:nickel_uranium_superalloy"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

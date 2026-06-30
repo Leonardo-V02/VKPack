@@ -1,0 +1,405 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/black_diamond"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFD5727A",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.black_diamond"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 17.3,
+      "armor/boots": 2.4,
+      "armor/chestplate": 6.6,
+      "armor/helmet": 2.9,
+      "armor/leggings": 5.4,
+      "armor_durability": 35.8,
+      "armor_toughness": 7.0,
+      "attack_damage": 4.5,
+      "attack_speed": 0.0,
+      "charging_value": 0.0,
+      "draw_speed": 0.0,
+      "durability": 1280.1,
+      "enchantment_value": 35.5,
+      "harvest_speed": 9.4,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 7.9,
+      "magic_damage": 6.1,
+      "projectile_accuracy": 1.18,
+      "projectile_speed": 1.03,
+      "ranged_damage": 1.4,
+      "rarity": 72.0,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.099
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.071
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.015
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.02
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 5.005
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.167
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 231.083
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.158
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.913
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.402
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.055
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.741
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.046
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.011
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.919
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.041
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.108
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.011
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.121
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.266
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.731
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.013
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.013
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.094
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.038
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.333
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.424
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.007
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.011
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.058
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.59
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.35
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.081
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.011
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.201
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.119,
+      "projectile_speed": 1.042,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brittle"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.803
+      }
+    }
+  }
+}

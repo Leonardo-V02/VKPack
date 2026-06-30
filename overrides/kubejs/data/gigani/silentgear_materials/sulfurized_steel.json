@@ -1,0 +1,495 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/sulfurized_steel"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF72A8D6",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.sulfurized_steel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 21.1,
+      "armor/boots": 3,
+      "armor/chestplate": 8,
+      "armor/helmet": 3.6,
+      "armor/leggings": 6.5,
+      "armor_durability": 48.2,
+      "armor_toughness": 8.1,
+      "attack_damage": 5.9,
+      "attack_speed": 0.08,
+      "charging_value": 0.18,
+      "draw_speed": 0.06,
+      "durability": 2004.1,
+      "enchantment_value": 18.7,
+      "harvest_speed": 12.7,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 1.7,
+      "magic_damage": 4.6,
+      "projectile_accuracy": 1.09,
+      "projectile_speed": 1.09,
+      "ranged_damage": 1.2,
+      "rarity": 78,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.187
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.109
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.031
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 6.747
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.05
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 245.933
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.347
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.506
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.346
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.074
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.954
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.091
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.04
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.974
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.5
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.035
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.13
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.056
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.164
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ],
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.553
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.009
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.089
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.127
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.116
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.03
+      }
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.832
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.4
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.219
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.018
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.078
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.075
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.807
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.05
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.206
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.091
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.131
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.081,
+      "projectile_speed": 1.062,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ]
+    }
+  }
+}

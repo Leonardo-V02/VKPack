@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/steel"
+              },
+    "additives":  [
+                      {
+                          "item":  "minecraft:diamond"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:diamond_matrix_steel"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

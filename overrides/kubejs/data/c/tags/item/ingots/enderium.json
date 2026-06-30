@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:enderium_ingot",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:lead_nickel_bearing_alloy",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.rutile_refraction.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:projectile_accuracy": {
+          "base_multiplier": 0.06,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:projectile_speed": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_damage": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:enchantment_value": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:durability": {
+          "base_multiplier": -0.018,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.rutile_refraction"
+  }
+}

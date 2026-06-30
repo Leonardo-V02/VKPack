@@ -1,0 +1,419 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/titanium_silicon_carbide_max_phase"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFAEB5AD",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.titanium_silicon_carbide_max_phase"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 25.0,
+      "armor/boots": 3.5,
+      "armor/chestplate": 9.5,
+      "armor/helmet": 4.2,
+      "armor/leggings": 7.8,
+      "armor_durability": 68.0,
+      "armor_toughness": 17.0,
+      "attack_damage": 8.0,
+      "attack_speed": 0.18,
+      "charging_value": 0.08,
+      "draw_speed": 0.12,
+      "durability": 3260,
+      "enchantment_value": 24,
+      "harvest_speed": 17.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 5.0,
+      "magic_damage": 2.4,
+      "projectile_accuracy": 1.12,
+      "projectile_speed": 1.18,
+      "ranged_damage": 1.6,
+      "rarity": 118,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:max_phase_laminate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:springback"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:springback"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:max_phase_laminate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:carbide_edge"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 9.52
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.56
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 456.4
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.06
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.84
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.448
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:max_phase_laminate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:springback"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.105
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.5
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.16
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.075
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.046
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:max_phase_laminate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:springback"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.193
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.111
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.097
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:springback"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:max_phase_laminate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:carbide_edge"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.8
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.18
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.17
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:springback"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:max_phase_laminate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:carbide_edge"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.054
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.11
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.125
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.1
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:max_phase_laminate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:springback"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.255
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.106
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.116
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:max_phase_laminate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.06,
+      "projectile_speed": 1.09,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:max_phase_laminate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        }
+      ]
+    }
+  }
+}

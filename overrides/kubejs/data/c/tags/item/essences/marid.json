@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "occultism:marid_essence",
+      "required": false
+    }
+  ]
+}

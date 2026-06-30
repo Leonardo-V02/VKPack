@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:quicksilver_amalgam",
+      "required": false
+    }
+  ]
+}

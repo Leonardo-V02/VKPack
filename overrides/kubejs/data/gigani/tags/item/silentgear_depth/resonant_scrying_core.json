@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:resonant_scrying_core",
+      "required": false
+    }
+  ]
+}

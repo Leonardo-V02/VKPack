@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:ruby_matrix_steel",
+      "required": false
+    }
+  ]
+}

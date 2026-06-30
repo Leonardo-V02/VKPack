@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/osmium"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/iridium"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:osmium_iridium_superalloy"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

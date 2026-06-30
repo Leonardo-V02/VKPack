@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:dusts/refracted"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFD8C08C",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.refracted_dust"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 10.5,
+      "armor/boots": 1.47,
+      "armor/chestplate": 3.99,
+      "armor/helmet": 1.79,
+      "armor/leggings": 3.25,
+      "armor_durability": 20.0,
+      "armor_toughness": 3.0,
+      "attack_damage": 2.0,
+      "attack_speed": 0.05,
+      "charging_value": 8.0,
+      "draw_speed": 0.08,
+      "durability": 520.0,
+      "enchantment_value": 34.0,
+      "harvest_speed": 7.8,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 7.5,
+      "magic_damage": 5.8,
+      "projectile_accuracy": 1.18,
+      "projectile_speed": 1.09,
+      "ranged_damage": 2.8,
+      "rarity": 78.0,
+      "repair_value": 0.07,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:radiant_matrix"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.44
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.404
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:radiant_matrix"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 0.3675
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.2
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.4725
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.3
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.5
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 5.44
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.16
+      },
+      "projectile_accuracy": 1.18,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.18,
+      "projectile_speed": 1.09,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.616
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    }
+  }
+}

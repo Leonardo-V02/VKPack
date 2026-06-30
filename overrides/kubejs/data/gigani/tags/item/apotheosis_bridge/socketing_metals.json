@@ -1,0 +1,277 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:ingots/adamant",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/duratium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/energite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/prometheum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/deorum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/obsidiansteel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/froststeel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/forgotten_metal",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/energized_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/draconium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/black_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/crystaltine",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/enhanced_redstone_ingot",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/enhanced_ender_ingot",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/titanium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/hslasteel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/stainlesssteel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/steel",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/photonium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/lightium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/tungsten_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/nickel_tungsten_tool_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/titanium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/osmium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/iridium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/platinum_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/uranium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/chromium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/titanium_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/osmium_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/iridium_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/platinum_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/netherite_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/obsidian_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/fluorite_hardened_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/uranium_hardened_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/redstone_hardened_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/glowstone_tempered_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/ender_tempered_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/shulker_reinforced_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/nether_quartz_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/lapis_laced_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/amethyst_tempered_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/cinnabar_tempered_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/sulfurized_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/salt_quenched_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/aluminum_nickel_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/aluminum_titanium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/nickel_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/nickel_osmium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/nickel_platinum_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/nickel_uranium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/titanium_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/titanium_osmium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/titanium_platinum_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/titanium_uranium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/platinum_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/osmium_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/platinum_osmium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/uranium_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/uranium_osmium_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/uranium_platinum_superalloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/aluminum_zinc_dural_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/aluminum_copper_aeralloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/aluminum_silver_aeralloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/aluminum_osmium_light_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/aluminum_iridium_light_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/aluminum_platinum_light_alloy",
+      "required": false
+    }
+  ]
+}

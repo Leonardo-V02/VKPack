@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    },
+    {
+      "tag": "c:gems/cinnabar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:cinnabar_tempered_steel"
+  }
+}

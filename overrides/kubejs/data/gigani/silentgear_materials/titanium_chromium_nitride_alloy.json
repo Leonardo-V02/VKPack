@@ -1,0 +1,419 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/titanium_chromium_nitride_alloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFD7C660",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.titanium_chromium_nitride_alloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 24.0,
+      "armor/boots": 3.4,
+      "armor/chestplate": 9.1,
+      "armor/helmet": 4.1,
+      "armor/leggings": 7.4,
+      "armor_durability": 62.0,
+      "armor_toughness": 14.0,
+      "attack_damage": 8.2,
+      "attack_speed": 0.2,
+      "charging_value": 0.08,
+      "draw_speed": 0.1,
+      "durability": 2880,
+      "enchantment_value": 20,
+      "harvest_speed": 18.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 4.2,
+      "magic_damage": 2.2,
+      "projectile_accuracy": 1.1,
+      "projectile_speed": 1.2,
+      "ranged_damage": 1.2,
+      "rarity": 112,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:nitride_coating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_barrier"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:nitride_coating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 8.68
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.624
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 403.2
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.24
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.77
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.336
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:nitride_coating"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_barrier"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.095
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.083
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.034
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:nitride_coating"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.172
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.123
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.088
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:nitride_coating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.672
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.18
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:nitride_coating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.75
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.924
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:nitride_coating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.245
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.118
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.095
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:nitride_coating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.05,
+      "projectile_speed": 1.11,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:nitride_coating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        }
+      ]
+    }
+  }
+}

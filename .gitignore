@@ -1,0 +1,47 @@
+# Third-party binaries and generated packages
+*.jar
+*.jar.disabled
+*.mrpack
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.sqlite
+*.db
+*.sparkprofile
+
+# Minecraft runtime output
+logs/
+crash-reports/
+saves/
+screenshots/
+backups/
+debug/
+.cache/
+server-pack/
+mods/
+mods-disabled*/
+shaderpacks/
+resourcepacks/*.zip
+
+# Local/private profile files
+servers.dat*
+usercache.json
+usernamecache.json
+options.txt
+launcher_profiles.json
+TrashSlotSaveState.json
+
+# Release outputs
+artifacts/
+dist/
+build/
+
+# Generated config caches/indexes
+**/search_index/
+**/*.cache.json
+**/write.lock
+*.cfe
+*.cfs
+*.si

@@ -1,0 +1,12 @@
+﻿{
+    "type":  "immersiveengineering:alloy",
+    "input0":  {
+                   "tag":  "c:ingots/copper"
+               },
+    "input1":  {
+                   "tag":  "c:ingots/silver"
+               },
+    "result":  {
+                   "id":  "kubejs:copper_silver_conductor_alloy"
+               }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "theurgy:crystallized_water",
+      "required": false
+    }
+  ]
+}

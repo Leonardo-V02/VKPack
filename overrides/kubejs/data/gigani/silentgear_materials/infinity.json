@@ -1,0 +1,445 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/infinity"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFCB7EC8",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.infinity"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 27.8,
+      "armor/boots": 3.9,
+      "armor/chestplate": 10.6,
+      "armor/helmet": 4.7,
+      "armor/leggings": 8.6,
+      "armor_durability": 51.3,
+      "armor_toughness": 13.2,
+      "attack_damage": 6.8,
+      "attack_speed": 0.0,
+      "charging_value": 0.0,
+      "draw_speed": 0.0,
+      "durability": 3486.8,
+      "enchantment_value": 40.4,
+      "harvest_speed": 10.6,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 16.7,
+      "magic_damage": 12.8,
+      "projectile_accuracy": 1.2,
+      "projectile_speed": 1.05,
+      "ranged_damage": 2.0,
+      "rarity": 103.0,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:mighty"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.205
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.054
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:stellar"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.025
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.002
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 7.176
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.968
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 455.991
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.798
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 5.2
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.55
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:stellar"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.079
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.361
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.128
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.022
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.446
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.056
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:stellar"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.154
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.022
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.103
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:stellar"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:wear_resistant"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.675
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.542
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.021
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.021
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.106
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": -0.012
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:stellar"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:wear_resistant"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.756
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.01
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 3.143
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:stellar"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:wear_resistant"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.011
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.083
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.978
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 4.553
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:stellar"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.055
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.113
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.3
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:stellar"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.154,
+      "projectile_speed": 1.104,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:stellar"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.46
+      }
+    }
+  }
+}

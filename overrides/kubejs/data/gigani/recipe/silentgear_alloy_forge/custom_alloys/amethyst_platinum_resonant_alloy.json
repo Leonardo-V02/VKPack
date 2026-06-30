@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "tag": "c:ingots/platinum"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:amethyst_platinum_resonant_alloy"
+  }
+}

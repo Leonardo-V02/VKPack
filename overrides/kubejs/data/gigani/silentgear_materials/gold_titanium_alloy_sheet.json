@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:plates/gold_titanium_alloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFFFD37A",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.gold_titanium_alloy_sheet"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 20.6,
+      "armor/boots": 2.88,
+      "armor/chestplate": 7.83,
+      "armor/helmet": 3.5,
+      "armor/leggings": 6.39,
+      "armor_durability": 41.0,
+      "armor_toughness": 8.5,
+      "attack_damage": 4.6,
+      "attack_speed": 0.18,
+      "charging_value": 0,
+      "draw_speed": 0.1,
+      "durability": 1560.0,
+      "enchantment_value": 38.0,
+      "harvest_speed": 12.6,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 7.0,
+      "magic_damage": 4.5,
+      "projectile_accuracy": 1.12,
+      "projectile_speed": 1.09,
+      "ranged_damage": 2.8,
+      "rarity": 90.0,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:auric_phase"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:auric_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:surface_passivated"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.012
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.268
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:auric_phase"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:auric_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:surface_passivated"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 0.721
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.2
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.927
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.85
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.4
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 7.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.9
+      },
+      "projectile_accuracy": 1.12,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.12,
+      "projectile_speed": 1.09,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.616
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    }
+  }
+}

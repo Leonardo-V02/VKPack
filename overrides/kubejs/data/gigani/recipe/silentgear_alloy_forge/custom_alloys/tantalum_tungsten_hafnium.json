@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/hafnium_boride"
+    },
+    {
+      "tag": "c:ingots/titanium_tungsten_molybdenum_tool_steel"
+    },
+    {
+      "tag": "c:ingots/tungsten"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:tantalum_tungsten_hafnium"
+  }
+}

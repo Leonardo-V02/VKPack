@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/hafnium_boride"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/titanium_tungsten_molybdenum_tool_steel"
+    },
+    {
+      "tag": "c:ingots/tungsten"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:tantalum_tungsten_hafnium"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

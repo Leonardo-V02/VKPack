@@ -1,0 +1,410 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/cobalt_chrome"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF8DA8C8",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.cobalt_chrome"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 27.2,
+      "armor/boots": 3.8,
+      "armor/chestplate": 10.3,
+      "armor/helmet": 4.6,
+      "armor/leggings": 8.4,
+      "armor_durability": 58.9,
+      "armor_toughness": 15.2,
+      "attack_damage": 6.6,
+      "attack_speed": -0.02,
+      "charging_value": 0,
+      "draw_speed": -0.02,
+      "durability": 2650,
+      "enchantment_value": 17,
+      "harvest_speed": 8.8,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 4,
+      "magic_damage": 1.2,
+      "projectile_accuracy": 1.06,
+      "projectile_speed": 1.02,
+      "ranged_damage": 0.6,
+      "rarity": 94,
+      "repair_value": 0.12,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:work_hardened"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surgical_grade"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.177
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.015
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.011
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.011
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 6.795
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.244
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 397.5
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.464
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.096
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.132
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:work_hardened"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.085
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.9
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.115
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.049
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.333
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.24
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.012
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:work_hardened"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.102
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.055
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.12
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.005
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.017
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.096
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.083
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.171
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.667
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surgical_grade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.02
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.02
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.075
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    }
+  }
+}

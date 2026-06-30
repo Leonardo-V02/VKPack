@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:lead_plate",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:platelead",
+      "required": false
+    },
+    {
+      "id": "nuclearism:lead_plate",
+      "required": false
+    }
+  ]
+}

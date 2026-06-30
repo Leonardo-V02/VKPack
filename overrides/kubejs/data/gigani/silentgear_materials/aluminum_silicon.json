@@ -1,0 +1,410 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/aluminum_silicon"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFD2D0C5",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.aluminum_silicon"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 15.8,
+      "armor/boots": 2.2,
+      "armor/chestplate": 6,
+      "armor/helmet": 2.7,
+      "armor/leggings": 4.9,
+      "armor_durability": 25.6,
+      "armor_toughness": 5.4,
+      "attack_damage": 3.8,
+      "attack_speed": 0.08,
+      "charging_value": 0,
+      "draw_speed": 0.06,
+      "durability": 1150,
+      "enchantment_value": 16,
+      "harvest_speed": 11.5,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 1.2,
+      "magic_damage": 0.4,
+      "projectile_accuracy": 1.08,
+      "projectile_speed": 1.1,
+      "ranged_damage": 0.6,
+      "rarity": 58,
+      "repair_value": 0.2,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:galling_resistant"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.077
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.044
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.033
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:galling_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 2.949
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.292
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 172.5
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.472
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.032
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.132
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.037
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.675
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.05
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.069
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.4
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.2
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.012
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.077
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.2
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.02
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:galling_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.068
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.113
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.16
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:galling_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.04
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.771
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.5
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.1
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.075
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:vacuum_cast"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        }
+      ]
+    }
+  }
+}

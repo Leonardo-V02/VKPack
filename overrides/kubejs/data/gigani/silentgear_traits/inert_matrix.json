@@ -1,0 +1,32 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.inert_matrix.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:durability": {
+          "base_multiplier": 0.05,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_durability": {
+          "base_multiplier": 0.05,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.inert_matrix"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:mercury_copper_amalgam",
+      "required": false
+    }
+  ]
+}

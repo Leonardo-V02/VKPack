@@ -1,0 +1,32 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.edge_retention.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.022,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:durability": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_damage": {
+          "base_multiplier": 0.016,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.edge_retention"
+  }
+}

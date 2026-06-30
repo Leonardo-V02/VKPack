@@ -1,0 +1,317 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/insanite"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF83DAA7",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.insanite"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 20.4,
+      "armor/boots": 2.9,
+      "armor/chestplate": 7.7,
+      "armor/helmet": 3.5,
+      "armor/leggings": 6.3,
+      "armor_durability": 42.1,
+      "armor_toughness": 8.0,
+      "attack_damage": 5.1,
+      "attack_speed": 0.0,
+      "charging_value": 0.0,
+      "draw_speed": 0.0,
+      "durability": 1807.9,
+      "enchantment_value": 17.5,
+      "harvest_speed": 8.1,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 2.1,
+      "magic_damage": 1.5,
+      "projectile_accuracy": 1.09,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.2,
+      "rarity": 75.0,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.143
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.011
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.008
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 5.889
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.426
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 234.398
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.063
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.798
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.339
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.065
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.866
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.05
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.001
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.399
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.035
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.121
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.001
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.003
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.003
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.081
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.033
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.068
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.053
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.271
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.05
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.071
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.035
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.045
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.051,
+      "projectile_speed": 1.031,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    }
+  }
+}

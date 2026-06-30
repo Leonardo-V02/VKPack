@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-06-30T14:34:46.612048+00:00",
+  "source_dir": "C:\\Users\\V02\\AppData\\Roaming\\ModrinthApp\\profiles\\VKPack\\github-release\\VKPack-GitHub-Source-2026-06-30",
+  "artifacts_dir": "C:\\Users\\V02\\AppData\\Roaming\\ModrinthApp\\profiles\\VKPack\\github-release\\release-assets-2026-06-30",
+  "active_mod_jars": 498,
+  "resolved_modrinth_files": 487,
+  "unresolved_files": 24,
+  "override_files": 21613,
+  "blocked_binary_files_in_source": [],
+  "possible_secret_files_in_source": [],
+  "first_party_grindinggear_jar_copied_to_artifacts": true,
+  "draft_mrpack": "C:\\Users\\V02\\AppData\\Roaming\\ModrinthApp\\profiles\\VKPack\\github-release\\release-assets-2026-06-30\\VKPack-2026-06-30-resolved-only-DRAFT.mrpack",
+  "source_zip": "C:\\Users\\V02\\AppData\\Roaming\\ModrinthApp\\profiles\\VKPack\\github-release\\release-assets-2026-06-30\\VKPack-GitHub-Source-2026-06-30-source.zip",
+  "updated_utc": "2026-06-30T14:42:50.832451+00:00",
+  "removed_generated_cache_files": [
+    "overrides/config/adorablehamsterpets/manifest.cache.json",
+    "overrides/config/adorablehamsterpets/perks.cache.json",
+    "overrides/config/ars_nouveau/search_index"
+  ]
+}

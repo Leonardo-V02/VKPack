@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/cobalt_chrome"
+    },
+    {
+      "tag": "c:ingots/tungsten"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:superalloy_rene"
+  }
+}

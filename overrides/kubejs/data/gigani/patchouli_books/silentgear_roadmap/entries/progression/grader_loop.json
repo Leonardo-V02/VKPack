@@ -1,0 +1,19 @@
+{
+  "name": "The Grader Loop",
+  "icon": "silentgear:material_grader",
+  "category": "gigani:progression",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Silent Gear grades are the real quality chase. Run important ingots, gems, and special materials through the Material Grader. Better grades improve the material before it ever becomes a part."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The intended high-end loop is: grade the base materials, alloy them in the alloy forge, grade the resulting alloy, then craft the part. For cascade alloys, repeat that loop at each step."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Do not waste perfect-grade materials on throwaway tools. Save the best rolls for cascade alloys, carbide tips, boss weapons, magic coatings, and armor linings that you intend to socket with Apotheosis gems."
+    }
+  ]
+}

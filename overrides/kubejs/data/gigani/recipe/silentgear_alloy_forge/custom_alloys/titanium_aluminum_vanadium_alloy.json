@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/titanium"
+    },
+    {
+      "tag": "c:ingots/aluminum"
+    },
+    {
+      "tag": "c:ingots/vanadium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:titanium_aluminum_vanadium_alloy"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.cryostable.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:durability": {
+          "base_multiplier": 0.03,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_armor": {
+          "base_multiplier": 0.036,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": -0.008,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.cryostable"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "rftoolsdim:legendary_essence",
+      "required": false
+    }
+  ]
+}

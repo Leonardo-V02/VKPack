@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:fragments/vroomanite"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF4C4A57",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.vroomanite_scrap"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 21.8,
+      "armor/boots": 3.05,
+      "armor/chestplate": 8.28,
+      "armor/helmet": 3.71,
+      "armor/leggings": 6.76,
+      "armor_durability": 45.0,
+      "armor_toughness": 10.0,
+      "attack_damage": 5.4,
+      "attack_speed": -0.04,
+      "charging_value": 0,
+      "draw_speed": 0.0,
+      "durability": 1940.0,
+      "enchantment_value": 14.0,
+      "harvest_speed": 10.8,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 2.8,
+      "magic_damage": 1.4,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.04,
+      "ranged_damage": 1.7,
+      "rarity": 78.0,
+      "repair_value": 0.08,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.188
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.944
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 0.763
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.448
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.981
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.56
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.24
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.28
+      },
+      "projectile_accuracy": 1.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.04,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.374
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    }
+  }
+}

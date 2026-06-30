@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/vroomanite"
+  },
+  "additives": [
+    {
+      "tag": "c:gems/anassonium"
+    },
+    {
+      "tag": "c:dusts/refracted"
+    },
+    {
+      "tag": "c:ingots/titanium"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:vroomanite_reactor_alloy"
+    }
+  ],
+  "energy": 819200,
+  "time": 760
+}

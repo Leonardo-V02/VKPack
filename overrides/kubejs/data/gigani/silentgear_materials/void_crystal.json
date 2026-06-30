@@ -1,0 +1,545 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/void_crystal"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF5C4587",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.void_crystal"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 15.1,
+      "armor/boots": 2.1,
+      "armor/chestplate": 5.7,
+      "armor/helmet": 2.6,
+      "armor/leggings": 4.7,
+      "armor_durability": 35.8,
+      "armor_toughness": 6.6,
+      "attack_damage": 4.7,
+      "attack_speed": 0,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 1287.6,
+      "enchantment_value": 38.9,
+      "harvest_speed": 8.4,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 12.8,
+      "magic_damage": 12.6,
+      "projectile_accuracy": 1.19,
+      "projectile_speed": 1.01,
+      "ranged_damage": 3.9,
+      "rarity": 77,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:resonant_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:crystalline_focus"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.149
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.083
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.028
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.021
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 5.005
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.425
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 112.254
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.613
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 4.731
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.101
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.055
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.765
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.093
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.003
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.139
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.112
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:resonant_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.107
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.003
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.146
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:resonant_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.053
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.511
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.021
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.021
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.084
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": -0.001
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:resonant_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 6.166
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.31
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 3.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:crystalline_focus"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:resonant_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:waveform_harmonics"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.02
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.058
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.766
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.32
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:resonant_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.033
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.078
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.297
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:waveform_harmonics"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.123,
+      "projectile_speed": 1.028,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:waveform_harmonics"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:crystalline_focus"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:piezoelectric"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:resonance_tuned"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.872
+      }
+    }
+  }
+}

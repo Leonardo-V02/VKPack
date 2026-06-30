@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:salt",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:dried_salt",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/salt",
+      "required": false
+    },
+    {
+      "id": "#c:gems/salt",
+      "required": false
+    },
+    {
+      "id": "#c:salt",
+      "required": false
+    }
+  ]
+}

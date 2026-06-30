@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "tag": "c:raw_materials/uranium"
+  },
+  "output": {
+    "count": 1,
+    "id": "alltheores:uranium_dust"
+  }
+}

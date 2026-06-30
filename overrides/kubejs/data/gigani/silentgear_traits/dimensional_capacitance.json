@@ -1,0 +1,32 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.dimensional_capacitance.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:magic_damage": {
+          "base_multiplier": 0.065,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:ranged_damage": {
+          "base_multiplier": 0.06,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:draw_speed": {
+          "base_multiplier": 0.01,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.dimensional_capacitance"
+  }
+}

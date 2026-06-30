@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:obsidian_iridium_dark_alloy",
+      "required": false
+    }
+  ]
+}

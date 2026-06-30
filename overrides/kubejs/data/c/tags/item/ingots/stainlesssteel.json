@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "modern_industrialization:stainless_steel_ingot",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:ingotstainlesssteel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/stainless_steel",
+      "required": false
+    }
+  ]
+}

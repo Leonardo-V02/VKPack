@@ -1,0 +1,33 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/vroomanite"
+    }
+  ],
+  "processing_time": 700,
+  "results": [
+    {
+      "count": 2,
+      "id": "create_titan:vroomanitescrap"
+    },
+    {
+      "chance": 0.2,
+      "id": "create_titan:goldtitaniumalloy"
+    },
+    {
+      "chance": 0.1,
+      "id": "create:experience_nugget"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_titan"
+    }
+  ]
+}

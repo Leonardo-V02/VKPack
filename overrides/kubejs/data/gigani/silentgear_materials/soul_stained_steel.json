@@ -1,0 +1,449 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/soul_stained_steel"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF7AB7D6",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.soul_stained_steel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 23.8,
+      "armor/boots": 3.3,
+      "armor/chestplate": 9.0,
+      "armor/helmet": 4.0,
+      "armor/leggings": 7.4,
+      "armor_durability": 55.9,
+      "armor_toughness": 13.2,
+      "attack_damage": 6.1,
+      "attack_speed": 0.0,
+      "charging_value": 0.0,
+      "draw_speed": 0.0,
+      "durability": 2470.8,
+      "enchantment_value": 29.1,
+      "harvest_speed": 10.5,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 10.9,
+      "magic_damage": 10.0,
+      "projectile_accuracy": 1.15,
+      "projectile_speed": 1.05,
+      "ranged_damage": 3.7,
+      "rarity": 90.0,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:occult_conduit"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.203
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.049
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.009
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.006
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 7.826
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.143
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 327.299
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.172
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 3.822
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.03
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:occult_conduit"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.086
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.967
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.095
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.021
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.57
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.105
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:void_ward"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.161
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.021
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.191
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:occult_conduit"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.745
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.2
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.019
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.019
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.105
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.109
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:occult_conduit"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.449
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.964
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.38
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:occult_conduit"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.014
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.09
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.074
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.873
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:soulbound_matrix"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.05
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.045
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.069
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.299
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.061,
+      "projectile_speed": 1.055,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.609
+      }
+    }
+  }
+}

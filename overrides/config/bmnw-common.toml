@@ -1,0 +1,6 @@
+#Whether to minimize memory usage (this will increase the CPU load)
+#'MAYBE' will let the mod decide for you
+#Allowed Values: TRUE, FALSE, MAYBE
+minimizeMemoryUsage = "FALSE"
+#Whether to suppress crashes that could just be ignored... theoretically
+suppressErrors = false

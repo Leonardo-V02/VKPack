@@ -1,0 +1,50 @@
+{
+  "type": "apotheosis:gems",
+  "conditions": [],
+  "entries": [
+    {
+      "chance": 0.08,
+      "pattern": {
+        "domain": "undergarden",
+        "path_regex": "chests/.*"
+      },
+      "gems": [
+        "apotheosis:gigani/soul_anchor"
+      ],
+      "purities": [
+        "flawed",
+        "normal",
+        "flawless"
+      ]
+    },
+    {
+      "chance": 0.05,
+      "pattern": {
+        "domain": "undergarden",
+        "path_regex": "(entities|blocks)/.*(forgotten|guardian|dweller|rot|rogdorium|utherium|regalium|froststeel|catacombs).*"
+      },
+      "gems": [
+        "apotheosis:gigani/soul_anchor"
+      ],
+      "purities": [
+        "flawed",
+        "normal",
+        "flawless"
+      ]
+    },
+    {
+      "chance": 0.04,
+      "pattern": {
+        "domain": "malum",
+        "path_regex": "blocks/.*(soulwood|soulstone|soul_stained|hallowed|spirit|soul).*"
+      },
+      "gems": [
+        "apotheosis:gigani/soul_anchor"
+      ],
+      "purities": [
+        "flawed",
+        "normal"
+      ]
+    }
+  ]
+}

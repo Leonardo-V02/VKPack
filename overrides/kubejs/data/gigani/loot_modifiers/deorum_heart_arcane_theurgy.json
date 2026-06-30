@@ -1,0 +1,49 @@
+{
+  "type": "apotheosis:gems",
+  "conditions": [],
+  "entries": [
+    {
+      "chance": 0.08,
+      "pattern": {
+        "domain": "forbidden_arcanus",
+        "path_regex": "(chests|entities)/.*"
+      },
+      "gems": [
+        "apotheosis:gigani/deorum_heart"
+      ],
+      "purities": [
+        "flawed",
+        "normal",
+        "flawless"
+      ]
+    },
+    {
+      "chance": 0.04,
+      "pattern": {
+        "domain": "forbidden_arcanus",
+        "path_regex": "blocks/(arcane_.*|deorum_.*|stella_arcanum|stellarite_block|runic_.*|darkstone_pedestal)"
+      },
+      "gems": [
+        "apotheosis:gigani/deorum_heart"
+      ],
+      "purities": [
+        "flawed",
+        "normal"
+      ]
+    },
+    {
+      "chance": 0.05,
+      "pattern": {
+        "domain": "theurgy",
+        "path_regex": "blocks/(mercury_catalyst|pyromantic_brazier|sal_ammoniac_.*|calcination_oven|distiller|incubator|liquefaction_cauldron|reformation_.*|.*flux_emitter)"
+      },
+      "gems": [
+        "apotheosis:gigani/deorum_heart"
+      ],
+      "purities": [
+        "flawed",
+        "normal"
+      ]
+    }
+  ]
+}

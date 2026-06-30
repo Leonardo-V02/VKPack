@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:platinum_iridium_superalloy",
+      "required": false
+    }
+  ]
+}

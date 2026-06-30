@@ -1,0 +1,32 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.crystalline_focus.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:enchantment_value": {
+          "base_multiplier": 0.06,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_damage": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:projectile_accuracy": {
+          "base_multiplier": 0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.crystalline_focus"
+  }
+}

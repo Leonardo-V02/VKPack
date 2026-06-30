@@ -1,0 +1,37 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.refractory.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.06,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:durability": {
+          "base_multiplier": 0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_armor": {
+          "base_multiplier": 0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_speed": {
+          "base_multiplier": -0.005,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.refractory"
+  }
+}

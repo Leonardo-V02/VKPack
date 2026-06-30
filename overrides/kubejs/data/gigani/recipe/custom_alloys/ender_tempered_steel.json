@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "superheated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:ingots/steel"
+                        },
+                        {
+                            "item":  "minecraft:ender_pearl"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:ender_tempered_steel"
+                    }
+                ]
+}

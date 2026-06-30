@@ -1,0 +1,345 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/le_mox"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF8C7360",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.le_mox"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 24.6,
+      "armor/boots": 3.4,
+      "armor/chestplate": 9.3,
+      "armor/helmet": 4.2,
+      "armor/leggings": 7.6,
+      "armor_durability": 56.7,
+      "armor_toughness": 14.2,
+      "attack_damage": 7,
+      "attack_speed": -0.1,
+      "charging_value": 0,
+      "draw_speed": -0.08,
+      "durability": 2550,
+      "enchantment_value": 13,
+      "harvest_speed": 7,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 8.4,
+      "magic_damage": 9.2,
+      "projectile_accuracy": 1,
+      "projectile_speed": 1,
+      "ranged_damage": 0.7,
+      "rarity": 96,
+      "repair_value": 0.06,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.17
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.018
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.055
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.044
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 6.538
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.38
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 382.5
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.96
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.736
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.154
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.082
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.775
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.111
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.039
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.8
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.84
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.014
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.098
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.044
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.025
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.085
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.064
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.029
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.5
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": -0.02
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.02
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.02
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.087
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:mox_burn"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    }
+  }
+}

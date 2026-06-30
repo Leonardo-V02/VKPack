@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:gems/scryers_crystal"
+    },
+    {
+      "tag": "c:ingots/amethyst_platinum_resonant_alloy"
+    },
+    {
+      "tag": "c:gems/certus_quartz"
+    },
+    {
+      "tag": "c:gems/fluix"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:resonant_scrying_core"
+  }
+}

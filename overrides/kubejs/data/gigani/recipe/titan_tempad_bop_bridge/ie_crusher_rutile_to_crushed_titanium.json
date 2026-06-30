@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6400,
+  "input": {
+    "tag": "c:gems/rutile"
+  },
+  "result": {
+    "count": 2,
+    "id": "create_titan:crushed_raw_titanium"
+  },
+  "secondaries": [
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "create_titan:titaniumnugget"
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_titan"
+    }
+  ]
+}

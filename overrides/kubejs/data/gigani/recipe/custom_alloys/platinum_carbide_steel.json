@@ -1,0 +1,21 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/steel"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/platinum"
+                      },
+                      {
+                          "tag":  "gigani:carbon_sources"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:platinum_carbide_steel"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

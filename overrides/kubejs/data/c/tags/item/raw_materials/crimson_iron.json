@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "silentgear:raw_crimson_iron",
+      "required": false
+    }
+  ]
+}

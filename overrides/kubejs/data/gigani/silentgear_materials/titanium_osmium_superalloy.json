@@ -1,0 +1,448 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/titanium_osmium_superalloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFACB9C1",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.titanium_osmium_superalloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 29.5,
+      "armor/boots": 4.1,
+      "armor/chestplate": 11.2,
+      "armor/helmet": 5.0,
+      "armor/leggings": 9.1,
+      "armor_durability": 84.3,
+      "armor_toughness": 22.5,
+      "attack_damage": 8.8,
+      "attack_speed": 0.18,
+      "charging_value": 0.0,
+      "draw_speed": 0.1,
+      "durability": 4398.8,
+      "enchantment_value": 18.9,
+      "harvest_speed": 15.6,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 2.6,
+      "magic_damage": 0.6,
+      "projectile_accuracy": 1.09,
+      "projectile_speed": 1.15,
+      "ranged_damage": 1.3,
+      "rarity": 116.0,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:resonant_damping"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:precipitation_hardened"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:high_density"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.257
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.029
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:resonant_damping"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.058
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.101
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 11.801
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 3.799
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 709.441
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.838
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.155
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.356
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:resonant_damping"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:high_density"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.15
+      }
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.13
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.686
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.176
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.063
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.373
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.036
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:resonant_damping"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:inert_matrix"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      }
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.22
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.099
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.086
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:resonant_damping"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.063
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.228
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.131
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.076
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:resonant_damping"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.12
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.136
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.279
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.2
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:resonant_damping"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:precipitation_hardened"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.17
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.26
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.174
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.066
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:resonant_damping"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 0.944,
+      "projectile_speed": 1.126,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:resonant_damping"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        }
+      ]
+    }
+  }
+}

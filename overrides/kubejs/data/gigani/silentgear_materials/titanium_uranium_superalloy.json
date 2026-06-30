@@ -1,0 +1,505 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/titanium_uranium_superalloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFAAB4C8",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.titanium_uranium_superalloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 27,
+      "armor/boots": 3.8,
+      "armor/chestplate": 10.3,
+      "armor/helmet": 4.6,
+      "armor/leggings": 8.4,
+      "armor_durability": 73.9,
+      "armor_toughness": 21.5,
+      "attack_damage": 8.9,
+      "attack_speed": 0.26,
+      "charging_value": 0,
+      "draw_speed": 0.15,
+      "durability": 4003.7,
+      "enchantment_value": 10.7,
+      "harvest_speed": 16.7,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 4.2,
+      "magic_damage": 10,
+      "projectile_accuracy": 1.05,
+      "projectile_speed": 1.17,
+      "ranged_damage": 1.4,
+      "rarity": 103,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.205
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.033
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.019
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.097
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 10.342
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.188
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 555.573
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.542
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 3.42
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.396
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_barrier"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.15
+      }
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.114
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 3.18
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.169
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.072
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.157
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.805
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.04
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      }
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.218
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.124
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.057
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.678
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.202
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.032
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.34
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.142
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.059
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.143
+      }
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.302
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.763
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.423
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_barrier"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.02
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.119
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 3.05
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.956
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.07
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.36
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.241
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.237
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 0.978,
+      "projectile_speed": 1.203,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:entropy_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.112
+      }
+    }
+  }
+}

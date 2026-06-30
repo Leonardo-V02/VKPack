@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    },
+    {
+      "tag": "c:ingots/uranium"
+    },
+    {
+      "tag": "c:ingots/tungsten"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:uranium_tungsten_steel"
+  }
+}

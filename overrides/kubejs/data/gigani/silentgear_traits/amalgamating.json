@@ -1,0 +1,36 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.amalgamating.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.06,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:enchantment_value": {
+          "base_multiplier": 0.028,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:item_magnet",
+      "affected_items": {
+        "tag": "c:ingots"
+      },
+      "effect_range": 2.0,
+      "pull_strength": 0.045,
+      "affected_items_text_for_wiki": "ingots"
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.amalgamating"
+  }
+}

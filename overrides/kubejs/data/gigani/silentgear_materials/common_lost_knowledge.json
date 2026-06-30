@@ -1,0 +1,445 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/common_lost_knowledge"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF7CD574",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.common_lost_knowledge"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 14.2,
+      "armor/boots": 2,
+      "armor/chestplate": 5.4,
+      "armor/helmet": 2.4,
+      "armor/leggings": 4.4,
+      "armor_durability": 26.3,
+      "armor_toughness": 4.6,
+      "attack_damage": 3.7,
+      "attack_speed": 0,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 916.5,
+      "enchantment_value": 30.2,
+      "harvest_speed": 7.9,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 10.3,
+      "magic_damage": 5,
+      "projectile_accuracy": 1.15,
+      "projectile_speed": 1,
+      "ranged_damage": 3.7,
+      "rarity": 64,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.101
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.059
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.021
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.016
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 3.677
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.471
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 108.377
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.286
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 3.074
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.031
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.04
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.307
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.069
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.373
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.105
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.085
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.073
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.642
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.865
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.012
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.012
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.079
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.059
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 3.581
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.848
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.497
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:planar_shear"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.007
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.042
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.089
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.941
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.001
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.081
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.294
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.084,
+      "projectile_speed": 1.042,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:dimensional_memory"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.387
+      }
+    }
+  }
+}

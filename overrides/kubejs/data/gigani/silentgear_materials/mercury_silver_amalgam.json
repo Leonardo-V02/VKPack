@@ -1,0 +1,468 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/mercury_silver_amalgam"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFE5F4FF",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.mercury_silver_amalgam"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 15.0,
+      "armor/boots": 2.1,
+      "armor/chestplate": 5.7,
+      "armor/helmet": 2.6,
+      "armor/leggings": 4.7,
+      "armor_durability": 24.0,
+      "armor_toughness": 3.0,
+      "attack_damage": 3.6,
+      "attack_speed": 0.16,
+      "charging_value": 0.22,
+      "draw_speed": 0.2,
+      "durability": 1180,
+      "enchantment_value": 40,
+      "harvest_speed": 13.8,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 6.0,
+      "magic_damage": 6.2,
+      "projectile_accuracy": 1.2,
+      "projectile_speed": 1.12,
+      "ranged_damage": 3.2,
+      "rarity": 82,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:holy"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.12
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 3.36
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.152
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 165.2
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.484
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.17
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.896
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:holy"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.037
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.048
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.091
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:holy"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.076
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.135
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.96
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.744
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.16
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.138
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.09
+      }
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.8
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.08
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.116
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:holy"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.039
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.4
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.32
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:holy"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.301
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.068
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.24
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.11,
+      "projectile_speed": 1.06,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:bioaccumulative"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.2
+      }
+    }
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/titanium_diboride_cermet"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF565C65",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.titanium_diboride_cermet"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 22.0,
+      "armor/boots": 3.1,
+      "armor/chestplate": 8.4,
+      "armor/helmet": 3.7,
+      "armor/leggings": 6.8,
+      "armor_durability": 52.0,
+      "armor_toughness": 12.0,
+      "attack_damage": 9.4,
+      "attack_speed": 0.16,
+      "charging_value": 0.02,
+      "draw_speed": 0.08,
+      "durability": 2860,
+      "enchantment_value": 14,
+      "harvest_speed": 17.4,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 2.8,
+      "magic_damage": 2.0,
+      "projectile_accuracy": 1.07,
+      "projectile_speed": 1.19,
+      "ranged_damage": 0.8,
+      "rarity": 114,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:diboride_edge"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:embrittling_phase"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:diboride_edge"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:embrittling_phase"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 7.28
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 3.008
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 400.4
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.132
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.7
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.224
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:diboride_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:embrittling_phase"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.078
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.023
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:diboride_edge"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:embrittling_phase"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.15
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.11
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.073
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:diboride_edge"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:embrittling_phase"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.16
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.174
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:diboride_edge"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:embrittling_phase"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.036
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.084
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.5
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.616
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:diboride_edge"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:embrittling_phase"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.219
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.111
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.073
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:diboride_edge"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:embrittling_phase"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.04,
+      "projectile_speed": 1.1,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:precision_ground"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:diboride_edge"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:embrittling_phase"
+        }
+      ]
+    }
+  }
+}

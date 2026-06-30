@@ -1,0 +1,114 @@
+#Number of processing slots in Ascended Factories.
+# Default: 15
+# Range: 1 ~ 64
+factoryProcesses = 15
+
+	[transmitters.universal_cable]
+		#Multiplier against Ultimate Universal Cable capacity.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		universalCableCapacityMultiplier = 16.0
+
+	[transmitters.mechanical_pipe]
+		#Multiplier against Ultimate Mechanical Pipe capacity.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		mechanicalPipeCapacityMultiplier = 16.0
+		#Multiplier against Ultimate Mechanical Pipe pull amount.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		mechanicalPipePullAmountMultiplier = 16.0
+
+	[transmitters.thermodynamic_conductor]
+		#Multiplier against Ultimate Thermodynamic Conductor conduction.
+		# Default: 1.0
+		# Range: 0.0 ~ 1048576.0
+		thermodynamicConductorConductionMultiplier = 1.0
+		#Multiplier against Ultimate Thermodynamic Conductor heat capacity.
+		# Default: 1.0
+		# Range: 0.0 ~ 1048576.0
+		thermodynamicConductorHeatCapacityMultiplier = 1.0
+		#Multiplier against Ultimate Thermodynamic Conductor insulation.
+		# Default: 100.0
+		# Range: 0.0 ~ 1048576.0
+		thermodynamicConductorInsulationMultiplier = 100.0
+
+	[transmitters.logistical_transporter]
+		#Ascended Logistical Transporter speed. Values above 100 require multiple updates per tick and are intentionally not supported.
+		# Default: 50
+		# Range: 1 ~ 100
+		logisticalTransporterSpeed = 50
+		#Multiplier against Ultimate Logistical Transporter pull amount.
+		# Default: 4.0
+		# Range: 0.0 ~ 1048576.0
+		logisticalTransporterPullAmountMultiplier = 4.0
+		#Ascended Logistical Transporter pull delay in ticks. Mekanism standard is 10 ticks for all tiers.
+		# Default: 5
+		# Range: > 1
+		logisticalTransporterPullDelay = 5
+
+	[transmitters.pressurized_tube]
+		#Multiplier against Ultimate Pressurized Tube capacity.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		pressurizedTubeCapacityMultiplier = 16.0
+		#Multiplier against Ultimate Pressurized Tube pull amount.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		pressurizedTubePullAmountMultiplier = 16.0
+
+	[storage.fluid_tank]
+		#Multiplier against Ultimate Fluid Tank capacity.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		fluidTankCapacityMultiplier = 16.0
+		#Multiplier against Ultimate Fluid Tank output.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		fluidTankOutputMultiplier = 16.0
+
+	[storage.chemical_tank]
+		#Multiplier against Ultimate Chemical Tank capacity.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		chemicalTankCapacityMultiplier = 16.0
+		#Multiplier against Ultimate Chemical Tank output.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		chemicalTankOutputMultiplier = 16.0
+
+	[storage.energy_cube]
+		#Multiplier against Ultimate Energy Cube capacity.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		energyCubeCapacityMultiplier = 16.0
+		#Multiplier against Ultimate Energy Cube output.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		energyCubeOutputMultiplier = 16.0
+
+	[storage.induction_matrix]
+		#Multiplier against Ultimate Induction Cell capacity.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		inductionCellCapacityMultiplier = 16.0
+		#Multiplier against Ultimate Induction Provider output.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		inductionProviderOutputMultiplier = 16.0
+
+	[storage.item_bin]
+		#Multiplier against Ultimate Bin capacity.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		binCapacityMultiplier = 16.0
+
+	[storage.qio_drive]
+		#Multiplier against Ultimate/Supermassive QIO Drive item capacity.
+		# Default: 100.0
+		# Range: 0.0 ~ 1048576.0
+		qioDriveCountMultiplier = 100.0
+		#Multiplier against Ultimate/Supermassive QIO Drive type capacity.
+		# Default: 16.0
+		# Range: 0.0 ~ 1048576.0
+		qioDriveTypeMultiplier = 16.0

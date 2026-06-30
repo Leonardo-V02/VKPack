@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/nickel"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/platinum"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:nickel_platinum_superalloy"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

@@ -1,0 +1,389 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/iridium"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFE2E6EC",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.iridium"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 22.7,
+      "armor/boots": 3.2,
+      "armor/chestplate": 8.6,
+      "armor/helmet": 3.9,
+      "armor/leggings": 7.0,
+      "armor_durability": 50.6,
+      "armor_toughness": 13.0,
+      "attack_damage": 6.1,
+      "attack_speed": 0.0,
+      "charging_value": 0.0,
+      "draw_speed": 0.0,
+      "durability": 2393.4,
+      "enchantment_value": 30.7,
+      "harvest_speed": 8.8,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 6.8,
+      "magic_damage": 1.5,
+      "projectile_accuracy": 1.15,
+      "projectile_speed": 1.02,
+      "ranged_damage": 0.3,
+      "rarity": 99.0,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:heat_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.224
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.098
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.033
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.003
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 7.083
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.784
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 285.683
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.638
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.808
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.087
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:heat_resistant"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.078
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.422
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.054
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.006
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.061
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.009
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:heat_resistant"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.152
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.006
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.222
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.09
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.016
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.016
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.088
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.137
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:heat_resistant"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.511
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.227
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.389
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:heat_resistant"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.003
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.082
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.713
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.207
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:heat_resistant"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.05
+      }
+    }
+  }
+}

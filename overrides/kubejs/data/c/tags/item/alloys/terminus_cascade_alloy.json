@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:terminus_cascade_alloy",
+      "required": false
+    }
+  ]
+}

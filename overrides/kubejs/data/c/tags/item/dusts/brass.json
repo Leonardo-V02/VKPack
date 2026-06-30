@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:brass_dust",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/steel"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/iridium"
+                      },
+                      {
+                          "tag":  "c:ingots/tungsten"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:iridium_tungsten_steel"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

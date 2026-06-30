@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/nickel"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:nitinol"
+    }
+  ],
+  "energy": 409600,
+  "time": 420
+}

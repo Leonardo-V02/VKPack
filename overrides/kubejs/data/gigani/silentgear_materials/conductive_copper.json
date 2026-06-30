@@ -1,0 +1,378 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/conductive_copper"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFD87852",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.conductive_copper"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 12.0,
+      "armor/boots": 1.7,
+      "armor/chestplate": 4.6,
+      "armor/helmet": 2.0,
+      "armor/leggings": 3.7,
+      "armor_durability": 18.0,
+      "armor_toughness": 2.0,
+      "attack_damage": 3.1,
+      "attack_speed": 0.2,
+      "charging_value": 0.38,
+      "draw_speed": 0.14,
+      "durability": 820,
+      "enchantment_value": 22,
+      "harvest_speed": 12.8,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 2.4,
+      "magic_damage": 2.2,
+      "projectile_accuracy": 1.11,
+      "projectile_speed": 1.1,
+      "ranged_damage": 2.4,
+      "rarity": 48,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:eddy_current"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:ion_channel"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.12
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:eddy_current"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:magnetic"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 2.52
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.992
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 114.8
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.304
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.77
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.672
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:eddy_current"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:ion_channel"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.028
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.04
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.069
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:eddy_current"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:ion_channel"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.063
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.092
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:eddy_current"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:magnetic"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.128
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:eddy_current"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:magnetic"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.063
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.231
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.056
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.149
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:eddy_current"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:magnetic"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.06,
+      "projectile_speed": 1.05,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:eddy_current"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:magnetic"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.704
+      }
+    }
+  }
+}

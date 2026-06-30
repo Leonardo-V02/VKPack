@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:mercury_droplet",
+      "required": false
+    },
+    {
+      "id": "theurgy:mercury_shard",
+      "required": false
+    },
+    {
+      "id": "theurgy:mercury_crystal",
+      "required": false
+    }
+  ]
+}

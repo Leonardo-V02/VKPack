@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apotheosis",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "E": {
+      "tag": "c:ender_pearls"
+    },
+    "F": {
+      "tag": "gigani:apotheosis_bridge/flux_materials"
+    },
+    "G": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+    "M": {
+      "item": "apotheosis:gem_dust"
+    }
+  },
+  "pattern": [
+    "GBG",
+    "EFE",
+    "GMG"
+  ],
+  "result": {
+    "count": 4,
+    "id": "apotheosis:sigil_of_withdrawal"
+  }
+}

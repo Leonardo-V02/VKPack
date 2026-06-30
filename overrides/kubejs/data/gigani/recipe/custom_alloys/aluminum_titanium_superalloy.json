@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/aluminum"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/titanium"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:aluminum_titanium_superalloy"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

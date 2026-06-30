@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:gems/permafrost_shard"
+    },
+    {
+      "tag": "c:gems/crystallized_lava"
+    },
+    {
+      "tag": "c:gems/crystallized_water"
+    },
+    {
+      "tag": "c:ingots/glowstone_gold_radiant_alloy"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:frostfire_conflux_core"
+  }
+}

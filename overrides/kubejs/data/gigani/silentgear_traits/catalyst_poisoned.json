@@ -1,0 +1,99 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:tool"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.catalyst_poisoned.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:magic_damage": {
+          "base_multiplier": 0.075,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:enchantment_value": {
+          "base_multiplier": 0.03,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:repair_efficiency": {
+          "base_multiplier": -0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:target_effect",
+      "effects_by_level": {
+        "silentgear:tool": {
+          "1": [
+            {
+              "duration": 60,
+              "id": "minecraft:weakness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "2": [
+            {
+              "duration": 100,
+              "id": "minecraft:weakness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "3": [
+            {
+              "duration": 140,
+              "id": "minecraft:weakness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "4": [
+            {
+              "duration": 180,
+              "id": "minecraft:weakness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "5": [
+            {
+              "duration": 220,
+              "id": "minecraft:weakness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.catalyst_poisoned"
+  }
+}

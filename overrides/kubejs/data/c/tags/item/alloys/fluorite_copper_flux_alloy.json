@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:fluorite_copper_flux_alloy",
+      "required": false
+    }
+  ]
+}

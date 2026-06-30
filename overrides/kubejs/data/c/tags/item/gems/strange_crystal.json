@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "malum:strange_crystal",
+      "required": false
+    },
+    {
+      "id": "malum:large_strange_crystal",
+      "required": false
+    }
+  ]
+}

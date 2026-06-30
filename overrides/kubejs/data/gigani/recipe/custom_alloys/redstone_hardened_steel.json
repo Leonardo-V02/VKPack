@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "heated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:ingots/steel"
+                        },
+                        {
+                            "item":  "minecraft:redstone"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:redstone_hardened_steel"
+                    }
+                ]
+}

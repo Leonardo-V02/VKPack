@@ -1,0 +1,51 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:tool"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.ion_channel.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:charging_value": {
+          "base_multiplier": 0.05,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:wielder_effect",
+      "potion_effects": {
+        "silentgear:tool": [
+          {
+            "type": "trait_level",
+            "duration": 38,
+            "effect": "minecraft:haste",
+            "levels": [
+              0,
+              0,
+              1,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.ion_channel"
+  }
+}

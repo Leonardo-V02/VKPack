@@ -1,0 +1,30 @@
+#MNA General Config. This config is synced from server to client.
+[MNA-general]
+	#Max tank size of fusion neutron activator.
+	# Default: 100000
+	# Range: 1 ~ 9223372036854775807
+	fusionNeutronActivatorMaxTankSize = 100000
+	#Multiplier of fusion neutron activator's production rate. Actual producton rate is this value multiplied by fusion fuel burned.
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	fusionNeutronActivatorMultiplier = 3.0
+	#Output rate of fusion neutron activator.
+	# Default: 4096
+	# Range: 1 ~ 9223372036854775807
+	fusionNeutronActivatorOutputRate = 4096
+	#Max tank size of fission neutron activator.
+	# Default: 1000
+	# Range: 1 ~ 9223372036854775807
+	fissionNeutronActivatorMaxTankSize = 1000
+	#Production rate of fission neutron activator's operation. (Inverse of operating ticks)
+	# Default: 0.0025
+	# Range: 0.0 ~ 1.7976931348623157E308
+	fissionNeutronActivatorOperatingTicks = 0.0025
+	#Multiplier of fission neutron activator's production rate. When you use barrel containing plutonium, the production rate is multiplied by this value.
+	# Default: 10.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	fissionNeutronActivatorPlutoniumMultiplier = 10.0
+	#Output rate of fission neutron activator.
+	# Default: 4096
+	# Range: 1 ~ 9223372036854775807
+	fissionNeutronActivatorOutputRate = 4096

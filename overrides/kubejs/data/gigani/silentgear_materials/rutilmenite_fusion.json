@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/rutilmenite_fusion"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF5A4244",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.rutilmenite_fusion"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 18.4,
+      "armor/boots": 2.58,
+      "armor/chestplate": 6.99,
+      "armor/helmet": 3.13,
+      "armor/leggings": 5.7,
+      "armor_durability": 38.0,
+      "armor_toughness": 7.5,
+      "attack_damage": 4.6,
+      "attack_speed": 0.03,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 1530.0,
+      "enchantment_value": 24.0,
+      "harvest_speed": 10.1,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 4.8,
+      "magic_damage": 3.8,
+      "projectile_accuracy": 1.08,
+      "projectile_speed": 1.03,
+      "ranged_damage": 2.4,
+      "rarity": 72.0,
+      "repair_value": 0.13,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:phase_tuned"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.012
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.818
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:phase_tuned"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 0.644
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.768
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.828
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.75
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.96
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 3.84
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.76
+      },
+      "projectile_accuracy": 1.08,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.08,
+      "projectile_speed": 1.03,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.528
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:phase_tuned"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    }
+  }
+}

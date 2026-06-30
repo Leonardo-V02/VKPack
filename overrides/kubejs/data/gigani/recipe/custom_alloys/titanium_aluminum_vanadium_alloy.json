@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/aluminum"
+    },
+    {
+      "tag": "c:ingots/vanadium"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:titanium_aluminum_vanadium_alloy"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

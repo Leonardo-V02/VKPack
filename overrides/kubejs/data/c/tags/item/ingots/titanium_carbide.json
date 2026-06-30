@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "electrodynamics:ingottitaniumcarbide",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/titaniumcarbide",
+      "required": false
+    }
+  ]
+}

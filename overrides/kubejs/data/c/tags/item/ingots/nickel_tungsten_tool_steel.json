@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:nickel_tungsten_tool_steel",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:tin_platinum_bearing_alloy",
+      "required": false
+    }
+  ]
+}

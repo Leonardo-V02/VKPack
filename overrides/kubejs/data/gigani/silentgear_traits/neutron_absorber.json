@@ -1,0 +1,37 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.neutron_absorber.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:armor": {
+          "base_multiplier": 0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.065,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_armor": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": -0.015,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.neutron_absorber"
+  }
+}

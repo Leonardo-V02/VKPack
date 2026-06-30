@@ -1,0 +1,55 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.beta_elastic.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_speed": {
+          "base_multiplier": 0.012,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:draw_speed": {
+          "base_multiplier": 0.012,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "armor/feet": [
+          {
+            "attribute": "minecraft:generic.safe_fall_distance",
+            "operation": "add_value",
+            "values": [
+              0.25,
+              0.5,
+              0.75,
+              1.0,
+              1.25
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.beta_elastic"
+  }
+}

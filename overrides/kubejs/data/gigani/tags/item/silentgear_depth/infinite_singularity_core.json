@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:infinite_singularity_core",
+      "required": false
+    }
+  ]
+}

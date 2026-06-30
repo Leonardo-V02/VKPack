@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/resonant_cascade_alloy"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/ender_netherite_void_alloy"
+    },
+    {
+      "tag": "gigani:silentgear_depth/adamant_impact_core"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "kubejs:terminus_cascade_alloy"
+    }
+  ],
+  "energy": 819200,
+  "time": 720
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Gigani Gear Roadmap",
+  "landing_text": "A compact field guide for turning the pack's metals, gems, Material Grader rolls, cascade alloys, and Apotheosis sockets into actual progression instead of inventory noise.",
+  "version": 1,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "model": "patchouli:book_blue",
+  "show_progress": false,
+  "use_resource_pack": true
+}

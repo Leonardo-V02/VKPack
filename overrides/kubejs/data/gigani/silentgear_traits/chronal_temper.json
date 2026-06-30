@@ -1,0 +1,37 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.chronal_temper.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:attack_speed": {
+          "base_multiplier": 0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:draw_speed": {
+          "base_multiplier": 0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:projectile_speed": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.chronal_temper"
+  }
+}

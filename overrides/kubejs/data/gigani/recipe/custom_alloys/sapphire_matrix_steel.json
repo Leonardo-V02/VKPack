@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/steel"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:gems/sapphire"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:sapphire_matrix_steel"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

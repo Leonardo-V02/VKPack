@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "enderio:powdered_quartz",
+      "required": false
+    }
+  ]
+}

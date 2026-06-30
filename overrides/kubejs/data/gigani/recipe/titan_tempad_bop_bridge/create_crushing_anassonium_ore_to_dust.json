@@ -1,0 +1,33 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/anassonium"
+    }
+  ],
+  "processing_time": 700,
+  "results": [
+    {
+      "count": 2,
+      "id": "create_titan:anassonium_dust"
+    },
+    {
+      "chance": 0.35,
+      "id": "create_titan:anassonium_crystal"
+    },
+    {
+      "chance": 0.1,
+      "id": "create:experience_nugget"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_titan"
+    }
+  ]
+}

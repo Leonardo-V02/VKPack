@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:phantom_silk_lining",
+      "required": false
+    }
+  ]
+}

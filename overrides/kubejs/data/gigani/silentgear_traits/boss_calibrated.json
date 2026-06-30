@@ -1,0 +1,32 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.boss_calibrated.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:attack_damage": {
+          "base_multiplier": 0.044,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.036,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:enchantment_value": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.boss_calibrated"
+  }
+}

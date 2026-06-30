@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "heated",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:quartz"
+                        },
+                        {
+                            "tag":  "c:ingots/gold"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:quartz_gold_resonant_alloy"
+                    }
+                ]
+}

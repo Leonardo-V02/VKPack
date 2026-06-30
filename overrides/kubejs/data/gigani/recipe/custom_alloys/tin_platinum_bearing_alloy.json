@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/tin"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/platinum"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:tin_platinum_bearing_alloy"
+                    }
+                ],
+    "energy":  358400,
+    "time":  360
+}

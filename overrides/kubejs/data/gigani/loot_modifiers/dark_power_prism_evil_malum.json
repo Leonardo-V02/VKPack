@@ -1,0 +1,36 @@
+{
+  "type": "apotheosis:gems",
+  "conditions": [],
+  "entries": [
+    {
+      "chance": 0.08,
+      "pattern": {
+        "domain": "evilcraft",
+        "path_regex": "(entities|blocks)/(vengeance_spirit|werewolf|dark_.*|.*dark.*|.*blood.*|infested_.*)"
+      },
+      "gems": [
+        "apotheosis:gigani/dark_power_prism"
+      ],
+      "purities": [
+        "flawed",
+        "normal",
+        "flawless"
+      ]
+    },
+    {
+      "chance": 0.06,
+      "pattern": {
+        "domain": "malum",
+        "path_regex": "blocks/.*(malignant|soul|blight|runic|cthonic|tainted|twisted).*"
+      },
+      "gems": [
+        "apotheosis:gigani/dark_power_prism"
+      ],
+      "purities": [
+        "flawed",
+        "normal",
+        "flawless"
+      ]
+    }
+  ]
+}

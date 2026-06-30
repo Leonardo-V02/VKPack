@@ -1,0 +1,37 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.high_density.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:attack_damage": {
+          "base_multiplier": 0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor": {
+          "base_multiplier": 0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.065,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_speed": {
+          "base_multiplier": -0.015,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.high_density"
+  }
+}

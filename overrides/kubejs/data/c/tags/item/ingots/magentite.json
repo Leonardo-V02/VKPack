@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "bigreactors:magentite_ingot",
+      "required": false
+    },
+    {
+      "id": "extremereactors:magentite_ingot",
+      "required": false
+    }
+  ]
+}

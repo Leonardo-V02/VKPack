@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/iridium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:nickel_iridium_superalloy"
+  }
+}

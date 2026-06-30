@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:aluminum_zinc_dural_alloy",
+      "required": false
+    }
+  ]
+}

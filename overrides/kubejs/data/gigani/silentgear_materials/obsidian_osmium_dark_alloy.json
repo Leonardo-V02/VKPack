@@ -1,0 +1,503 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/obsidian_osmium_dark_alloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF605286",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.obsidian_osmium_dark_alloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 31.7,
+      "armor/boots": 4.4,
+      "armor/chestplate": 12,
+      "armor/helmet": 5.4,
+      "armor/leggings": 9.8,
+      "armor_durability": 75.9,
+      "armor_toughness": 23.5,
+      "attack_damage": 7.9,
+      "attack_speed": -0.08,
+      "charging_value": 0,
+      "draw_speed": -0.05,
+      "durability": 3894.1,
+      "enchantment_value": 19.6,
+      "harvest_speed": 2.4,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 14.7,
+      "magic_damage": 12.7,
+      "projectile_accuracy": 1.1,
+      "projectile_speed": 1,
+      "ranged_damage": 3.4,
+      "rarity": 99,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_latched"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.237
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.122
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.12
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.024
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 10.622
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 3.786
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 667.786
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 0.517
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 5.2
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.946
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.117
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 3.014
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.155
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.04
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.149
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.097
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      }
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.22
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": -0.063
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.101
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.351
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.527
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.023
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.14
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.024
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.026
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.88
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.645
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 3.557
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.015
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.122
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 3.6
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.758
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:phase_anchor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.19
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": -0.103
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.073
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.275
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 0.926,
+      "projectile_speed": 0.908,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_capacitance"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:planar_shear"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:compressive_skin"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.761
+      }
+    }
+  }
+}

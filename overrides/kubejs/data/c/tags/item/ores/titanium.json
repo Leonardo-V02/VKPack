@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create_titan:ilmenite_ore",
+      "required": false
+    },
+    {
+      "id": "create_titan:rutile_ore",
+      "required": false
+    }
+  ]
+}

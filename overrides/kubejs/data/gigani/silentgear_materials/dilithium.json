@@ -1,0 +1,453 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/dilithium"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF72D5BA",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.dilithium"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 9.3,
+      "armor/boots": 1.3,
+      "armor/chestplate": 3.5,
+      "armor/helmet": 1.6,
+      "armor/leggings": 2.9,
+      "armor_durability": 21.8,
+      "armor_toughness": 1.8,
+      "attack_damage": 2.8,
+      "attack_speed": 0.4,
+      "charging_value": 0.18,
+      "draw_speed": 0.32,
+      "durability": 662.5,
+      "enchantment_value": 25.9,
+      "harvest_speed": 17.5,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 5.2,
+      "magic_damage": 2.7,
+      "projectile_accuracy": 1.13,
+      "projectile_speed": 1.19,
+      "ranged_damage": 3.2,
+      "rarity": 54.0,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:superconductive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:precipitation_hardened"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.097
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.216
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:lightframe"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.166
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.112
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 3.047
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.277
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 91.58
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.787
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.081
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.907
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:superconductive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:precipitation_hardened"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.18
+      }
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.033
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.408
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.05
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.079
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.858
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.093
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:superconductive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:precipitation_hardened"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      }
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.068
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.159
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.083
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:superconductive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:precipitation_hardened"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.837
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.054
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.34
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.175
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.049
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:superconductive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:precipitation_hardened"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.16
+      }
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 3.554
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.942
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.586
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:superconductive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:precipitation_hardened"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.038
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.035
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.2
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.385
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:superconductive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:precipitation_hardened"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.36
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.27
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.164
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:superconductive"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.154,
+      "projectile_speed": 1.266,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:superconductive"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.929
+      }
+    }
+  }
+}

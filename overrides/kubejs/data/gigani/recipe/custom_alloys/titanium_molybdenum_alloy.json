@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:gems/molybdenum"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:titanium_molybdenum_alloy"
+    }
+  ],
+  "energy": 409600,
+  "time": 420
+}

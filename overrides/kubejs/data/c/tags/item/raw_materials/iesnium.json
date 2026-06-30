@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "occultism:raw_iesnium",
+      "required": false
+    }
+  ]
+}

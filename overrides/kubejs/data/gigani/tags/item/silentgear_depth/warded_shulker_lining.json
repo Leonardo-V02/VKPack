@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:warded_shulker_lining",
+      "required": false
+    }
+  ]
+}

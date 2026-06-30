@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "simpleteleporters:hearth_crystal",
+      "required": false
+    }
+  ]
+}

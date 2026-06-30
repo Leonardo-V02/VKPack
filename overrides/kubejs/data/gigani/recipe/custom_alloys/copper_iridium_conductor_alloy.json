@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/copper"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/iridium"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:copper_iridium_conductor_alloy"
+                    }
+                ],
+    "energy":  358400,
+    "time":  360
+}

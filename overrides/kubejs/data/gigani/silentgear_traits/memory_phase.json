@@ -1,0 +1,50 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.memory_phase.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:projectile_accuracy": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "armor/feet": [
+          {
+            "attribute": "minecraft:generic.safe_fall_distance",
+            "operation": "add_value",
+            "values": [
+              0.2,
+              0.4,
+              0.6,
+              0.8,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.memory_phase"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.phase_tuned.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "all/any": [
+          {
+            "attribute": "minecraft:player.block_interaction_range",
+            "operation": "add_value",
+            "values": [
+              0.25,
+              0.5,
+              0.75,
+              1.0,
+              1.25
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:ranged_damage": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:projectile_accuracy": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.phase_tuned"
+  }
+}

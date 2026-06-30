@@ -1,0 +1,375 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/field_cascade_alloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF8AA7A8",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.field_cascade_alloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 19.8,
+      "armor/boots": 2.8,
+      "armor/chestplate": 7.5,
+      "armor/helmet": 3.4,
+      "armor/leggings": 6.1,
+      "armor_durability": 32.2,
+      "armor_toughness": 7.4,
+      "attack_damage": 5,
+      "attack_speed": 0.03,
+      "charging_value": 0,
+      "draw_speed": 0.02,
+      "durability": 1450,
+      "enchantment_value": 18,
+      "harvest_speed": 10.6,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 2.2,
+      "magic_damage": 1.4,
+      "projectile_accuracy": 1.08,
+      "projectile_speed": 1.06,
+      "ranged_damage": 0.8,
+      "rarity": 62,
+      "repair_value": 0.18,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:electroductile"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.097
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.047
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.017
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.011
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:edge_retention"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 3.718
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.7
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 217.5
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.968
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.112
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.176
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:electroductile"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.047
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.925
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.063
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.059
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.733
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.28
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.016
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:electroductile"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.056
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.066
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.18
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.007
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:electroductile"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.025
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.096
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.144
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:electroductile"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.045
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.057
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.917
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:electroductile"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.06
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:edge_retention"
+        }
+      ]
+    }
+  }
+}

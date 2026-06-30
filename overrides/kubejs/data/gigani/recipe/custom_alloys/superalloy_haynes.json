@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/cobalt_chrome"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:gems/molybdenum"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:superalloy_haynes"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

@@ -1,0 +1,42 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.liquid_metal.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.07,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_speed": {
+          "base_multiplier": 0.01,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:draw_speed": {
+          "base_multiplier": 0.01,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": -0.02,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:self_repair",
+      "activation_chance": 0.01,
+      "repair_amount": 1
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.liquid_metal"
+  }
+}

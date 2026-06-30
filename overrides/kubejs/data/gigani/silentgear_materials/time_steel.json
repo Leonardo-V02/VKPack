@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/time_steel"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF7FD4E8",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.time_steel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 26.2,
+      "armor/boots": 3.67,
+      "armor/chestplate": 9.96,
+      "armor/helmet": 4.45,
+      "armor/leggings": 8.12,
+      "armor_durability": 56.0,
+      "armor_toughness": 12.0,
+      "attack_damage": 6.2,
+      "attack_speed": 0.18,
+      "charging_value": 0,
+      "draw_speed": 0.12,
+      "durability": 2620.0,
+      "enchantment_value": 30.0,
+      "harvest_speed": 14.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 9.2,
+      "magic_damage": 5.4,
+      "projectile_accuracy": 1.12,
+      "projectile_speed": 1.14,
+      "ranged_damage": 3.8,
+      "rarity": 98.0,
+      "repair_value": 0.12,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:chronal_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:temporal_inertia"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:void_latched"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:chronal_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:temporal_inertia"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:dimensional_memory"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.364
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.52
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:chronal_temper"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:temporal_inertia"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:void_latched"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:chronal_temper"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:temporal_inertia"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:dimensional_memory"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 0.917
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.472
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:temporal_inertia"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:void_latched"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 1.179
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.2
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.84
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:temporal_inertia"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:void_latched"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.8
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.08
+      },
+      "projectile_accuracy": 1.12,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:temporal_inertia"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:void_latched"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:temporal_inertia"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:void_latched"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.12,
+      "projectile_speed": 1.14,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.836
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:temporal_inertia"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:dimensional_memory"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:void_latched"
+        }
+      ]
+    }
+  }
+}

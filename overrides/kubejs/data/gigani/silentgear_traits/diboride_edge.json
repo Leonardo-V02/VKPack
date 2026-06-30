@@ -1,0 +1,47 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:tool"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.diboride_edge.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:attack_damage": {
+          "base_multiplier": 0.095,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.07,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:durability": {
+          "base_multiplier": -0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": -0.02,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:extra_damage",
+      "affected_type": "high_health",
+      "bonus_damage_per_level": 1.25
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.diboride_edge"
+  }
+}

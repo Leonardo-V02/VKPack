@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:industrial_cascade_alloy",
+      "required": false
+    }
+  ]
+}

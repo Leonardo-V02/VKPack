@@ -1,0 +1,485 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/cinnabar"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFBE4140",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.cinnabar"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 16.1,
+      "armor/boots": 2.2,
+      "armor/chestplate": 6.1,
+      "armor/helmet": 2.7,
+      "armor/leggings": 5,
+      "armor_durability": 28.2,
+      "armor_toughness": 3.1,
+      "attack_damage": 3.8,
+      "attack_speed": 0,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 778.1,
+      "enchantment_value": 26.7,
+      "harvest_speed": 9.4,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 5.7,
+      "magic_damage": 5,
+      "projectile_accuracy": 1.13,
+      "projectile_speed": 1.03,
+      "ranged_damage": 1.9,
+      "rarity": 59,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_poisoned"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.087
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.113
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.01
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.021
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 3.955
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.942
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 86.664
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.645
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.574
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.54
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_poisoned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.043
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.365
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.105
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.012
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.269
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.055
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.082
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.012
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.911
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.61
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.009
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.009
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.094
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.015
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.476
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.025
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.364
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.046
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.046
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.685
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.312
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:catalyst_surface"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.085
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.024
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.213
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.143,
+      "projectile_speed": 1.081,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_cycle"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.831
+      }
+    }
+  }
+}

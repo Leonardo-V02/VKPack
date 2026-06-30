@@ -1,0 +1,549 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/platinum_carbide_steel"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFC0BCAD",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.platinum_carbide_steel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 30.4,
+      "armor/boots": 4.2,
+      "armor/chestplate": 11.5,
+      "armor/helmet": 5.2,
+      "armor/leggings": 9.4,
+      "armor_durability": 68.4,
+      "armor_toughness": 22.3,
+      "attack_damage": 9.4,
+      "attack_speed": 0.1,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 3450.3,
+      "enchantment_value": 24,
+      "harvest_speed": 16.3,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 4.6,
+      "magic_damage": 5.1,
+      "projectile_accuracy": 1.17,
+      "projectile_speed": 1.17,
+      "ranged_damage": 0.8,
+      "rarity": 122,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.213
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.107
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.039
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.012
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 9.574
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 4.177
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 539.725
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 4.438
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.585
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.22
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:quench_hardened"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.105
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.916
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.192
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.069
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.575
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.022
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.213
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.089
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.164
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.735
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.618
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.038
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.138
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.24
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.155
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:radiant_matrix"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 5.445
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.826
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.257
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:noble_catalyst"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.005
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.11
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 3.232
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.486
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.14
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.174
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.063
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.259
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.174,
+      "projectile_speed": 1.058,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:carbide_edge"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:powder_metallurgy"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.584
+      }
+    }
+  }
+}

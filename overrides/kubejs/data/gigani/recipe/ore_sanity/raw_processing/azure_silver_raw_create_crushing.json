@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/azure_silver"
+    }
+  ],
+  "processing_time": 300,
+  "results": [
+    {
+      "count": 1,
+      "id": "moremekanismprocessing:dust_azure_silver"
+    },
+    {
+      "chance": 0.35,
+      "id": "moremekanismprocessing:dust_azure_silver"
+    },
+    {
+      "chance": 0.1,
+      "id": "create:experience_nugget"
+    }
+  ]
+}

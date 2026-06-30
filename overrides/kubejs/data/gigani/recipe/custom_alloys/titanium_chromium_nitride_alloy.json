@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/chromium"
+    },
+    {
+      "tag": "c:gems/niter"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:titanium_chromium_nitride_alloy"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

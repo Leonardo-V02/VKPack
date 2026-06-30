@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:lapis_laced_steel",
+      "required": false
+    }
+  ]
+}

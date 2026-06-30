@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/vroomanite"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF605E6D",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.vroomanite"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 30.4,
+      "armor/boots": 4.26,
+      "armor/chestplate": 11.55,
+      "armor/helmet": 5.17,
+      "armor/leggings": 9.42,
+      "armor_durability": 64.0,
+      "armor_toughness": 16.5,
+      "attack_damage": 7.8,
+      "attack_speed": -0.02,
+      "charging_value": 0,
+      "draw_speed": 0.02,
+      "durability": 3360.0,
+      "enchantment_value": 20.0,
+      "harvest_speed": 13.6,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 4.8,
+      "magic_damage": 2.6,
+      "projectile_accuracy": 1.05,
+      "projectile_speed": 1.12,
+      "ranged_damage": 3.4,
+      "rarity": 96.0,
+      "repair_value": 0.1,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.716
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.448
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 1.064
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.768
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 1.368
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.65
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.96
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 3.2
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.52
+      },
+      "projectile_accuracy": 1.05,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.05,
+      "projectile_speed": 1.12,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.748
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:thermal_shock"
+        }
+      ]
+    }
+  }
+}

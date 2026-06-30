@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "actuallyadditions:diamatine_crystal",
+      "required": false
+    },
+    {
+      "id": "actuallyadditions:diamatine_crystal_shard",
+      "required": false
+    }
+  ]
+}

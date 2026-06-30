@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "tag": "c:ingots/iridium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:glowstone_iridium_radiant_alloy"
+  }
+}

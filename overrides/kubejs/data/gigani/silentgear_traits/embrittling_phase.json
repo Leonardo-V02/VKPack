@@ -1,0 +1,37 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.embrittling_phase.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:attack_damage": {
+          "base_multiplier": 0.06,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:durability": {
+          "base_multiplier": -0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": -0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.embrittling_phase"
+  }
+}

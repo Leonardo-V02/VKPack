@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:ingots/neutronium"
+    },
+    {
+      "tag": "c:ingots/infinity"
+    },
+    {
+      "tag": "c:gems/chaos"
+    },
+    {
+      "tag": "c:ingots/ender_netherite_void_alloy"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:infinite_singularity_core"
+  }
+}

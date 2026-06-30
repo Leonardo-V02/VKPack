@@ -1,0 +1,43 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:armor"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.oxide_skin.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:fireproof"
+    },
+    {
+      "type": "silentgear:negate_damage",
+      "damage_type_tag": "minecraft:is_fire",
+      "negated_damage_scale": 0.025
+    },
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:durability": {
+          "base_multiplier": 0.03,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_armor": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.oxide_skin"
+  },
+  "extra_wiki_lines": [
+    "  - The item cannot be destroyed by fire or lava"
+  ]
+}

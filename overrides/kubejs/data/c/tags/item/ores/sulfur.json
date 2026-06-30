@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:sulfur_ore",
+      "required": false
+    }
+  ]
+}

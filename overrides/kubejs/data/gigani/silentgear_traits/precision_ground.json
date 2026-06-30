@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:tool"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.precision_ground.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:block_mining_speed",
+      "block_tag": "c:ores",
+      "speed_modifier": 0.12
+    },
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:projectile_accuracy": {
+          "base_multiplier": 0.03,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.precision_ground"
+  }
+}

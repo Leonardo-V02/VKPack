@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/steel"
+  },
+  "additives": [
+    {
+      "tag": "c:gems/rutile"
+    },
+    {
+      "tag": "c:gems/ilmenite"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:rutilmenite_tool_steel"
+    }
+  ],
+  "energy": 573440,
+  "time": 560
+}

@@ -1,0 +1,32 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.cold_flow.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:self_repair",
+      "activation_chance": 0.015,
+      "repair_amount": 1
+    },
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:armor_toughness": {
+          "base_multiplier": -0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.cold_flow"
+  }
+}

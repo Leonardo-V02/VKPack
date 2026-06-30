@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "item":  "minecraft:ender_pearl"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/nickel"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:ender_nickel_void_alloy"
+                    }
+                ],
+    "energy":  307200,
+    "time":  320
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:aluminum_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:deepslate_aluminum_ore",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:ore_aluminum",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:deepslate_ore_aluminum",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:orealuminum",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:deepslateorealuminum",
+      "required": false
+    }
+  ]
+}

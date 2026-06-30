@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:plutonium_239_ingot",
+      "required": false
+    },
+    {
+      "id": "nuclearism:plutonium_240_ingot",
+      "required": false
+    },
+    {
+      "id": "nuclearism:plutonium_238_ingot",
+      "required": false
+    }
+  ]
+}

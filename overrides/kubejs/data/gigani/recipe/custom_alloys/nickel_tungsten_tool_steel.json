@@ -1,0 +1,21 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/steel"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/nickel"
+                      },
+                      {
+                          "tag":  "c:ingots/tungsten"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:nickel_tungsten_tool_steel"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

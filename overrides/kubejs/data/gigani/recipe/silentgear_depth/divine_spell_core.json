@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:gems/divine_pearl"
+    },
+    {
+      "tag": "c:gems/divine_soulshard"
+    },
+    {
+      "tag": "c:gems/source"
+    },
+    {
+      "tag": "c:gems/arcane_crystal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:divine_spell_core"
+  }
+}

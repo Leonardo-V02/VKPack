@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:nether_quartz_steel",
+      "required": false
+    }
+  ]
+}

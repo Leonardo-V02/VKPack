@@ -1,0 +1,335 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "basic"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/aluminum"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFC9D7DF",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.aluminum"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 10.2,
+      "armor/boots": 1.4,
+      "armor/chestplate": 3.9,
+      "armor/helmet": 1.7,
+      "armor/leggings": 3.2,
+      "armor_durability": 18,
+      "armor_toughness": 2.2,
+      "attack_damage": 2.7,
+      "attack_speed": 0.08,
+      "charging_value": 0,
+      "draw_speed": 0.03,
+      "durability": 640,
+      "enchantment_value": 13,
+      "harvest_speed": 10.8,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 0.4,
+      "magic_damage": 0.2,
+      "projectile_accuracy": 1.08,
+      "projectile_speed": 1.1,
+      "ranged_damage": 0.65,
+      "rarity": 28,
+      "repair_value": 0.18,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.02
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.09
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.045
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 1.5
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.6
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 75
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.2
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.1
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.16
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 7
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.18
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.035
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.05
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.15
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.1
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.035
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.018
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.028
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.3
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.12
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.01
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:lightframe"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aeroelastic"
+        }
+      ]
+    }
+  }
+}

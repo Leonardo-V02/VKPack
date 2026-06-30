@@ -1,0 +1,15 @@
+{
+  "name": "Armor & Magic",
+  "icon": "kubejs:warded_shulker_lining",
+  "category": "gigani:progression",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tank armor wants dense or reactor materials: tantalum-tungsten-hafnium, uranium-osmium, hafnium boride, cobalt-chrome, warded shulker lining, and void-tempered coatings."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Magic gear wants resonance: Resonant Cascade, quartz-gold resonant alloy, YAG, ruby/sapphire/peridot arcane alloys, Deorum, Dark Power, Fluxite, and Soul Anchor socket planning through Apotheosis."
+    }
+  ]
+}

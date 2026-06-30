@@ -1,0 +1,51 @@
+{
+  "type": "apotheosis:gems",
+  "conditions": [],
+  "entries": [
+    {
+      "chance": 0.12,
+      "pattern": {
+        "domain": "apotheosis",
+        "path_regex": "entity/(boss_drops|rare_boss_drops|treasure_goblin)"
+      },
+      "gems": [
+        "apotheosis:gigani/adamant_core"
+      ],
+      "purities": [
+        "normal",
+        "flawless",
+        "perfect"
+      ]
+    },
+    {
+      "chance": 0.06,
+      "pattern": {
+        "domain": "apotheosis",
+        "path_regex": "chests/(chest_valuable|tome_tower)"
+      },
+      "gems": [
+        "apotheosis:gigani/adamant_core"
+      ],
+      "purities": [
+        "flawed",
+        "normal",
+        "flawless"
+      ]
+    },
+    {
+      "chance": 0.04,
+      "pattern": {
+        "domain": "apotheosis",
+        "path_regex": "chests/(spawner_brutal|spawner_swarm)"
+      },
+      "gems": [
+        "apotheosis:gigani/adamant_core"
+      ],
+      "purities": [
+        "flawed",
+        "normal",
+        "flawless"
+      ]
+    }
+  ]
+}

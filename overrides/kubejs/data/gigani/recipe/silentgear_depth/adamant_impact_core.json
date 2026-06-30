@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tungsten_carbide_steel"
+    },
+    {
+      "tag": "c:ingots/shulker_reinforced_steel"
+    },
+    {
+      "tag": "c:ingots/adamant"
+    },
+    {
+      "tag": "c:gems/diamond"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:adamant_impact_core"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:thorium_232",
+      "required": false
+    }
+  ]
+}

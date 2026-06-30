@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:bauxite_dust",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:bauxite_dust",
+      "required": false
+    }
+  ]
+}

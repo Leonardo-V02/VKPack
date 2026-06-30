@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:gems/dead_king_phylactery_shard"
+    },
+    {
+      "tag": "c:ingots/obsidian_netherite_dark_alloy"
+    },
+    {
+      "tag": "c:gems/dark_power_gem"
+    },
+    {
+      "tag": "c:gems/strange_crystal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:withered_phylactery_core"
+  }
+}

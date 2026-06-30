@@ -1,0 +1,64 @@
+#EyPipes Client Configuration
+[client]
+
+	#Particle Position Offsets (First Person View)
+	[client.particleOffsetsFirstPerson]
+		#Forward offset for smoke particles in first person view
+		# Default: 0.5
+		# Range: -2.0 ~ 2.0
+		firstViewForward = 0.5
+		#Down offset for smoke particles in first person view (negative = up)
+		# Default: -0.15
+		# Range: -2.0 ~ 2.0
+		firstViewDown = -0.15
+		#Right offset for smoke particles in first person view
+		# Default: 0.7
+		# Range: -2.0 ~ 2.0
+		firstViewRight = 0.7
+
+	#Particle Position Offsets (Third Person View)
+	[client.particleOffsetsThirdPerson]
+		#X offset for smoke particles in third person view
+		# Default: 0.2
+		# Range: -2.0 ~ 2.0
+		thirdViewX = 0.2
+		#Y offset for smoke particles in third person view
+		# Default: 0.4
+		# Range: -2.0 ~ 2.0
+		thirdViewY = 0.4
+		#Z offset for smoke particles in third person view
+		# Default: 0.1
+		# Range: -2.0 ~ 2.0
+		thirdViewZ = 0.1
+
+	#Animation and Visual Settings
+	[client.animation]
+		#Scale multiplier for smoke particles
+		# Default: 1.0
+		# Range: 0.1 ~ 5.0
+		smokeParticleScale = 1.0
+		#Lifetime of smoke particles in ticks
+		# Default: 40
+		# Range: 10 ~ 200
+		smokeParticleLifetime = 40
+		#Enable ember particles when smoking (enhanced effect)
+		enableEmberParticles = true
+		#Enable ash particles when stopping smoking (enhanced effect)
+		enableAshParticles = true
+		#Enable wispy smoke trail particles (enhanced effect)
+		enableSmokeWisps = true
+
+	#Enhanced Particle Effects - Stunning Visual Effects
+	[client.enhancedParticles]
+		#Enable classic smoke ring particles on exhale
+		enableSmokeRings = true
+		#Enable 3D spiraling smoke helix effect (mesmerizing!)
+		enableSpiralSmoke = true
+		#Number of spiral smoke particles per exhale (more = more dramatic)
+		# Default: 5
+		# Range: 1 ~ 15
+		spiralSmokeCount = 5
+		#Enable bright spark particles from pipe bowl (fiery effect)
+		enableSparkParticles = true
+		#Use the enhanced exhale effect system (combines all effects)
+		enableEnhancedExhale = true

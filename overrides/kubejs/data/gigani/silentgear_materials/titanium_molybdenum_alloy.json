@@ -1,0 +1,419 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/titanium_molybdenum_alloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFB8C2CC",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.titanium_molybdenum_alloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 23.0,
+      "armor/boots": 3.2,
+      "armor/chestplate": 8.7,
+      "armor/helmet": 3.9,
+      "armor/leggings": 7.1,
+      "armor_durability": 54.0,
+      "armor_toughness": 13.5,
+      "attack_damage": 5.8,
+      "attack_speed": 0.08,
+      "charging_value": 0.04,
+      "draw_speed": 0.08,
+      "durability": 2680,
+      "enchantment_value": 23,
+      "harvest_speed": 13.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 4.5,
+      "magic_damage": 2.2,
+      "projectile_accuracy": 1.11,
+      "projectile_speed": 1.1,
+      "ranged_damage": 1.4,
+      "rarity": 94,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fatigue_limit"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:heat_sunk"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 7.56
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.856
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 375.2
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.34
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.77
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.392
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fatigue_limit"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.083
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.042
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.04
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fatigue_limit"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.159
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.058
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.095
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:heat_sunk"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.72
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.13
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:heat_sunk"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.036
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.087
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.688
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.99
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fatigue_limit"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.173
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.059
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.104
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:heat_sunk"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.06,
+      "projectile_speed": 1.05,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:surface_passivated"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:heat_sunk"
+        }
+      ]
+    }
+  }
+}

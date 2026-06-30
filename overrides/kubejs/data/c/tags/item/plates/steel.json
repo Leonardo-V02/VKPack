@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:steel_plate",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:plate_steel",
+      "required": false
+    }
+  ]
+}

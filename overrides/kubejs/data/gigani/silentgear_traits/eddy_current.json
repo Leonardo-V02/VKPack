@@ -1,0 +1,94 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:tool"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.eddy_current.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:ranged_damage": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:projectile_accuracy": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:target_effect",
+      "effects_by_level": {
+        "silentgear:tool": {
+          "1": [
+            {
+              "duration": 50,
+              "id": "minecraft:slowness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "2": [
+            {
+              "duration": 80,
+              "id": "minecraft:slowness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "3": [
+            {
+              "duration": 110,
+              "id": "minecraft:slowness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "4": [
+            {
+              "duration": 150,
+              "id": "minecraft:slowness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "5": [
+            {
+              "duration": 190,
+              "id": "minecraft:slowness",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.eddy_current"
+  }
+}

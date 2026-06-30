@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:ender_nickel_void_alloy",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:tool"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.nitride_coating.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:attack_damage": {
+          "base_multiplier": 0.075,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:durability": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:enchantment_value": {
+          "base_multiplier": -0.015,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:enchantment",
+      "enchantments": {
+        "minecraft:sharpness": [
+          1,
+          2,
+          3
+        ],
+        "minecraft:efficiency": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  ],
+  "max_level": 3,
+  "name": {
+    "translate": "trait.gigani.nitride_coating"
+  }
+}

@@ -1,0 +1,39 @@
+#Where radiation should be active
+#Allowed Values: ALL, ITEM_ONLY, DISABLED
+radiationSetting = "ALL"
+#Whether excavation veins should deplete over time
+enableExcavationVeinDepletion = true
+#The maximum length of the Extendable Catwalk
+#(Making this limit large may yield unexpected side effects)
+# Default: 10
+# Range: > 3
+maxExtendableCatwalkParts = 10
+#Whether moving parts (like the Extendable Catwalk) should drag entities with them
+movingPartsDragEntities = true
+#The maximum length of wires between two connectors
+# Default: 20
+# Range: 8 ~ 128
+maxWireLength = 20
+#Whether meteorites should randomly fall from the sky
+enableMeteorites = true
+#The chance of a meteorite spawning each tick per player
+#Calculated with 1.0 / [value]
+# Default: 48000
+# Range: > 1
+meteoriteSpawnChance = 48000
+#This controls the amount of calculations per tick when calculating explosion damage
+#Some explosions auto decide based on remaining ticks however
+# Default: 500
+# Range: 10 ~ 32000
+explosionCalculationFactor = 500
+#Whether large explosions should refill their craters with water if it's near a large body of water
+#This does not work very well right now!!
+experimentalWaterRefill = true
+
+[Volcanoes]
+	#How high a volcano should be able to grow
+	# Default: 200
+	# Range: 128 ~ 300
+	maxVolcanoHeight = 200
+	#Force load chunks near volcanoes? Ensures that volcanoes will still tick even if no one is nearby
+	forceLoadVolcanoChunks = false

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:aluminum_osmium_light_alloy",
+      "required": false
+    }
+  ]
+}

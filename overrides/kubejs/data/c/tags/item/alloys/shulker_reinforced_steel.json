@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:shulker_reinforced_steel",
+      "required": false
+    }
+  ]
+}

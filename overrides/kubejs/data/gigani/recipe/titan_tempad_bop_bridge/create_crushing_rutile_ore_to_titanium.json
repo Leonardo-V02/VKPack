@@ -1,0 +1,38 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/rutile"
+    }
+  ],
+  "processing_time": 700,
+  "results": [
+    {
+      "count": 3,
+      "id": "create_titan:rutile"
+    },
+    {
+      "chance": 0.75,
+      "id": "create_titan:crushed_raw_titanium"
+    },
+    {
+      "chance": 0.25,
+      "count": 2,
+      "id": "create_titan:titaniumnugget"
+    },
+    {
+      "chance": 0.1,
+      "id": "create:experience_nugget"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_titan"
+    }
+  ]
+}

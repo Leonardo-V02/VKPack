@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:uranium_235_ingot",
+      "required": false
+    }
+  ]
+}

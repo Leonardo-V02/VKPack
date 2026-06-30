@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/platinum"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/osmium"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:platinum_osmium_superalloy"
+                    }
+                ],
+    "energy":  409600,
+    "time":  420
+}

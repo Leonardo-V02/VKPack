@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/platinum"
+    },
+    {
+      "tag": "c:ingots/iridium"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:titanium_platinum_iridium_surgical_alloy"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

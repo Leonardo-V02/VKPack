@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/aluminum"
+    },
+    {
+      "tag": "c:ingots/zinc"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:aluminum_zinc_dural_alloy"
+  }
+}

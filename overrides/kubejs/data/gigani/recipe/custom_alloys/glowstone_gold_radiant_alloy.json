@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "superheated",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:glowstone_dust"
+                        },
+                        {
+                            "tag":  "c:ingots/gold"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:glowstone_gold_radiant_alloy"
+                    }
+                ]
+}

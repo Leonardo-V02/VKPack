@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/aethersent"
+    }
+  ],
+  "processing_time": 300,
+  "results": [
+    {
+      "count": 1,
+      "id": "eternal_starlight:aethersent_ingot"
+    },
+    {
+      "chance": 0.25,
+      "id": "eternal_starlight:aethersent_ingot"
+    },
+    {
+      "chance": 0.1,
+      "id": "create:experience_nugget"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "superheated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:gems/peridot"
+                        },
+                        {
+                            "tag":  "c:ingots/nickel"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:peridot_nickel_arcane_alloy"
+                    }
+                ]
+}

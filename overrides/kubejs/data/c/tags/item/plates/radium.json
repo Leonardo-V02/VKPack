@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:radium_plate",
+      "required": false
+    }
+  ]
+}

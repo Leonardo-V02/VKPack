@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "tag": "c:ores/anassonium"
+  },
+  "output": {
+    "count": 3,
+    "id": "create_titan:anassonium_dust"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_titan"
+    }
+  ]
+}

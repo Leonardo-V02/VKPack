@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:materials/mercury"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/silver"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:mercury_silver_amalgam"
+    }
+  ],
+  "energy": 409600,
+  "time": 420
+}

@@ -1,0 +1,421 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:tungsten_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:nickel_tungsten_tool_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:titanium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:osmium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:iridium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:platinum_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:uranium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:chromium_tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:titanium_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:osmium_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:iridium_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:platinum_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:netherite_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:obsidian_carbide_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:diamond_matrix_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:sapphire_matrix_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:ruby_matrix_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:peridot_matrix_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:fluorite_hardened_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:uranium_hardened_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:redstone_hardened_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:glowstone_tempered_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:ender_tempered_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:shulker_reinforced_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:nether_quartz_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:lapis_laced_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:amethyst_tempered_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:cinnabar_tempered_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:sulfurized_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:salt_quenched_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:aluminum_nickel_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:aluminum_titanium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:nickel_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:nickel_osmium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:nickel_platinum_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:nickel_uranium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:titanium_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:titanium_osmium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:titanium_platinum_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:titanium_uranium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:platinum_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:osmium_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:platinum_osmium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:uranium_iridium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:uranium_osmium_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:uranium_platinum_superalloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:aluminum_zinc_dural_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:aluminum_copper_aeralloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:aluminum_silver_aeralloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:aluminum_tin_bearing_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:aluminum_osmium_light_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:aluminum_iridium_light_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:aluminum_platinum_light_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:nickel_zinc_casting_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:tin_nickel_bearing_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:lead_nickel_bearing_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:tin_silver_bearing_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:tin_platinum_bearing_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:copper_silver_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:copper_gold_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:copper_platinum_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:copper_iridium_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:copper_osmium_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:copper_uranium_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:redstone_copper_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:redstone_gold_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:redstone_silver_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:redstone_platinum_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:redstone_iridium_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:glowstone_silver_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:glowstone_gold_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:glowstone_platinum_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:glowstone_iridium_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:glowstone_osmium_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:ender_nickel_void_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:ender_osmium_void_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:ender_iridium_void_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:ender_platinum_void_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:ender_uranium_void_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:ender_netherite_void_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:obsidian_nickel_dark_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:obsidian_osmium_dark_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:obsidian_iridium_dark_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:obsidian_platinum_dark_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:obsidian_netherite_dark_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:amethyst_silver_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:amethyst_gold_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:amethyst_platinum_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:quartz_silver_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:quartz_gold_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:sapphire_silver_arcane_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:sapphire_platinum_arcane_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:ruby_gold_arcane_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:ruby_iridium_arcane_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:peridot_nickel_arcane_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:peridot_osmium_arcane_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:fluorite_aluminum_flux_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:fluorite_copper_flux_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:cinnabar_silver_catalytic_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:cinnabar_uranium_catalytic_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:rutilmenite_tool_steel",
+      "required": false
+    },
+    {
+      "id": "kubejs:rose_quartz_titanium_laminate",
+      "required": false
+    },
+    {
+      "id": "kubejs:chronotitanium_alloy",
+      "required": false
+    },
+    {
+      "id": "kubejs:vroomanite_reactor_alloy",
+      "required": false
+    }
+  ]
+}

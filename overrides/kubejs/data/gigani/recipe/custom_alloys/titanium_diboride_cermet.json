@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/boron"
+    },
+    {
+      "tag": "gigani:carbon_sources"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:titanium_diboride_cermet"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

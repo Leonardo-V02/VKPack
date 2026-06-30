@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:ingots/fluorite_copper_flux_alloy"
+    },
+    {
+      "tag": "c:ingots/redstone_copper_conductive_alloy"
+    },
+    {
+      "tag": "c:gems/redstone"
+    },
+    {
+      "tag": "c:gems/fluorite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:fluxwoven_core"
+  }
+}

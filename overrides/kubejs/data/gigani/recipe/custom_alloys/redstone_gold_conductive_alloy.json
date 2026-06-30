@@ -1,0 +1,12 @@
+﻿{
+    "type":  "immersiveengineering:alloy",
+    "input0":  {
+                   "item":  "minecraft:redstone"
+               },
+    "input1":  {
+                   "tag":  "c:ingots/gold"
+               },
+    "result":  {
+                   "id":  "kubejs:redstone_gold_conductive_alloy"
+               }
+}

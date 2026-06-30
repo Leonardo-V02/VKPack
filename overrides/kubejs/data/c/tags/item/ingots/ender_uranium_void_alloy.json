@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:ender_uranium_void_alloy",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/field_cascade_alloy"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/tungsten"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "kubejs:industrial_cascade_alloy"
+    }
+  ],
+  "energy": 409600,
+  "time": 420
+}

@@ -1,0 +1,35 @@
+{
+  "type": "apotheosis:gems",
+  "conditions": [],
+  "entries": [
+    {
+      "chance": 0.08,
+      "pattern": {
+        "domain": "oritech",
+        "path_regex": "blocks/(fluxite_block|arcane_augment_station|machine_core_[5-7]|superconductor.*|framed_superconductor.*|reactor_.*|nuke|low_yield_nuke)"
+      },
+      "gems": [
+        "apotheosis:gigani/fluxite_lens"
+      ],
+      "purities": [
+        "flawed",
+        "normal",
+        "flawless"
+      ]
+    },
+    {
+      "chance": 0.05,
+      "pattern": {
+        "domain": "oritechthings",
+        "path_regex": "blocks/(addon_block_.*tier_[6-9]|addon_block_cross_dimensional|particle_accelerator_speed_sensor)"
+      },
+      "gems": [
+        "apotheosis:gigani/fluxite_lens"
+      ],
+      "purities": [
+        "flawed",
+        "normal"
+      ]
+    }
+  ]
+}

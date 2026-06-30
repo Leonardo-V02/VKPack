@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:zinc_ingot",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "tag": "c:ingots/shulker_reinforced_steel"
+    },
+    {
+      "tag": "c:gems/ender_shard"
+    },
+    {
+      "tag": "c:gems/crumbling_attuned_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:warded_shulker_lining"
+  }
+}

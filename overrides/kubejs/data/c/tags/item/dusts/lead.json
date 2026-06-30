@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:lead_dust",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:dustlead",
+      "required": false
+    }
+  ]
+}

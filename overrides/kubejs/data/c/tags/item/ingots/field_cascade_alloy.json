@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:field_cascade_alloy",
+      "required": false
+    }
+  ]
+}

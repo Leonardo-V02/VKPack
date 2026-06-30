@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/silicon"
+    },
+    {
+      "tag": "gigani:carbon_sources"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:titanium_silicon_carbide_max_phase"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

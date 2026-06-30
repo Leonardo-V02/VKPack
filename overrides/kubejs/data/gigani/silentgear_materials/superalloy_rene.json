@@ -1,0 +1,410 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/superalloy_rene"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFC19A68",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.superalloy_rene"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 30.6,
+      "armor/boots": 4.3,
+      "armor/chestplate": 11.6,
+      "armor/helmet": 5.2,
+      "armor/leggings": 9.5,
+      "armor_durability": 90,
+      "armor_toughness": 19.2,
+      "attack_damage": 8.4,
+      "attack_speed": 0,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 4050,
+      "enchantment_value": 20,
+      "harvest_speed": 12.4,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 6.2,
+      "magic_damage": 3,
+      "projectile_accuracy": 1.06,
+      "projectile_speed": 1.1,
+      "ranged_damage": 1,
+      "rarity": 116,
+      "repair_value": 0.1,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:superalloy_creep"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:turbine_bred"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:refractory"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:vacuum_cast"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.27
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:superalloy_creep"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:turbine_bred"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 10.385
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.856
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 607.5
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.472
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.24
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.22
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:superalloy_creep"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:turbine_bred"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:refractory"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.131
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.4
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.176
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.111
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.069
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.067
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.6
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.02
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:molybdenum_stabilized"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:superalloy_creep"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:turbine_bred"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.156
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.077
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:superalloy_creep"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:turbine_bred"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.113
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:superalloy_creep"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:turbine_bred"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.127
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.743
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.583
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.16
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:superalloy_creep"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:turbine_bred"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:refractory"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.04
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.1
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.125
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:superalloy_creep"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:grain_boundary_pinned"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:creep_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:turbine_bred"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:beta_c_titanium_alloy",
+      "required": false
+    }
+  ]
+}

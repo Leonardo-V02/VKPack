@@ -1,0 +1,36 @@
+GrindingGear Alloy Visual Distinction Pass - 2026-06-25
+
+Custom alloy item textures updated: 104
+Visual atlas part/gear/armor textures updated: 2080
+Distinct item texture hashes: 104 / 104
+Duplicate item texture hash groups: 0
+Preview sheet: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\GRINDINGGEAR_ALLOY_VISUAL_DISTINCTION_PREVIEW_2026-06-25.png
+Resource pack folder updated: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\resourcepacks\GrindingGear Visual Atlas
+Resource pack zip rebuilt: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\resourcepacks\GrindingGear Visual Atlas.zip
+
+Visual families:
+- arcane_alloy: 6
+- bearing_alloy: 6
+- carbide_steel: 7
+- cascade_alloy: 4
+- catalytic_alloy: 2
+- conductor_alloy: 11
+- dark_alloy: 5
+- flux_alloy: 2
+- light_alloy: 6
+- matrix_steel: 4
+- radiant_alloy: 5
+- resonant_alloy: 5
+- superalloy: 16
+- treated_steel: 12
+- tungsten_steel: 7
+- void_alloy: 6
+
+Sample updated alloy textures:
+- tungsten_carbide_steel: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\kubejs\assets\kubejs\textures\item\tungsten_carbide_steel.png
+- titanium_tungsten_steel: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\kubejs\assets\kubejs\textures\item\titanium_tungsten_steel.png
+- copper_silver_conductor_alloy: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\kubejs\assets\kubejs\textures\item\copper_silver_conductor_alloy.png
+- glowstone_iridium_radiant_alloy: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\kubejs\assets\kubejs\textures\item\glowstone_iridium_radiant_alloy.png
+- ender_netherite_void_alloy: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\kubejs\assets\kubejs\textures\item\ender_netherite_void_alloy.png
+- ruby_iridium_arcane_alloy: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\kubejs\assets\kubejs\textures\item\ruby_iridium_arcane_alloy.png
+- terminus_cascade_alloy: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\kubejs\assets\kubejs\textures\item\terminus_cascade_alloy.png

@@ -1,0 +1,60 @@
+{
+  "config": {
+    "general": {
+      "cooldown": 1200.0,
+      "delay": 60.0,
+      "messageTarget": "Actionbar",
+      "delayProgressDisplay": "Percentage"
+    },
+    "homes": {
+      "cooldown": -1.0,
+      "delay": -1.0,
+      "maxHomeCount": 3.0,
+      "interDimTP": true,
+      "disableHomes": false
+    },
+    "tpas": {
+      "cooldown": -1.0,
+      "delay": -1.0,
+      "duration": 6000.0,
+      "interDimTP": true,
+      "disableTpas": false
+    },
+    "tpr": {
+      "cooldown": 24000.0,
+      "delay": -1.0,
+      "minRange": 500.0,
+      "maxRange": 2000.0,
+      "disableTpr": false
+    },
+    "warp": {
+      "cooldown": -1.0,
+      "delay": -1.0,
+      "disableSpawnWarp": false,
+      "interDimTP": true,
+      "disableWarps": false
+    },
+    "back": {
+      "cooldown": -1.0,
+      "delay": -1.0,
+      "duration": 0.0,
+      "mode": "BackBack",
+      "backOnDeath": false,
+      "interDimTP": true,
+      "disableBack": false
+    },
+    "effects": {
+      "chargeEffect": "RisingRing",
+      "enforceChargeEffect": false,
+      "teleportEffect": "Smoke",
+      "enforceTeleportEffect": false,
+      "arrivalEffect": "Smoke",
+      "enforceArrivalEffect": false,
+      "disableEffects": false
+    },
+    "fightCooldown": {
+      "onlyPvP": false,
+      "cooldown": 60.0
+    }
+  }
+}

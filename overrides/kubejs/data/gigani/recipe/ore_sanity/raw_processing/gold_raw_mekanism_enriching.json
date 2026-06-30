@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "tag": "c:raw_materials/gold"
+  },
+  "output": {
+    "count": 1,
+    "id": "alltheores:gold_dust"
+  }
+}

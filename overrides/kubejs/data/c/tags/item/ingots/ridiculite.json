@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "bigreactors:ridiculite_ingot",
+      "required": false
+    },
+    {
+      "id": "extremereactors:ridiculite_ingot",
+      "required": false
+    }
+  ]
+}

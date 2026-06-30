@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "electrodynamics:ingottitanium",
+      "required": false
+    },
+    {
+      "id": "create_titan:titanium_ingot",
+      "required": false
+    },
+    {
+      "id": "titanium:ingottitanium",
+      "required": false
+    }
+  ]
+}

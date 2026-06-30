@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:vroomanite_reactor_alloy",
+      "required": false
+    }
+  ]
+}

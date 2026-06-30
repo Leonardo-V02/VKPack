@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "waystones:deepslate_shard",
+      "required": false
+    }
+  ]
+}

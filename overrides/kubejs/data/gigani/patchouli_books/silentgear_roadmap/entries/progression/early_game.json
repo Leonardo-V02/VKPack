@@ -1,0 +1,15 @@
+{
+  "name": "Early Game",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "gigani:progression",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Goal: survive and stop wasting rare materials. Use iron or steel as the main head, aluminum as a rod or grip, and cheap gems like quartz/amethyst as coatings or tips when you can spare them."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Best early picks: steel main for durability, aluminum rod for speed, copper or quartz support parts for handling. Do not burn boss gems or reactor metals here. Early gear should be repairable, replaceable, and honest."
+    }
+  ]
+}

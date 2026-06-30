@@ -1,0 +1,18 @@
+GrindingGear Visual Resource Atlas - 2026-06-21
+
+Materials processed: 418
+Part role icons: 3762
+Gear preview icons: 3762
+Armor layer placeholders: 836
+Manifest: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\kubejs\assets\gigani\grindinggear_visual_manifest.json
+Gallery: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\GRINDINGGEAR_VISUAL_ATLAS_GALLERY_2026-06-21.html
+Preview sheet: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\GRINDINGGEAR_VISUAL_ATLAS_PREVIEW_2026-06-21.png
+Standalone resource pack folder: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\resourcepacks\GrindingGear Visual Atlas
+Standalone resource pack zip: C:\Users\V02\AppData\Roaming\ModrinthApp\profiles\Gigani-Clean-Rebuild-1.0.1\resourcepacks\GrindingGear Visual Atlas.zip
+
+Polish pass:
+- Added stronger family tinting, transparent-pixel outlines, deterministic material grain, and a representative preview sheet.
+
+Important limitation:
+- Silent Gear 4.2 material display data exposes color plus HIGH_CONTRAST/LOW_CONTRAST only.
+- These assets give every material unique visual resources and previews, but live per-material tool/armor silhouette swaps require a GrindingGear client renderer hook in a later Java pass.

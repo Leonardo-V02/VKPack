@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:rose_quartz_titanium_laminate",
+      "required": false
+    }
+  ]
+}

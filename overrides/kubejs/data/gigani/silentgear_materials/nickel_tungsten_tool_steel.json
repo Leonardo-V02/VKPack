@@ -1,0 +1,460 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/nickel_tungsten_tool_steel"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFBAB6A5",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.nickel_tungsten_tool_steel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 29.6,
+      "armor/boots": 4.1,
+      "armor/chestplate": 11.2,
+      "armor/helmet": 5,
+      "armor/leggings": 9.2,
+      "armor_durability": 85.8,
+      "armor_toughness": 22,
+      "attack_damage": 9.6,
+      "attack_speed": -0.03,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 4490.2,
+      "enchantment_value": 16.3,
+      "harvest_speed": 15.9,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 2.3,
+      "magic_damage": 1.5,
+      "projectile_accuracy": 1.08,
+      "projectile_speed": 1.16,
+      "ranged_damage": 0.5,
+      "rarity": 125,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:refractory"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:catalytic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:martensitic_temper"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.209
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.067
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:martensitic_temper"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.063
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.013
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 12.008
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 3.902
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 687.586
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 4.802
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.513
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.13
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:hard"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:martensitic_temper"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.132
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.675
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.174
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.066
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.311
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.013
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:refractory"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:martensitic_temper"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      }
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.22
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.06
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.142
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:martensitic_temper"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.022
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.14
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.209
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.099
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:refractory"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:martensitic_temper"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.138
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.998
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.2
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:refractory"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:martensitic_temper"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.18
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.102
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.03
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.098
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:fracture_tough"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:heat_sunk"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:martensitic_temper"
+        }
+      ]
+    }
+  }
+}

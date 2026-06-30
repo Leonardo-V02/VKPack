@@ -1,0 +1,42 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.max_phase_laminate.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:durability": {
+          "base_multiplier": 0.06,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:durability",
+      "activation_chance": 0.08,
+      "effect_scale": -1
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.max_phase_laminate"
+  }
+}

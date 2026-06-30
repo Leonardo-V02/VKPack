@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:sulfur",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/sulfur",
+      "required": false
+    },
+    {
+      "id": "#c:gems/sulfur",
+      "required": false
+    }
+  ]
+}

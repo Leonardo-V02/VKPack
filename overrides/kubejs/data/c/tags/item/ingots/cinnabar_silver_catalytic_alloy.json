@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:cinnabar_silver_catalytic_alloy",
+      "required": false
+    }
+  ]
+}

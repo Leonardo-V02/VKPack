@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "heated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:ingots/steel"
+                        },
+                        {
+                            "tag":  "c:gems/cinnabar"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:cinnabar_tempered_steel"
+                    }
+                ]
+}

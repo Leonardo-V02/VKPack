@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "actuallyadditions:void_crystal",
+      "required": false
+    },
+    {
+      "id": "actuallyadditions:void_crystal_shard",
+      "required": false
+    }
+  ]
+}

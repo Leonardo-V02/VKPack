@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:cinnabar_uranium_catalytic_alloy",
+      "required": false
+    }
+  ]
+}

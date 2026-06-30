@@ -1,0 +1,7 @@
+[general]
+	#If enabled, Ancient Books are no longer required to unlock enchantments at the enchanting table. Enchantments still cost experience and materials as usual.
+	disableAncientBookRequirement = false
+	#The number of blocks in the Y-level that the enchanting table can detect chiseled bookshelves. Each 'row' can hold up to 96 books. If you have many enchantments, you may need to increase this value to provide more space.
+	# Default: 3
+	# Range: 1 ~ 5
+	bookshelfSearchHeight = 3

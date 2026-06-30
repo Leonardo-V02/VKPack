@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:hafnium_boride",
+      "required": false
+    }
+  ]
+}

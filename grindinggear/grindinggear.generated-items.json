@@ -1,0 +1,590 @@
+﻿{
+    "mod_id":  "grindinggear",
+    "version":  "1.0.0",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.233",
+    "generated_item_namespace":  "kubejs",
+    "generated_item_count":  145,
+    "generated_items":  [
+                            {
+                                "Id":  "tungsten_carbide_steel",
+                                "DisplayName":  "Tungsten Carbide Steel Ingot"
+                            },
+                            {
+                                "Id":  "nickel_tungsten_tool_steel",
+                                "DisplayName":  "Nickel-Tungsten Tool Steel Ingot"
+                            },
+                            {
+                                "Id":  "titanium_tungsten_steel",
+                                "DisplayName":  "Titanium-Tungsten Steel Ingot"
+                            },
+                            {
+                                "Id":  "osmium_tungsten_steel",
+                                "DisplayName":  "Osmium-Tungsten Steel Ingot"
+                            },
+                            {
+                                "Id":  "iridium_tungsten_steel",
+                                "DisplayName":  "Iridium-Tungsten Steel Ingot"
+                            },
+                            {
+                                "Id":  "platinum_tungsten_steel",
+                                "DisplayName":  "Platinum-Tungsten Steel Ingot"
+                            },
+                            {
+                                "Id":  "uranium_tungsten_steel",
+                                "DisplayName":  "Uranium-Tungsten Steel Ingot"
+                            },
+                            {
+                                "Id":  "chromium_tungsten_steel",
+                                "DisplayName":  "Chromium-Tungsten Steel Ingot"
+                            },
+                            {
+                                "Id":  "titanium_carbide_steel",
+                                "DisplayName":  "Titanium Carbide Steel Ingot"
+                            },
+                            {
+                                "Id":  "osmium_carbide_steel",
+                                "DisplayName":  "Osmium Carbide Steel Ingot"
+                            },
+                            {
+                                "Id":  "iridium_carbide_steel",
+                                "DisplayName":  "Iridium Carbide Steel Ingot"
+                            },
+                            {
+                                "Id":  "platinum_carbide_steel",
+                                "DisplayName":  "Platinum Carbide Steel Ingot"
+                            },
+                            {
+                                "Id":  "netherite_carbide_steel",
+                                "DisplayName":  "Netherite Carbide Steel Ingot"
+                            },
+                            {
+                                "Id":  "obsidian_carbide_steel",
+                                "DisplayName":  "Obsidian Carbide Steel Ingot"
+                            },
+                            {
+                                "Id":  "diamond_matrix_steel",
+                                "DisplayName":  "Diamond Matrix Steel Ingot"
+                            },
+                            {
+                                "Id":  "sapphire_matrix_steel",
+                                "DisplayName":  "Sapphire Matrix Steel Ingot"
+                            },
+                            {
+                                "Id":  "ruby_matrix_steel",
+                                "DisplayName":  "Ruby Matrix Steel Ingot"
+                            },
+                            {
+                                "Id":  "peridot_matrix_steel",
+                                "DisplayName":  "Peridot Matrix Steel Ingot"
+                            },
+                            {
+                                "Id":  "fluorite_hardened_steel",
+                                "DisplayName":  "Fluorite-Hardened Steel Ingot"
+                            },
+                            {
+                                "Id":  "uranium_hardened_steel",
+                                "DisplayName":  "Uranium-Hardened Steel Ingot"
+                            },
+                            {
+                                "Id":  "redstone_hardened_steel",
+                                "DisplayName":  "Redstone-Hardened Steel Ingot"
+                            },
+                            {
+                                "Id":  "glowstone_tempered_steel",
+                                "DisplayName":  "Glowstone-Tempered Steel Ingot"
+                            },
+                            {
+                                "Id":  "ender_tempered_steel",
+                                "DisplayName":  "Ender-Tempered Steel Ingot"
+                            },
+                            {
+                                "Id":  "shulker_reinforced_steel",
+                                "DisplayName":  "Shulker-Reinforced Steel Ingot"
+                            },
+                            {
+                                "Id":  "nether_quartz_steel",
+                                "DisplayName":  "Nether Quartz Steel Ingot"
+                            },
+                            {
+                                "Id":  "lapis_laced_steel",
+                                "DisplayName":  "Lapis-Laced Steel Ingot"
+                            },
+                            {
+                                "Id":  "amethyst_tempered_steel",
+                                "DisplayName":  "Amethyst-Tempered Steel Ingot"
+                            },
+                            {
+                                "Id":  "cinnabar_tempered_steel",
+                                "DisplayName":  "Cinnabar-Tempered Steel Ingot"
+                            },
+                            {
+                                "Id":  "sulfurized_steel",
+                                "DisplayName":  "Sulfurized Steel Ingot"
+                            },
+                            {
+                                "Id":  "salt_quenched_steel",
+                                "DisplayName":  "Salt-Quenched Steel Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_nickel_superalloy",
+                                "DisplayName":  "Aluminum-Nickel Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_titanium_superalloy",
+                                "DisplayName":  "Aluminum-Titanium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "nickel_iridium_superalloy",
+                                "DisplayName":  "Nickel-Iridium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "nickel_osmium_superalloy",
+                                "DisplayName":  "Nickel-Osmium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "nickel_platinum_superalloy",
+                                "DisplayName":  "Nickel-Platinum Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "nickel_uranium_superalloy",
+                                "DisplayName":  "Nickel-Uranium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "titanium_iridium_superalloy",
+                                "DisplayName":  "Titanium-Iridium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "titanium_osmium_superalloy",
+                                "DisplayName":  "Titanium-Osmium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "titanium_platinum_superalloy",
+                                "DisplayName":  "Titanium-Platinum Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "titanium_uranium_superalloy",
+                                "DisplayName":  "Titanium-Uranium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "platinum_iridium_superalloy",
+                                "DisplayName":  "Platinum-Iridium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "osmium_iridium_superalloy",
+                                "DisplayName":  "Osmium-Iridium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "platinum_osmium_superalloy",
+                                "DisplayName":  "Platinum-Osmium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "uranium_iridium_superalloy",
+                                "DisplayName":  "Uranium-Iridium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "uranium_osmium_superalloy",
+                                "DisplayName":  "Uranium-Osmium Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "uranium_platinum_superalloy",
+                                "DisplayName":  "Uranium-Platinum Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_zinc_dural_alloy",
+                                "DisplayName":  "Aluminum-Zinc Dural Alloy Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_copper_aeralloy",
+                                "DisplayName":  "Aluminum-Copper Aeralloy Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_silver_aeralloy",
+                                "DisplayName":  "Aluminum-Silver Aeralloy Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_tin_bearing_alloy",
+                                "DisplayName":  "Aluminum-Tin Bearing Alloy Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_osmium_light_alloy",
+                                "DisplayName":  "Aluminum-Osmium Light Alloy Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_iridium_light_alloy",
+                                "DisplayName":  "Aluminum-Iridium Light Alloy Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_platinum_light_alloy",
+                                "DisplayName":  "Aluminum-Platinum Light Alloy Ingot"
+                            },
+                            {
+                                "Id":  "nickel_zinc_casting_alloy",
+                                "DisplayName":  "Nickel-Zinc Casting Alloy Ingot"
+                            },
+                            {
+                                "Id":  "tin_nickel_bearing_alloy",
+                                "DisplayName":  "Tin-Nickel Bearing Alloy Ingot"
+                            },
+                            {
+                                "Id":  "lead_nickel_bearing_alloy",
+                                "DisplayName":  "Lead-Nickel Bearing Alloy Ingot"
+                            },
+                            {
+                                "Id":  "tin_silver_bearing_alloy",
+                                "DisplayName":  "Tin-Silver Bearing Alloy Ingot"
+                            },
+                            {
+                                "Id":  "tin_platinum_bearing_alloy",
+                                "DisplayName":  "Tin-Platinum Bearing Alloy Ingot"
+                            },
+                            {
+                                "Id":  "copper_silver_conductor_alloy",
+                                "DisplayName":  "Copper-Silver Conductor Alloy Ingot"
+                            },
+                            {
+                                "Id":  "copper_gold_conductor_alloy",
+                                "DisplayName":  "Copper-Gold Conductor Alloy Ingot"
+                            },
+                            {
+                                "Id":  "copper_platinum_conductor_alloy",
+                                "DisplayName":  "Copper-Platinum Conductor Alloy Ingot"
+                            },
+                            {
+                                "Id":  "copper_iridium_conductor_alloy",
+                                "DisplayName":  "Copper-Iridium Conductor Alloy Ingot"
+                            },
+                            {
+                                "Id":  "copper_osmium_conductor_alloy",
+                                "DisplayName":  "Copper-Osmium Conductor Alloy Ingot"
+                            },
+                            {
+                                "Id":  "copper_uranium_conductor_alloy",
+                                "DisplayName":  "Copper-Uranium Conductor Alloy Ingot"
+                            },
+                            {
+                                "Id":  "redstone_copper_conductive_alloy",
+                                "DisplayName":  "Redstone-Copper Conductive Alloy Ingot"
+                            },
+                            {
+                                "Id":  "redstone_gold_conductive_alloy",
+                                "DisplayName":  "Redstone-Gold Conductive Alloy Ingot"
+                            },
+                            {
+                                "Id":  "redstone_silver_conductive_alloy",
+                                "DisplayName":  "Redstone-Silver Conductive Alloy Ingot"
+                            },
+                            {
+                                "Id":  "redstone_platinum_conductive_alloy",
+                                "DisplayName":  "Redstone-Platinum Conductive Alloy Ingot"
+                            },
+                            {
+                                "Id":  "redstone_iridium_conductive_alloy",
+                                "DisplayName":  "Redstone-Iridium Conductive Alloy Ingot"
+                            },
+                            {
+                                "Id":  "glowstone_silver_radiant_alloy",
+                                "DisplayName":  "Glowstone-Silver Radiant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "glowstone_gold_radiant_alloy",
+                                "DisplayName":  "Glowstone-Gold Radiant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "glowstone_platinum_radiant_alloy",
+                                "DisplayName":  "Glowstone-Platinum Radiant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "glowstone_iridium_radiant_alloy",
+                                "DisplayName":  "Glowstone-Iridium Radiant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "glowstone_osmium_radiant_alloy",
+                                "DisplayName":  "Glowstone-Osmium Radiant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "ender_nickel_void_alloy",
+                                "DisplayName":  "Ender-Nickel Void Alloy Ingot"
+                            },
+                            {
+                                "Id":  "ender_osmium_void_alloy",
+                                "DisplayName":  "Ender-Osmium Void Alloy Ingot"
+                            },
+                            {
+                                "Id":  "ender_iridium_void_alloy",
+                                "DisplayName":  "Ender-Iridium Void Alloy Ingot"
+                            },
+                            {
+                                "Id":  "ender_platinum_void_alloy",
+                                "DisplayName":  "Ender-Platinum Void Alloy Ingot"
+                            },
+                            {
+                                "Id":  "ender_uranium_void_alloy",
+                                "DisplayName":  "Ender-Uranium Void Alloy Ingot"
+                            },
+                            {
+                                "Id":  "ender_netherite_void_alloy",
+                                "DisplayName":  "Ender-Netherite Void Alloy Ingot"
+                            },
+                            {
+                                "Id":  "obsidian_nickel_dark_alloy",
+                                "DisplayName":  "Obsidian-Nickel Dark Alloy Ingot"
+                            },
+                            {
+                                "Id":  "obsidian_osmium_dark_alloy",
+                                "DisplayName":  "Obsidian-Osmium Dark Alloy Ingot"
+                            },
+                            {
+                                "Id":  "obsidian_iridium_dark_alloy",
+                                "DisplayName":  "Obsidian-Iridium Dark Alloy Ingot"
+                            },
+                            {
+                                "Id":  "obsidian_platinum_dark_alloy",
+                                "DisplayName":  "Obsidian-Platinum Dark Alloy Ingot"
+                            },
+                            {
+                                "Id":  "obsidian_netherite_dark_alloy",
+                                "DisplayName":  "Obsidian-Netherite Dark Alloy Ingot"
+                            },
+                            {
+                                "Id":  "amethyst_silver_resonant_alloy",
+                                "DisplayName":  "Amethyst-Silver Resonant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "amethyst_gold_resonant_alloy",
+                                "DisplayName":  "Amethyst-Gold Resonant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "amethyst_platinum_resonant_alloy",
+                                "DisplayName":  "Amethyst-Platinum Resonant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "quartz_silver_resonant_alloy",
+                                "DisplayName":  "Quartz-Silver Resonant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "quartz_gold_resonant_alloy",
+                                "DisplayName":  "Quartz-Gold Resonant Alloy Ingot"
+                            },
+                            {
+                                "Id":  "sapphire_silver_arcane_alloy",
+                                "DisplayName":  "Sapphire-Silver Arcane Alloy Ingot"
+                            },
+                            {
+                                "Id":  "sapphire_platinum_arcane_alloy",
+                                "DisplayName":  "Sapphire-Platinum Arcane Alloy Ingot"
+                            },
+                            {
+                                "Id":  "ruby_gold_arcane_alloy",
+                                "DisplayName":  "Ruby-Gold Arcane Alloy Ingot"
+                            },
+                            {
+                                "Id":  "ruby_iridium_arcane_alloy",
+                                "DisplayName":  "Ruby-Iridium Arcane Alloy Ingot"
+                            },
+                            {
+                                "Id":  "peridot_nickel_arcane_alloy",
+                                "DisplayName":  "Peridot-Nickel Arcane Alloy Ingot"
+                            },
+                            {
+                                "Id":  "peridot_osmium_arcane_alloy",
+                                "DisplayName":  "Peridot-Osmium Arcane Alloy Ingot"
+                            },
+                            {
+                                "Id":  "fluorite_aluminum_flux_alloy",
+                                "DisplayName":  "Fluorite-Aluminum Flux Alloy Ingot"
+                            },
+                            {
+                                "Id":  "fluorite_copper_flux_alloy",
+                                "DisplayName":  "Fluorite-Copper Flux Alloy Ingot"
+                            },
+                            {
+                                "Id":  "cinnabar_silver_catalytic_alloy",
+                                "DisplayName":  "Cinnabar-Silver Catalytic Alloy Ingot"
+                            },
+                            {
+                                "Id":  "cinnabar_uranium_catalytic_alloy",
+                                "DisplayName":  "Cinnabar-Uranium Catalytic Alloy Ingot"
+                            },
+                            {
+                                "Id":  "field_cascade_alloy",
+                                "DisplayName":  "Field Cascade Alloy Ingot"
+                            },
+                            {
+                                "Id":  "industrial_cascade_alloy",
+                                "DisplayName":  "Industrial Cascade Alloy Ingot"
+                            },
+                            {
+                                "Id":  "resonant_cascade_alloy",
+                                "DisplayName":  "Resonant Cascade Alloy Ingot"
+                            },
+                            {
+                                "Id":  "terminus_cascade_alloy",
+                                "DisplayName":  "Terminus Cascade Alloy Ingot"
+                            },
+                            {
+                                "Id":  "fluxwoven_core",
+                                "DisplayName":  "Fluxwoven Core"
+                            },
+                            {
+                                "Id":  "null_vector_core",
+                                "DisplayName":  "Null Vector Core"
+                            },
+                            {
+                                "Id":  "adamant_impact_core",
+                                "DisplayName":  "Adamant Impact Core"
+                            },
+                            {
+                                "Id":  "divine_spell_core",
+                                "DisplayName":  "Divine Spell Core"
+                            },
+                            {
+                                "Id":  "frostfire_conflux_core",
+                                "DisplayName":  "Frostfire Conflux Core"
+                            },
+                            {
+                                "Id":  "alchemical_honey_core",
+                                "DisplayName":  "Alchemical Honey Core"
+                            },
+                            {
+                                "Id":  "resonant_scrying_core",
+                                "DisplayName":  "Resonant Scrying Core"
+                            },
+                            {
+                                "Id":  "withered_phylactery_core",
+                                "DisplayName":  "Withered Phylactery Core"
+                            },
+                            {
+                                "Id":  "mekasonic_overdrive_core",
+                                "DisplayName":  "Mekasonic Overdrive Core"
+                            },
+                            {
+                                "Id":  "infinite_singularity_core",
+                                "DisplayName":  "Infinite Singularity Core"
+                            },
+                            {
+                                "Id":  "phantom_silk_lining",
+                                "DisplayName":  "Phantom Silk Lining"
+                            },
+                            {
+                                "Id":  "soulthread_binding",
+                                "DisplayName":  "Soulthread Binding"
+                            },
+                            {
+                                "Id":  "glistering_honey_lining",
+                                "DisplayName":  "Glistering Honey Lining"
+                            },
+                            {
+                                "Id":  "warded_shulker_lining",
+                                "DisplayName":  "Warded Shulker Lining"
+                            },
+                            {
+                                "Id":  "mercury_droplet",
+                                "DisplayName":  "Mercury Droplet"
+                            },
+                            {
+                                "Id":  "conductive_copper",
+                                "DisplayName":  "Conductive Copper Ingot"
+                            },
+                            {
+                                "Id":  "quicksilver_amalgam",
+                                "DisplayName":  "Quicksilver Amalgam Ingot"
+                            },
+                            {
+                                "Id":  "mercury_silver_amalgam",
+                                "DisplayName":  "Mercury-Silver Amalgam Ingot"
+                            },
+                            {
+                                "Id":  "mercury_gold_amalgam",
+                                "DisplayName":  "Mercury-Gold Amalgam Ingot"
+                            },
+                            {
+                                "Id":  "mercury_copper_amalgam",
+                                "DisplayName":  "Mercury-Copper Amalgam Ingot"
+                            },
+                            {
+                                "Id":  "nitinol",
+                                "DisplayName":  "Nitinol Ingot"
+                            },
+                            {
+                                "Id":  "titanium_aluminide",
+                                "DisplayName":  "Titanium Aluminide Ingot"
+                            },
+                            {
+                                "Id":  "titanium_aluminum_vanadium_alloy",
+                                "DisplayName":  "Titanium-Aluminum-Vanadium Alloy Ingot"
+                            },
+                            {
+                                "Id":  "beta_c_titanium_alloy",
+                                "DisplayName":  "Beta-C Titanium Alloy Ingot"
+                            },
+                            {
+                                "Id":  "titanium_molybdenum_alloy",
+                                "DisplayName":  "Titanium-Molybdenum Alloy Ingot"
+                            },
+                            {
+                                "Id":  "titanium_vanadium_chromium_alloy",
+                                "DisplayName":  "Titanium-Vanadium-Chromium Alloy Ingot"
+                            },
+                            {
+                                "Id":  "titanium_nitride_ceramic",
+                                "DisplayName":  "Titanium Nitride Ceramic Ingot"
+                            },
+                            {
+                                "Id":  "titanium_diboride_cermet",
+                                "DisplayName":  "Titanium Diboride Cermet Ingot"
+                            },
+                            {
+                                "Id":  "titanium_silicon_carbide_max_phase",
+                                "DisplayName":  "Titanium Silicon Carbide MAX Phase Ingot"
+                            },
+                            {
+                                "Id":  "titanium_tungsten_molybdenum_tool_steel",
+                                "DisplayName":  "Titanium-Tungsten-Molybdenum Tool Steel Ingot"
+                            },
+                            {
+                                "Id":  "titanium_platinum_iridium_surgical_alloy",
+                                "DisplayName":  "Titanium-Platinum-Iridium Surgical Alloy Ingot"
+                            },
+                            {
+                                "Id":  "titanium_osmium_impact_alloy",
+                                "DisplayName":  "Titanium-Osmium Impact Alloy Ingot"
+                            },
+                            {
+                                "Id":  "titanium_chromium_nitride_alloy",
+                                "DisplayName":  "Titanium-Chromium Nitride Alloy Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_lithium",
+                                "DisplayName":  "Aluminum-Lithium Ingot"
+                            },
+                            {
+                                "Id":  "aluminum_silicon",
+                                "DisplayName":  "Aluminum-Silicon Ingot"
+                            },
+                            {
+                                "Id":  "cobalt_chrome",
+                                "DisplayName":  "Cobalt-Chrome Ingot"
+                            },
+                            {
+                                "Id":  "hafnium_boride",
+                                "DisplayName":  "Hafnium Boride Ingot"
+                            },
+                            {
+                                "Id":  "superalloy_haynes",
+                                "DisplayName":  "Haynes Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "superalloy_rene",
+                                "DisplayName":  "Rene Superalloy Ingot"
+                            },
+                            {
+                                "Id":  "tantalum_tungsten_hafnium",
+                                "DisplayName":  "Tantalum-Tungsten-Hafnium Ingot"
+                            },
+                            {
+                                "Id":  "yttrium_aluminum_garnet",
+                                "DisplayName":  "Yttrium Aluminum Garnet Ingot"
+                            }
+                        ]
+}

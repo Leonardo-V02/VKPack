@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "waystones:crumbling_attuned_shard",
+      "required": false
+    }
+  ]
+}

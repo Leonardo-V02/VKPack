@@ -1,0 +1,21 @@
+{
+  "name": "Endgame",
+  "icon": "kubejs:terminus_cascade_alloy",
+  "category": "gigani:progression",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "kubejs:resonant_cascade_alloy",
+      "text": "Resonant Cascade Alloy combines Industrial Cascade with tungsten carbide and diamond matrix steel. It is the late magic/precision alloy: bows, caster tools, and high-enchant gear love it."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "kubejs:terminus_cascade_alloy",
+      "text": "Terminus Cascade Alloy combines Resonant Cascade, ender-netherite void alloy, and an Adamant Impact Core. Grade every ingredient you can, alloy, then grade the result before committing it to parts."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Best apex mining: Terminus Cascade or Infinite Singularity Core main, tungsten carbide tip, fluxwoven or conductive support, aluminum-lithium/Industrial Cascade rod, rubber grip. Best boss weapon: Terminus Cascade or Adamant Impact Core main, netherite/obsidian carbide tip, soulthread binding, Apotheosis damage gems."
+    }
+  ]
+}

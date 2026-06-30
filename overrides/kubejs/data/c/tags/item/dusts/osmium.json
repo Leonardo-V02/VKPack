@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:osmium_dust",
+      "required": false
+    }
+  ]
+}

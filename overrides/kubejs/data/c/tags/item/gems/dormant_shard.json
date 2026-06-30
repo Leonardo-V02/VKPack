@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "waystones:dormant_shard",
+      "required": false
+    }
+  ]
+}

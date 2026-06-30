@@ -1,0 +1,50 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:armor"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.surgical_grade.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:magic_armor": {
+          "base_multiplier": 0.04,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:enchantment_value": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:wielder_effect",
+      "potion_effects": {
+        "silentgear:armor": [
+          {
+            "type": "piece_count",
+            "duration": 38,
+            "effect": "minecraft:regeneration",
+            "levels": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 4,
+  "name": {
+    "translate": "trait.gigani.surgical_grade"
+  }
+}

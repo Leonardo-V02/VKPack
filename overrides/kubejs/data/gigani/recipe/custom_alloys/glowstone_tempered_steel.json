@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "heated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:ingots/steel"
+                        },
+                        {
+                            "item":  "minecraft:glowstone_dust"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:glowstone_tempered_steel"
+                    }
+                ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "superheated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:gems/sapphire"
+                        },
+                        {
+                            "tag":  "c:ingots/silver"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:sapphire_silver_arcane_alloy"
+                    }
+                ]
+}

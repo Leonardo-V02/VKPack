@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:copper_dust",
+      "required": false
+    }
+  ]
+}

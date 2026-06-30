@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:raw_lead",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:raworelead",
+      "required": false
+    }
+  ]
+}

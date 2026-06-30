@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:tungsten_ore",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:uranium_dust",
+      "required": false
+    },
+    {
+      "id": "mekanism:dust_uranium",
+      "required": false
+    },
+    {
+      "id": "alltheores:uranium_dust",
+      "required": false
+    }
+  ]
+}

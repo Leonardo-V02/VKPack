@@ -1,0 +1,503 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/fluxite"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFD57290",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.fluxite"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 14.8,
+      "armor/boots": 2.1,
+      "armor/chestplate": 5.6,
+      "armor/helmet": 2.5,
+      "armor/leggings": 4.6,
+      "armor_durability": 28.1,
+      "armor_toughness": 2.8,
+      "attack_damage": 3.1,
+      "attack_speed": 0.23,
+      "charging_value": 0.18,
+      "draw_speed": 0.18,
+      "durability": 1054.4,
+      "enchantment_value": 33,
+      "harvest_speed": 14,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 5.5,
+      "magic_damage": 6.8,
+      "projectile_accuracy": 1.16,
+      "projectile_speed": 1.12,
+      "ranged_damage": 4.3,
+      "rarity": 56,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.152
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.111
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.007
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.018
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 3.934
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.011
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 97.016
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.738
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.414
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.192
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.18
+      }
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.043
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.795
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.092
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.05
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.265
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.122
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.081
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.096
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.119
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ],
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.877
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.812
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.001
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.231
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.23
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.028
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.081
+      }
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.359
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.987
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.338
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.051
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.045
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.2
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.261
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:redox_active"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.357
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.21
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.224
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:magnetic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.14,
+      "projectile_speed": 1.161,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:accelerate"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:radiant_temper"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.478
+      }
+    }
+  }
+}

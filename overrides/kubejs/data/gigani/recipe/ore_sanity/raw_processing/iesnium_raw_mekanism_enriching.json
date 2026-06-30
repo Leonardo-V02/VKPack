@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "tag": "c:raw_materials/iesnium"
+  },
+  "output": {
+    "count": 1,
+    "id": "occultism:iesnium_dust"
+  }
+}

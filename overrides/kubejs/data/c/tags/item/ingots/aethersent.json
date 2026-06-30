@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "eternal_starlight:aethersent_ingot",
+      "required": false
+    }
+  ]
+}

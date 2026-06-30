@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apotheosis",
+  "key": {
+    "E": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+    "G": {
+      "item": "apotheosis:gem_dust"
+    },
+    "M": {
+      "tag": "gigani:apotheosis_bridge/mythic_alloys"
+    },
+    "R": {
+      "item": "apotheosis:mythic_material"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "MRM",
+    "GEG"
+  ],
+  "result": {
+    "count": 4,
+    "id": "apotheosis:sigil_of_enhancement"
+  }
+}

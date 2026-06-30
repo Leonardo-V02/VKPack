@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:aluminum_dust",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:dust_aluminum",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:dustaluminum",
+      "required": false
+    }
+  ]
+}

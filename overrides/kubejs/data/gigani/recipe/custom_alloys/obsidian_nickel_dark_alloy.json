@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "item":  "minecraft:obsidian"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/nickel"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:obsidian_nickel_dark_alloy"
+                    }
+                ],
+    "energy":  307200,
+    "time":  320
+}

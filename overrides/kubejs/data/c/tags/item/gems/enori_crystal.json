@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "actuallyadditions:enori_crystal",
+      "required": false
+    },
+    {
+      "id": "actuallyadditions:enori_crystal_shard",
+      "required": false
+    }
+  ]
+}

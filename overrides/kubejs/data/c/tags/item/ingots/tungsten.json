@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:tungsten_ingot",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:tungsten_ingot",
+      "required": false
+    }
+  ]
+}

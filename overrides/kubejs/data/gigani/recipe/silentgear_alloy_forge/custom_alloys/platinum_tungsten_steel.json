@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    },
+    {
+      "tag": "c:ingots/platinum"
+    },
+    {
+      "tag": "c:ingots/tungsten"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:platinum_tungsten_steel"
+  }
+}

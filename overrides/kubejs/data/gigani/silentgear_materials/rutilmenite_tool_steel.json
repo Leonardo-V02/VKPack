@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/rutilmenite_tool_steel"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF4A4D52",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.rutilmenite_tool_steel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 24.5,
+      "armor/boots": 3.43,
+      "armor/chestplate": 9.31,
+      "armor/helmet": 4.17,
+      "armor/leggings": 7.59,
+      "armor_durability": 50.0,
+      "armor_toughness": 12.5,
+      "attack_damage": 6.3,
+      "attack_speed": 0.04,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 2480.0,
+      "enchantment_value": 18.0,
+      "harvest_speed": 11.7,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 2.8,
+      "magic_damage": 1.6,
+      "projectile_accuracy": 1.03,
+      "projectile_speed": 1.03,
+      "ranged_damage": 2.1,
+      "rarity": 82.0,
+      "repair_value": 0.16,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:tool_steel"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.386
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.106
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:tool_steel"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 0.8575
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.448
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 1.1025
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.25
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.56
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.88
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.32
+      },
+      "projectile_accuracy": 1.03,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.03,
+      "projectile_speed": 1.03,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.462
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:tool_steel"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:edge_retention"
+        }
+      ]
+    }
+  }
+}

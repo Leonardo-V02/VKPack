@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "nuclearism:bauxite_dust"
+  },
+  "result": {
+    "id": "alltheores:aluminum_ingot"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

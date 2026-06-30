@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:gems/glistering_honey_crystal"
+    },
+    {
+      "tag": "c:gems/mercury_crystal"
+    },
+    {
+      "tag": "c:gems/sal_ammoniac"
+    },
+    {
+      "tag": "c:ingots/cinnabar_silver_catalytic_alloy"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:alchemical_honey_core"
+  }
+}

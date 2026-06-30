@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:fluorite_hardened_steel",
+      "required": false
+    }
+  ]
+}

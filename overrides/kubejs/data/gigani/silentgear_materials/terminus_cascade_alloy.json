@@ -1,0 +1,380 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/terminus_cascade_alloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFDED7F7",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.terminus_cascade_alloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 39.5,
+      "armor/boots": 5.5,
+      "armor/chestplate": 15,
+      "armor/helmet": 6.7,
+      "armor/leggings": 12.2,
+      "armor_durability": 144.4,
+      "armor_toughness": 26.2,
+      "attack_damage": 12,
+      "attack_speed": -0.08,
+      "charging_value": 0,
+      "draw_speed": 0.02,
+      "durability": 6500,
+      "enchantment_value": 48,
+      "harvest_speed": 18.1,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 11.2,
+      "magic_damage": 14,
+      "projectile_accuracy": 1.16,
+      "projectile_speed": 1.14,
+      "ranged_damage": 1.8,
+      "rarity": 145,
+      "repair_value": 0.08,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:terminus_cascade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:boss_calibrated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:cascade_forged"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_tempered"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:matrix_bound"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.32
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.184
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.044
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.011
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:terminus_cascade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:boss_calibrated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:cascade_forged"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 16.667
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 4.08
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 975
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 5.068
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.12
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.396
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 28
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:terminus_cascade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:boss_calibrated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:cascade_forged"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_tempered"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.21
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 3.275
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.28
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.667
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.101
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.733
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.8
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.036
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:terminus_cascade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:boss_calibrated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:cascade_forged"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_tempered"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.24
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.113
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.02
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:terminus_cascade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:boss_calibrated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:cascade_forged"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_tempered"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.068
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.165
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.064
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:terminus_cascade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:boss_calibrated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:cascade_forged"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_tempered"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.203
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 3.743
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 4.6
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.16
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:terminus_cascade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:boss_calibrated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:cascade_forged"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:void_tempered"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.06
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.16
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.14
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.225
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:terminus_cascade"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:boss_calibrated"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:cascade_forged"
+        }
+      ]
+    }
+  }
+}

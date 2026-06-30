@@ -1,0 +1,499 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/uranium_238"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF6EC55D",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.uranium_238"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 22.9,
+      "armor/boots": 3.2,
+      "armor/chestplate": 8.7,
+      "armor/helmet": 3.9,
+      "armor/leggings": 7.1,
+      "armor_durability": 48.6,
+      "armor_toughness": 13.2,
+      "attack_damage": 6.6,
+      "attack_speed": 0,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 2273.2,
+      "enchantment_value": 11.7,
+      "harvest_speed": 7.2,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 3.6,
+      "magic_damage": 6.3,
+      "projectile_accuracy": 1.06,
+      "projectile_speed": 1,
+      "ranged_damage": 1,
+      "rarity": 93,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:lucky"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.191
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.101
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ],
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.054
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.022
+      }
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 6.801
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.882
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 322.875
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.347
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.359
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.287
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:lucky"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.075
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.404
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.047
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.007
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.32
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.765
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.029
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:lucky"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      }
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.15
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": -0.007
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.055
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:lucky"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ],
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.756
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.003
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.042
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.047
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:lucky"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 0.791
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.64
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.811
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:lucky"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ],
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.016
+      }
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.078
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.27
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.089
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ],
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.05
+      }
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": -0.036
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.027
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.181
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 0.973,
+      "projectile_speed": 0.963,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_shielding"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:neutron_absorber"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reactor_temper"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.73
+      }
+    }
+  }
+}

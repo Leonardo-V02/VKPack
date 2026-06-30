@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "extendedcrafting:crystaltine_ingot",
+      "required": false
+    }
+  ]
+}

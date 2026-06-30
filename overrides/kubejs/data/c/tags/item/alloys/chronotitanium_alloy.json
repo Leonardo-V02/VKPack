@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:chronotitanium_alloy",
+      "required": false
+    }
+  ]
+}

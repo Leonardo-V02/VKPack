@@ -1,0 +1,16 @@
+{
+  "name": "Late Game",
+  "icon": "kubejs:industrial_cascade_alloy",
+  "category": "gigani:progression",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "kubejs:industrial_cascade_alloy",
+      "text": "Industrial Cascade Alloy takes Field Cascade plus tungsten and nickel. This is where tool-steel, superalloy, and carbide traits start to matter."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Best late tools lean into identity: tungsten carbide tips for bite, aluminum-lithium rods for speed, nitinol/rubber grips for recovery, and radiant/resonant coatings when the build wants enchantments or spell pressure."
+    }
+  ]
+}

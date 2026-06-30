@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/cobalt"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/chromium"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:cobalt_chrome"
+    }
+  ],
+  "energy": 409600,
+  "time": 420
+}

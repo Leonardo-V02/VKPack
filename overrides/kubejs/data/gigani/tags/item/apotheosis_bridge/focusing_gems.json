@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:gems/arcane_crystal",
+      "required": false
+    },
+    {
+      "id": "#c:gems/corrupted_arcane_crystal",
+      "required": false
+    },
+    {
+      "id": "#c:gems/dark_gem",
+      "required": false
+    },
+    {
+      "id": "#c:gems/dark_power_gem",
+      "required": false
+    },
+    {
+      "id": "#c:gems/fluxite",
+      "required": false
+    },
+    {
+      "id": "#c:gems/regalium",
+      "required": false
+    },
+    {
+      "id": "#c:gems/utherium",
+      "required": false
+    },
+    {
+      "id": "#c:gems/refined_soulstone",
+      "required": false
+    },
+    {
+      "id": "#c:gems/blazing_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:gems/blazing_crystal",
+      "required": false
+    },
+    {
+      "id": "#c:gems/niotic_crystal",
+      "required": false
+    },
+    {
+      "id": "#c:gems/spirited_crystal",
+      "required": false
+    },
+    {
+      "id": "#c:gems/nitro_crystal",
+      "required": false
+    },
+    {
+      "id": "#c:gems/chaos",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/crystal_matrix",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/crystaltine",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/infinity",
+      "required": false
+    },
+    {
+      "id": "#c:gems/infused_matter",
+      "required": false
+    },
+    {
+      "id": "#c:gems/void_matter",
+      "required": false
+    },
+    {
+      "id": "#c:gems/pure_soul",
+      "required": false
+    }
+  ]
+}

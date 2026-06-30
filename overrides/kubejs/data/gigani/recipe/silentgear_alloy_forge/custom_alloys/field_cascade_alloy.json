@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    },
+    {
+      "tag": "c:ingots/aluminum"
+    },
+    {
+      "tag": "c:ingots/copper"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "kubejs:field_cascade_alloy"
+  }
+}

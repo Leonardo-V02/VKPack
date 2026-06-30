@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:gems/refined_soulstone",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/hallowed_gold",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/soul_stained_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/malignant_pewter",
+      "required": false
+    },
+    {
+      "id": "#c:gems/dark_gem",
+      "required": false
+    },
+    {
+      "id": "#c:gems/chaos",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/plutonium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/thorium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/neutronium",
+      "required": false
+    },
+    {
+      "id": "#c:gems/void_matter",
+      "required": false
+    },
+    {
+      "id": "#c:gems/pure_soul",
+      "required": false
+    }
+  ]
+}

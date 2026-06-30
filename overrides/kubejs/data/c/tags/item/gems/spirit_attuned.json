@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "occultism:spirit_attuned_crystal",
+      "required": false
+    }
+  ]
+}

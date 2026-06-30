@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "actuallyadditions:palis_crystal",
+      "required": false
+    },
+    {
+      "id": "actuallyadditions:palis_crystal_shard",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/industrial_cascade_alloy"
+    },
+    {
+      "tag": "c:ingots/tungsten_carbide_steel"
+    },
+    {
+      "tag": "c:ingots/diamond_matrix_steel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:resonant_cascade_alloy"
+  }
+}

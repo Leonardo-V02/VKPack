@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:ingots/hsla_steel",
+      "required": false
+    }
+  ]
+}

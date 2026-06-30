@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:tantalum_tungsten_hafnium",
+      "required": false
+    }
+  ]
+}

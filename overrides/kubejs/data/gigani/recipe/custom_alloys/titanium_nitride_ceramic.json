@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:gems/niter"
+    },
+    {
+      "tag": "c:dusts/saltpeter"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:titanium_nitride_ceramic"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

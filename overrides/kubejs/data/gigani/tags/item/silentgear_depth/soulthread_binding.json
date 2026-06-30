@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:soulthread_binding",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:raw_aluminum",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:raw_aluminum",
+      "required": false
+    }
+  ]
+}

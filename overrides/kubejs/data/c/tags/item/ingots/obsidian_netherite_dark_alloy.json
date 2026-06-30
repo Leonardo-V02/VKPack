@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:obsidian_netherite_dark_alloy",
+      "required": false
+    }
+  ]
+}

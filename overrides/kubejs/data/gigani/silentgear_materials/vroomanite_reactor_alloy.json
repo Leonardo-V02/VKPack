@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/vroomanite_reactor_alloy"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF6B42A8",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.vroomanite_reactor_alloy"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 35.5,
+      "armor/boots": 4.97,
+      "armor/chestplate": 13.49,
+      "armor/helmet": 6.04,
+      "armor/leggings": 11.01,
+      "armor_durability": 78.0,
+      "armor_toughness": 22.0,
+      "attack_damage": 9.6,
+      "attack_speed": -0.01,
+      "charging_value": 28.0,
+      "draw_speed": 0.08,
+      "durability": 4700.0,
+      "enchantment_value": 28.0,
+      "harvest_speed": 15.1,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 14.5,
+      "magic_damage": 8.8,
+      "projectile_accuracy": 1.08,
+      "projectile_speed": 1.14,
+      "ranged_damage": 5.2,
+      "rarity": 116.0,
+      "repair_value": 0.09,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:anassonium_flux"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:anassonium_flux"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.112
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.718
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:anassonium_flux"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:inertial_drive"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:anassonium_flux"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:reaction_sintered"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 1.2425
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.32
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:anassonium_flux"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 1.5975
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.2
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.9
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:anassonium_flux"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.48
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.76
+      },
+      "projectile_accuracy": 1.08,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:anassonium_flux"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:anassonium_flux"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.08,
+      "projectile_speed": 1.14,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 1.144
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:anassonium_flux"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reaction_sintered"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:reactor_temper"
+        }
+      ]
+    }
+  }
+}

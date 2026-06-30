@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/steel"
+              },
+    "additives":  [
+                      {
+                          "item":  "minecraft:shulker_shell"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:shulker_reinforced_steel"
+                    }
+                ],
+    "energy":  204800,
+    "time":  260
+}

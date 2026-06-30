@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "heated",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:amethyst_shard"
+                        },
+                        {
+                            "tag":  "c:ingots/gold"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:amethyst_gold_resonant_alloy"
+                    }
+                ]
+}

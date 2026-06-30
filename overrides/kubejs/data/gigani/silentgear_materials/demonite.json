@@ -1,0 +1,375 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/demonite"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF7B1834",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.demonite"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 22,
+      "armor/boots": 3.1,
+      "armor/chestplate": 8.4,
+      "armor/helmet": 3.7,
+      "armor/leggings": 6.8,
+      "armor_durability": 52.2,
+      "armor_toughness": 11.4,
+      "attack_damage": 7.4,
+      "attack_speed": -0.04,
+      "charging_value": 0,
+      "draw_speed": 0.02,
+      "durability": 2350,
+      "enchantment_value": 36,
+      "harvest_speed": 10,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 7.4,
+      "magic_damage": 12.4,
+      "projectile_accuracy": 1.04,
+      "projectile_speed": 1.08,
+      "ranged_damage": 1.1,
+      "rarity": 98,
+      "repair_value": 0.1,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:occult_conduit"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:boss_calibrated"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.157
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.036
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.022
+      },
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.011
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:occult_conduit"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 6.026
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 2.516
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 352.5
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.8
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.992
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.242
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:occult_conduit"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:boss_calibrated"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.076
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.425
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.102
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.056
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 2.467
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.48
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.022
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:occult_conduit"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:boss_calibrated"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.09
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.063
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.01
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:occult_conduit"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:boss_calibrated"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.034
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.091
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:occult_conduit"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:boss_calibrated"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.073
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.629
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.083
+      },
+      "knockback_resistance": {
+        "operation": "ADD",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:occult_conduit"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:boss_calibrated"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.06
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.04
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.138
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:occult_conduit"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:gamma_bite"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_leach"
+        }
+      ]
+    }
+  }
+}

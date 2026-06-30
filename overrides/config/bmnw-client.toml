@@ -1,0 +1,31 @@
+#The amount of hazard information to be displayed on items
+#Allowed Values: ALL, GENERAL, DISABLED
+hazardInfoLevel = "ALL"
+#Whether to disable the hints in the world loading screen
+disableHints = false
+
+[Graphics]
+	#Whether to rotate some parts of animation blocks a random angle
+	#Example: Sealed Hatch valve handle
+	enableRandomRotationOffsets = true
+	#The rendering method for mushroom clouds
+	#SPRITE_2D is the fastest but looks kinda weird
+	#MODEL_3D looks good and is not very impactful on performance
+	#PARTICLES looks the best but could impact performance on weaker devices
+	#Allowed Values: SPRITE_2D, MODEL_3D, PARTICLES
+	mushroomCloudRenderType = "MODEL_3D"
+	#The rendering method for the bright explosion flash
+	#SPRITE_2D is quite fast but doesn't look as fancy
+	#ENDER_DRAGON looks quite good but interacts oddly with transparent blocks
+	#Allowed Values: SPRITE_2D, ENDER_DRAGON
+	explosionFlashRenderType = "SPRITE_2D"
+	#The view distance of wires (32767 for infinite)
+	# Default: 256
+	# Range: 64 ~ 32767
+	wireViewDistance = 256
+	#The default segmentation of the leash-like wires
+	# Default: 24
+	# Range: 2 ~ 256
+	defaultWireSegmentation = 24
+	#It speaks for itself
+	decreasedParticles = false

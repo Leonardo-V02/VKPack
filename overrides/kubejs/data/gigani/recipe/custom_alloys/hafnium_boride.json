@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium_diboride_cermet"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/tungsten"
+    },
+    {
+      "tag": "c:ingots/boron"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:hafnium_boride"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

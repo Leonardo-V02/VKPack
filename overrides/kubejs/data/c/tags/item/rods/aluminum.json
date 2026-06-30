@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:aluminum_rod",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:stick_aluminum",
+      "required": false
+    }
+  ]
+}

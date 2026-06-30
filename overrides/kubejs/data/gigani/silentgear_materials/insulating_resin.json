@@ -1,0 +1,173 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "organic",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/insulating_resin"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF5C7A64",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.insulating_resin"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:binding": {
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.18
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.04
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:polymer_buffer"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:viscoelastic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:corrosion_proof"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.6
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:polymer_buffer"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:viscoelastic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:corrosion_proof"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.04
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.04
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:polymer_buffer"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:viscoelastic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:corrosion_proof"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.12
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.12
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:polymer_buffer"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:viscoelastic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:corrosion_proof"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.12
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.2
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 3.4
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:polymer_buffer"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:viscoelastic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:corrosion_proof"
+        }
+      ]
+    }
+  }
+}

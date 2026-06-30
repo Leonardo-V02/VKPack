@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "tag": "c:ingots/platinum"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:redstone_platinum_conductive_alloy"
+  }
+}

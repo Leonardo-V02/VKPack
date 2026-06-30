@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:titanium_molybdenum_alloy",
+      "required": false
+    }
+  ]
+}

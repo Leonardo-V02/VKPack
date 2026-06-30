@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    },
+    {
+      "tag": "c:ingots/iridium"
+    },
+    {
+      "tag": "c:ingots/tungsten"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:iridium_tungsten_steel"
+  }
+}

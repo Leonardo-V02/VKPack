@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createutilities:void_steel_ingot",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "malum:malignant_pewter_ingot",
+      "required": false
+    }
+  ]
+}

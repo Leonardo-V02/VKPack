@@ -1,0 +1,15 @@
+{
+  "name": "Keyword Key",
+  "icon": "minecraft:written_book",
+  "category": "gigani:progression",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tool Steel/Martensitic/Edge Retention: physical tool and weapon reliability. Aeroelastic/Electroductile: speed, bows, and handling. Matrix/Resonance/Radiant: enchantment, magic, and precision."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Reactor/MOX/Gamma/Neutron: heavy dangerous reactor materials. Elastomeric/Polymer/Shape Memory: grips, linings, bindings, and recovery. Cascade/Boss/Terminus: staged late-game alloy families."
+    }
+  ]
+}

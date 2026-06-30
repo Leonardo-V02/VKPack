@@ -1,0 +1,12 @@
+﻿{
+    "type":  "immersiveengineering:alloy",
+    "input0":  {
+                   "item":  "minecraft:redstone"
+               },
+    "input1":  {
+                   "tag":  "c:ingots/copper"
+               },
+    "result":  {
+                   "id":  "kubejs:redstone_copper_conductive_alloy"
+               }
+}

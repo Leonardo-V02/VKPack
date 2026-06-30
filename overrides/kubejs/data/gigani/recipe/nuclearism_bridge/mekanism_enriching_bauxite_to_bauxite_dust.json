@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "nuclearism:bauxite"
+  },
+  "output": {
+    "count": 2,
+    "id": "nuclearism:bauxite_dust"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.quicksilver.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_speed": {
+          "base_multiplier": 0.014,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:draw_speed": {
+          "base_multiplier": 0.014,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:durability": {
+          "base_multiplier": -0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor": {
+          "base_multiplier": -0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "armor/feet": [
+          {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "add_multiplied_base",
+            "values": [
+              0.006,
+              0.012,
+              0.018,
+              0.024,
+              0.03
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.quicksilver"
+  }
+}

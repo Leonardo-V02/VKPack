@@ -1,0 +1,428 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:materials/mercury"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFC8D0D6",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.mercury"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 6.0,
+      "armor/boots": 0.8,
+      "armor/chestplate": 2.3,
+      "armor/helmet": 1.0,
+      "armor/leggings": 1.9,
+      "armor_durability": 10.0,
+      "armor_toughness": 0.5,
+      "attack_damage": 1.8,
+      "attack_speed": 0.22,
+      "charging_value": 0.16,
+      "draw_speed": 0.2,
+      "durability": 420,
+      "enchantment_value": 34,
+      "harvest_speed": 12.5,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 3.8,
+      "magic_damage": 4.6,
+      "projectile_accuracy": 1.17,
+      "projectile_speed": 1.09,
+      "ranged_damage": 2.4,
+      "rarity": 56,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:liquid_metal"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cold_flow"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:bioaccumulative"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:amalgamating"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.12
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:liquid_metal"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cold_flow"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 1.4
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.576
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 58.8
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.25
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.61
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.672
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 18.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:liquid_metal"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cold_flow"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:bioaccumulative"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.015
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.037
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.069
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:liquid_metal"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cold_flow"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:bioaccumulative"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "armor_durability": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.046
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.081
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.121
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:liquid_metal"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_vapor"
+        }
+      ],
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.552
+      }
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.22
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.125
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:liquid_metal"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cold_flow"
+        }
+      ],
+      "draw_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.09
+      }
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 4.08
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.684
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.828
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:amalgamating"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:liquid_metal"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cold_flow"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.287
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.053
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.193
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:liquid_metal"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cold_flow"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.09,
+      "projectile_speed": 1.05,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:quicksilver"
+        },
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:liquid_metal"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:toxic_vapor"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:cold_flow"
+        }
+      ],
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.896
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:lead_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:lead_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:deepslate_lead_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:nether_lead_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:end_lead_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:other_lead_ore",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:orelead",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:deepslateorelead",
+      "required": false
+    }
+  ]
+}

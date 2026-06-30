@@ -1,0 +1,56 @@
+#Mekanism Settings
+[mekanism]
+	#Energy (FE) of MekaSuit when throwing flame
+	# Default: 250
+	# Range: 0 ~ 9223372036854775807
+	energyFlameThrower = 250
+	#Energy (FE) of MekaSuit per tick per tier when elytra acceleration
+	# Default: 2500
+	# Range: 0 ~ 9223372036854775807
+	energyElytraAccelerationEachTick = 2500
+	#Energy (FE) of MekaSuit per tier each looting modification
+	# Default: 2500
+	# Range: 0 ~ 9223372036854775807
+	energyLootingModification = 2500
+
+#Tacz Settings
+[tacz]
+	#Energy (FE) of MekaSuit per tier when quick aiming
+	# Default: 1000
+	# Range: 0 ~ 9223372036854775807
+	energyQuickAiming = 1000
+	#Energy (FE) of MekaSuit per tier when quick reloading
+	# Default: 1000
+	# Range: 0 ~ 9223372036854775807
+	energyQuickReloading = 1000
+	#Energy (FE) of MekaSuit per tier when shooting recoil offsetting
+	# Default: 1000
+	# Range: 0 ~ 9223372036854775807
+	energyRecoilOffset = 1000
+
+#Thirst Settings
+[thirst]
+	#Mb of pure water needed per drinking
+	# Default: 75
+	# Range: > 1
+	mbPerDrinking = 75
+	#Energy (FE) of MekaSuit when automatic drinking
+	# Default: 2500
+	# Range: 0 ~ 9223372036854775807
+	energyAutomaticDrinking = 2500
+	#Thirst provided by each automatic drinking
+	# Default: 1
+	# Range: > 1
+	thirstPerAutomaticDrinking = 1
+	#Thirst provided by each automatic drinking
+	# Default: 2
+	# Range: > 1
+	quenchedPerAutomaticDrinking = 2
+	#Thirst provided by each automatic drinking
+	# Default: 500
+	# Range: > 1
+	cleanWaterTransferRate = 500
+	#Thirst provided by each automatic drinking
+	# Default: 50000
+	# Range: > 1
+	cleanWaterMaxStorage = 50000

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:ingots/ender_netherite_void_alloy"
+    },
+    {
+      "tag": "c:gems/soul_binding_crystal"
+    },
+    {
+      "tag": "c:gems/blightpearl"
+    },
+    {
+      "tag": "c:gems/utheric_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:null_vector_core"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:nickel_zinc_casting_alloy",
+      "required": false
+    }
+  ]
+}

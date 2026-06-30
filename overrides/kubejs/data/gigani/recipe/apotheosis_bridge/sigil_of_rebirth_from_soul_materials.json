@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apotheosis",
+  "key": {
+    "E": {
+      "item": "apotheosis:gem_dust"
+    },
+    "G": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+    "S": {
+      "tag": "gigani:apotheosis_bridge/soul_materials"
+    }
+  },
+  "pattern": [
+    "GSG",
+    "ESE",
+    "GSG"
+  ],
+  "result": {
+    "count": 6,
+    "id": "apotheosis:sigil_of_rebirth"
+  }
+}

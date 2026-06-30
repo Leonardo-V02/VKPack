@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/vanadium"
+    },
+    {
+      "tag": "c:ingots/chromium"
+    },
+    {
+      "tag": "c:gems/molybdenum"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:beta_c_titanium_alloy"
+    }
+  ],
+  "energy": 573440,
+  "time": 580
+}

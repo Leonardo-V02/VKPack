@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "heated",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:amethyst_shard"
+                        },
+                        {
+                            "tag":  "c:ingots/silver"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:amethyst_silver_resonant_alloy"
+                    }
+                ]
+}

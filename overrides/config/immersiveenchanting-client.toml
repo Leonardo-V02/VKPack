@@ -1,0 +1,3 @@
+[general]
+	#Display which mod adds the enchantment on ancient books.
+	showAddedByTooltip = false

@@ -1,0 +1,18 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/titanium"
+    },
+    {
+      "tag": "c:ingots/chromium"
+    },
+    {
+      "tag": "c:gems/niter"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:titanium_chromium_nitride_alloy"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "extendedcrafting:black_iron_ingot",
+      "required": false
+    }
+  ]
+}

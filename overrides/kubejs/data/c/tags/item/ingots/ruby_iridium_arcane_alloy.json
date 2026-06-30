@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:ruby_iridium_arcane_alloy",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "dimensionalpocketsii:block_dimensional_metal",
+      "required": false
+    }
+  ]
+}

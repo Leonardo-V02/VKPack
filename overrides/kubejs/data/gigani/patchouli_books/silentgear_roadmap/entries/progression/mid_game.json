@@ -1,0 +1,16 @@
+{
+  "name": "Mid Game",
+  "icon": "kubejs:field_cascade_alloy",
+  "category": "gigani:progression",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "kubejs:field_cascade_alloy",
+      "text": "Field Cascade Alloy is the first intentional bridge: steel + aluminum + copper in the Silent Gear alloy forge. Grade the ingredients first when possible, alloy them, then grade the alloy before making parts."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use Field Cascade for general heads, redstone-copper conductive alloy for fast mining, rubber/plastic/resin for grips and linings, and cobalt-chrome or stainless for armor pieces that need to last."
+    }
+  ]
+}

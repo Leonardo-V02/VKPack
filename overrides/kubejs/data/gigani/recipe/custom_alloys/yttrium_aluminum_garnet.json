@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:dusts/yttrium"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/aluminum"
+    },
+    {
+      "tag": "c:gems/garnet"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:yttrium_aluminum_garnet"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

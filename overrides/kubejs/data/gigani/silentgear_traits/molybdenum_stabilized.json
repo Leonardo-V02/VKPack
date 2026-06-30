@@ -1,0 +1,40 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.molybdenum_stabilized.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:durability": {
+          "base_multiplier": 0.065,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": -0.015,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_speed": {
+          "base_multiplier": -0.006,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        }
+      }
+    },
+    {
+      "type": "silentgear:fireproof"
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.molybdenum_stabilized"
+  }
+}

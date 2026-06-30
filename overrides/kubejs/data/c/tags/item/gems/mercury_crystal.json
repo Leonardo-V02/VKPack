@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "theurgy:mercury_crystal",
+      "required": false
+    },
+    {
+      "id": "theurgy:mercury_shard",
+      "required": false
+    }
+  ]
+}

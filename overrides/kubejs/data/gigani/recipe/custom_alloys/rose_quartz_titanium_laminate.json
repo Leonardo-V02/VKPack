@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "additives": [
+    {
+      "tag": "c:gems/rose_quartz"
+    },
+    {
+      "tag": "c:ingots/gold"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:rose_quartz_titanium_laminate"
+    }
+  ],
+  "energy": 491520,
+  "time": 520
+}

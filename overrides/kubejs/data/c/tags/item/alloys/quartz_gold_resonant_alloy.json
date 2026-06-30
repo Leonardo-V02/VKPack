@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:quartz_gold_resonant_alloy",
+      "required": false
+    }
+  ]
+}

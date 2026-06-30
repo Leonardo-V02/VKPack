@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "superheated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:gems/cinnabar"
+                        },
+                        {
+                            "tag":  "c:ingots/silver"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:cinnabar_silver_catalytic_alloy"
+                    }
+                ]
+}

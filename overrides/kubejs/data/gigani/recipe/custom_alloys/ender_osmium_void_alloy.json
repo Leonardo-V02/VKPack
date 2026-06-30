@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "item":  "minecraft:ender_pearl"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/osmium"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:ender_osmium_void_alloy"
+                    }
+                ],
+    "energy":  358400,
+    "time":  360
+}

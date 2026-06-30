@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:steel_bar",
+      "required": false
+    }
+  ]
+}

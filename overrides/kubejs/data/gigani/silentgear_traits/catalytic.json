@@ -1,0 +1,41 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.catalytic.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.075,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:enchantment_value": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:item_magnet",
+      "affected_items": {
+        "tag": "c:dusts"
+      },
+      "effect_range": 1.75,
+      "pull_strength": 0.035,
+      "affected_items_text_for_wiki": "dusts"
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.catalytic"
+  }
+}

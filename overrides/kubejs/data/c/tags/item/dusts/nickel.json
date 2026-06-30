@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:nickel_dust",
+      "required": false
+    }
+  ]
+}

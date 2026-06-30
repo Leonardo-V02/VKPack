@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "tag": "c:gems/soul_binding_crystal"
+    },
+    {
+      "tag": "c:gems/divine_soulshard"
+    },
+    {
+      "tag": "c:gems/ender_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:soulthread_binding"
+  }
+}

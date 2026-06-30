@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "theurgy:sal_ammoniac_crystal",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "heated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:ingots/steel"
+                        },
+                        {
+                            "item":  "minecraft:quartz"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:nether_quartz_steel"
+                    }
+                ]
+}

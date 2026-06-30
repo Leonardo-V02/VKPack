@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:sapphire_silver_arcane_alloy",
+      "required": false
+    }
+  ]
+}

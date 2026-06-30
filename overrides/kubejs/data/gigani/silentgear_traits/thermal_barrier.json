@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:armor"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.thermal_barrier.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:fireproof"
+    },
+    {
+      "type": "silentgear:negate_damage",
+      "damage_type_tag": "minecraft:is_fire",
+      "negated_damage_scale": 0.035
+    },
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:magic_armor": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.03,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.thermal_barrier"
+  }
+}

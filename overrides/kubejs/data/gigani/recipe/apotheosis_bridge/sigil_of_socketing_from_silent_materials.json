@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apotheosis",
+  "key": {
+    "A": {
+      "tag": "gigani:apotheosis_bridge/focusing_gems"
+    },
+    "E": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+    "G": {
+      "item": "apotheosis:gem_dust"
+    },
+    "M": {
+      "tag": "gigani:apotheosis_bridge/socketing_metals"
+    },
+    "U": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    "GUG",
+    "MEM",
+    "GAG"
+  ],
+  "result": {
+    "count": 3,
+    "id": "apotheosis:sigil_of_socketing"
+  }
+}

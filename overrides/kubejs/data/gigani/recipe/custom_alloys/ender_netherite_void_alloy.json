@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "item":  "minecraft:ender_pearl"
+              },
+    "additives":  [
+                      {
+                          "item":  "minecraft:netherite_ingot"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:ender_netherite_void_alloy"
+                    }
+                ],
+    "energy":  307200,
+    "time":  320
+}

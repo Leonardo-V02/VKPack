@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "tag":  "c:ingots/aluminum"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/osmium"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:aluminum_osmium_light_alloy"
+                    }
+                ],
+    "energy":  358400,
+    "time":  360
+}

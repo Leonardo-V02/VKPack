@@ -1,0 +1,55 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.bioaccumulative.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:magic_damage": {
+          "base_multiplier": 0.05,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_damage": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:durability": {
+          "base_multiplier": -0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:repair_efficiency": {
+          "base_multiplier": -0.03,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "all/any": [
+          {
+            "attribute": "minecraft:generic.luck",
+            "operation": "add_value",
+            "values": [
+              -0.2,
+              -0.4,
+              -0.6,
+              -0.8,
+              -1.0
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.bioaccumulative"
+  }
+}

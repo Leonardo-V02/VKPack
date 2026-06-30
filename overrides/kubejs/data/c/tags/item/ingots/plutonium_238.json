@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:plutonium_238_ingot",
+      "required": false
+    }
+  ]
+}

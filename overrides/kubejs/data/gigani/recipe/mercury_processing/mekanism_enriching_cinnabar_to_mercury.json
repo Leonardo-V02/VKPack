@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "tag": "c:gems/cinnabar"
+  },
+  "output": {
+    "count": 1,
+    "id": "kubejs:mercury_droplet"
+  }
+}

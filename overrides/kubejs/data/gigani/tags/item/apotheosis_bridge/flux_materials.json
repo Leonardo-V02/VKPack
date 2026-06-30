@@ -1,0 +1,141 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:gems/fluxite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/energite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/energized_steel",
+      "required": false
+    },
+    {
+      "id": "#c:gems/niotic_crystal",
+      "required": false
+    },
+    {
+      "id": "#c:gems/spirited_crystal",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/superconductive",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/draconium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/enhanced_redstone_ingot",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/conductive_copper",
+      "required": false
+    },
+    {
+      "id": "#c:alloys/ascended",
+      "required": false
+    },
+    {
+      "id": "#c:alloys/nano",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copper_silver_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copper_gold_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copper_platinum_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copper_iridium_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copper_osmium_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copper_uranium_conductor_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/redstone_copper_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/redstone_gold_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/redstone_silver_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/redstone_platinum_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/redstone_iridium_conductive_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/glowstone_silver_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/glowstone_gold_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/glowstone_platinum_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/glowstone_iridium_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/glowstone_osmium_radiant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/amethyst_silver_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/amethyst_gold_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/amethyst_platinum_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/quartz_silver_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/quartz_gold_resonant_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/fluorite_aluminum_flux_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/fluorite_copper_flux_alloy",
+      "required": false
+    }
+  ]
+}

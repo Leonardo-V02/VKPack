@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "tag": "c:gems/attuned_shard"
+    },
+    {
+      "tag": "c:gems/source"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:phantom_silk_lining"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.superconductive.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.08,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:draw_speed": {
+          "base_multiplier": 0.016,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:ranged_damage": {
+          "base_multiplier": 0.05,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_damage": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.superconductive"
+  }
+}

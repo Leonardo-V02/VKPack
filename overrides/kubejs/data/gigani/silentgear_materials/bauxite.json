@@ -1,0 +1,73 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/bauxite"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFB66A3C",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.bauxite"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 17.0,
+      "armor/boots": 3.0,
+      "armor/chestplate": 6.0,
+      "armor/helmet": 3.0,
+      "armor/leggings": 5.0,
+      "armor_durability": 32.0,
+      "attack_damage": 4.0,
+      "attack_speed": 0.0,
+      "charging_value": 0.0,
+      "draw_speed": 0.0,
+      "durability": 1250.0,
+      "enchantment_value": 30.0,
+      "harvest_speed": 10.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 8.0,
+      "magic_damage": 5.0,
+      "ranged_damage": 3.0,
+      "rarity": 76.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:refractive"
+        }
+      ],
+      "armor_toughness": 6.0
+    },
+    "silentgear:rod": {},
+    "silentgear:setting": {
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:brilliant"
+        }
+      ]
+    }
+  }
+}

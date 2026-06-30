@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:rose_quartz_block",
+      "required": false
+    }
+  ]
+}

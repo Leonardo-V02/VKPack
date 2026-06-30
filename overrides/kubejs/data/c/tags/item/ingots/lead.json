@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alltheores:lead_ingot",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:ingotlead",
+      "required": false
+    },
+    {
+      "id": "nuclearism:lead_ingot",
+      "required": false
+    }
+  ]
+}

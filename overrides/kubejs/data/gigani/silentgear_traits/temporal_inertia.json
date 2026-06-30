@@ -1,0 +1,42 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.temporal_inertia.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:durability": {
+          "base_multiplier": 0.07,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.06,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_armor": {
+          "base_multiplier": 0.025,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:durability",
+      "activation_chance": 0.018,
+      "effect_scale": -1
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.temporal_inertia"
+  }
+}

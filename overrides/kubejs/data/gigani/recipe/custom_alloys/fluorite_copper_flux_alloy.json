@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "heated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:gems/fluorite"
+                        },
+                        {
+                            "tag":  "c:ingots/copper"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:fluorite_copper_flux_alloy"
+                    }
+                ]
+}

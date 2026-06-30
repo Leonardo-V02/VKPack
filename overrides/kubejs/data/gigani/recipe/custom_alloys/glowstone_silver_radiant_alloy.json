@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "superheated",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:glowstone_dust"
+                        },
+                        {
+                            "tag":  "c:ingots/silver"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:glowstone_silver_radiant_alloy"
+                    }
+                ]
+}

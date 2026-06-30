@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:coal",
+      "required": false
+    },
+    {
+      "id": "minecraft:charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/coal",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/carbon",
+      "required": false
+    },
+    {
+      "id": "#c:gems/coal",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/graphite",
+      "required": false
+    }
+  ]
+}

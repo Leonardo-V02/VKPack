@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:alchemical_honey_core",
+      "required": false
+    }
+  ]
+}

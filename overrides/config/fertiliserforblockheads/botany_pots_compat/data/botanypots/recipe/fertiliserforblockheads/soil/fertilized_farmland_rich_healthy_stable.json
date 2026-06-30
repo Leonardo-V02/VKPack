@@ -1,0 +1,14 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "fertiliserforblockheads:fertilized_farmland_rich_healthy_stable"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_soil",
+  "block": "fertiliserforblockheads:fertilized_farmland_rich_healthy_stable",
+  "growth_modifier": 1.0,
+  "yield_modifier": 1.0
+}

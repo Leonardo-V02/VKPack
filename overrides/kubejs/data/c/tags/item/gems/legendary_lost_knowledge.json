@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "rftoolsdim:legendary_lost_knowledge",
+      "required": false
+    }
+  ]
+}

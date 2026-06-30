@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/industrial_cascade_alloy"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/tungsten_carbide_steel"
+    },
+    {
+      "tag": "c:ingots/diamond_matrix_steel"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "kubejs:resonant_cascade_alloy"
+    }
+  ],
+  "energy": 614400,
+  "time": 560
+}

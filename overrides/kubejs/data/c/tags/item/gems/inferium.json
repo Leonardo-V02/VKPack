@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mysticalagriculture:inferium_gemstone",
+      "required": false
+    }
+  ]
+}

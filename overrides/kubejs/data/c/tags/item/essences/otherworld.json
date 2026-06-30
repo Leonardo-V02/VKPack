@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "occultism:otherworld_essence",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:copper_platinum_conductor_alloy",
+      "required": false
+    }
+  ]
+}

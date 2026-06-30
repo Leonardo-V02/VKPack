@@ -1,0 +1,54 @@
+{
+  "type": "apotheosis:gem",
+  "min_purity": "flawed",
+  "unique": true,
+  "weights": {
+    "quality": 0.1,
+    "weight": 1
+  },
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:crit_damage",
+      "gem_class": {
+        "key": "weapons",
+        "types": [
+          "apotheosis:melee_weapon",
+          "apotheosis:trident",
+          "apotheosis:bow"
+        ]
+      },
+      "operation": "add_multiplied_base",
+      "values": {
+        "flawed": 0.25,
+        "normal": 0.35,
+        "flawless": 0.5,
+        "perfect": 0.7
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:crit_chance",
+      "gem_class": "apotheosis:helmet",
+      "operation": "add_value",
+      "values": {
+        "flawed": 0.06,
+        "normal": 0.08,
+        "flawless": 0.1,
+        "perfect": 0.15
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "apothic_attributes:armor_shred",
+      "gem_class": "apotheosis:chestplate",
+      "operation": "add_value",
+      "values": {
+        "flawed": 0.12,
+        "normal": 0.16,
+        "flawless": 0.22,
+        "perfect": 0.3
+      }
+    }
+  ]
+}

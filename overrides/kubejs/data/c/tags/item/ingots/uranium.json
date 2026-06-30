@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:uranium_ingot",
+      "required": false
+    },
+    {
+      "id": "mekanism:ingot_uranium",
+      "required": false
+    },
+    {
+      "id": "alltheores:uranium_ingot",
+      "required": false
+    }
+  ]
+}

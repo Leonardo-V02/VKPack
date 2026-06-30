@@ -1,0 +1,104 @@
+{
+  "conditions": [
+    {
+      "type": "silentgear:gear_type",
+      "gear_type": "silentgear:tool"
+    }
+  ],
+  "description": {
+    "translate": "trait.gigani.toxic_leach.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:attack_damage": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:magic_damage": {
+          "base_multiplier": 0.065,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:attack_speed": {
+          "base_multiplier": -0.006,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        }
+      }
+    },
+    {
+      "type": "silentgear:target_effect",
+      "effects_by_level": {
+        "silentgear:tool": {
+          "1": [
+            {
+              "duration": 60,
+              "id": "minecraft:poison",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "honey",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "2": [
+            {
+              "duration": 100,
+              "id": "minecraft:poison",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "honey",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "3": [
+            {
+              "duration": 150,
+              "id": "minecraft:poison",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "honey",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "4": [
+            {
+              "duration": 210,
+              "id": "minecraft:poison",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "honey",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ],
+          "5": [
+            {
+              "duration": 280,
+              "id": "minecraft:poison",
+              "neoforge:cures": [
+                "protected_by_totem",
+                "honey",
+                "milk"
+              ],
+              "show_icon": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.toxic_leach"
+  }
+}

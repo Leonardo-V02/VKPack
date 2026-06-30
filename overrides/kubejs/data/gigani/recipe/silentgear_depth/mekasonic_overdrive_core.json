@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gigani_silentgear_depth",
+  "ingredients": [
+    {
+      "tag": "c:ingots/osmium_tungsten_steel"
+    },
+    {
+      "tag": "c:ingots/uranium_platinum_superalloy"
+    },
+    {
+      "tag": "c:ingots/superconductive"
+    },
+    {
+      "tag": "c:alloys/nano"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kubejs:mekasonic_overdrive_core"
+  }
+}

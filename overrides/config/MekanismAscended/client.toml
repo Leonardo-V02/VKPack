@@ -1,0 +1,5 @@
+[visuals]
+	#RGB hex text color used for Ascended tier names. Format: RRGGBB or #RRGGBB.
+	textColor = "FAD64A"
+	#ARGB hex color used by the Ascended Fluid Tank renderer. Format: AARRGGBB or #AARRGGBB.
+	fluidTankColor = "FFFFAA00"

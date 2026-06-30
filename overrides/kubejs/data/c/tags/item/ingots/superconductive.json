@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "modern_industrialization:superconductor_ingot",
+      "required": false
+    },
+    {
+      "id": "electrodynamics:ingotsuperconductive",
+      "required": false
+    }
+  ]
+}

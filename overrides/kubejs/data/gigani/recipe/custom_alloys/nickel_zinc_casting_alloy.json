@@ -1,0 +1,12 @@
+﻿{
+    "type":  "immersiveengineering:alloy",
+    "input0":  {
+                   "tag":  "c:ingots/nickel"
+               },
+    "input1":  {
+                   "tag":  "c:ingots/zinc"
+               },
+    "result":  {
+                   "id":  "kubejs:nickel_zinc_casting_alloy"
+               }
+}

@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/rose_quartz_titanium_laminate"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFE7B6B5",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.gigani.rose_quartz_titanium_laminate"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 21.0,
+      "armor/boots": 2.94,
+      "armor/chestplate": 7.98,
+      "armor/helmet": 3.57,
+      "armor/leggings": 6.51,
+      "armor_durability": 42.0,
+      "armor_toughness": 8.4,
+      "attack_damage": 4.8,
+      "attack_speed": 0.14,
+      "charging_value": 0,
+      "draw_speed": 0.1,
+      "durability": 1760.0,
+      "enchantment_value": 36.0,
+      "harvest_speed": 12.8,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 8.8,
+      "magic_damage": 5.6,
+      "projectile_accuracy": 1.2,
+      "projectile_speed": 1.1,
+      "ranged_damage": 4.0,
+      "rarity": 88.0,
+      "repair_value": 0.13,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:piezoelectric"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:aerospace_grade"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.056
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 2.304
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:piezoelectric"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:rose_lattice"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:aerospace_grade"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 0.735
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.408
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:piezoelectric"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.945
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.84
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.76
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:piezoelectric"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 5.76
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.12
+      },
+      "projectile_accuracy": 1.2,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:piezoelectric"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:piezoelectric"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.2,
+      "projectile_speed": 1.1,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.88
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:rutile_refraction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:aerospace_grade"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:piezoelectric"
+        }
+      ]
+    }
+  }
+}

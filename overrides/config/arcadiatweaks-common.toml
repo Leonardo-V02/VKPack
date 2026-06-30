@@ -1,0 +1,92 @@
+#ArcadiaTweaks - master module toggles
+[modules]
+	#Enable the BotanyPots optimization module.
+	botany = true
+	#Enable the Refined Storage optimization module.
+	refinedstorage = true
+	#Enable the Mekanism optimization module.
+	mekanism = true
+
+#BotanyPots optimizations. Each entry is a kill-switch - set false to disable
+#the corresponding Mixin path while keeping the rest active.
+[botany]
+	#S1 - Memoize Crop/Soil matches() results between slot/state changes.
+	#Eliminates 2-3 Ingredient.test() calls per pot per tick. ~70-85% CPU cut.
+	matches_cache_enabled = true
+	#S2 - Tick coalescing. Run the full tick logic once every N game ticks
+	#instead of every tick. Linear gain. Set N=1 (or false) to disable.
+	tick_coalescing_enabled = true
+	#S2 - N value (1=off, 2=fast, 4=balanced, 8=lazy). Above 4 may be perceptible.
+	# Default: 4
+	# Range: 1 ~ 16
+	tick_coalescing_n = 4
+	#S3 - Hopper-pot output backoff. Skip the export attempt for K ticks
+	#after a failed insertion (downstream full / no inventory below).
+	hopper_backoff_enabled = true
+	#S3 - Minimum backoff window after the first failed insertion.
+	# Default: 16
+	# Range: 1 ~ 200
+	hopper_backoff_min_ticks = 16
+	#S3 - Maximum backoff window (exponential cap).
+	# Default: 64
+	# Range: 1 ~ 1200
+	hopper_backoff_max_ticks = 64
+	#A1 - Memoize Helpers.getRequiredGrowthTicks per BlockEntity (invalidate on slot change).
+	required_growth_ticks_cache_enabled = true
+	#A2 - Downgrade sendBlockUpdated flags from 3 to 2 when only inventory changed (no light delta).
+	light_flag_downgrade_enabled = false
+	#Periodic full revalidation as a safety net for cached invariants (S1, A1). 0 disables.
+	# Default: 200
+	# Range: 0 ~ 12000
+	safety_revalidate_period_ticks = 200
+
+#Refined Storage optimizations. Each entry is a kill-switch - set false to disable
+#the corresponding Mixin path while keeping the rest active.
+[refinedstorage]
+	#S1 - Coalesce network-node activeness checks.
+	#RS2 recalculates level-loaded, redstone and network-energy state every block-entity tick.
+	#This keeps node work cadence unchanged and only runs that activeness check every N ticks.
+	#Worst-case visible delay after redstone/energy changes is N-1 ticks.
+	activeness_check_coalescing_enabled = true
+	#S1 - Interval in ticks for activeness recalculation. 1 disables coalescing.
+	# Default: 20
+	# Range: 1 ~ 200
+	activeness_check_interval_ticks = 20
+
+#Mekanism optimizations. Conservative cable/network throttles only;
+#machine recipe ticks and heat simulation are intentionally left untouched.
+[mekanism]
+	#M1 - Back off transmitter pull scans when a cable/tube/pipe repeatedly pulls nothing.
+	#Applies to Universal Cable, Mechanical Pipe and Pressurized Tube pullFromAcceptors().
+	#Successful pulls reset the backoff immediately. Worst-case delay after a source becomes available is the max value.
+	transmitter_pull_backoff_enabled = true
+	#M1 - Maximum transmitter pull backoff in ticks.
+	# Default: 20
+	# Range: 1 ~ 200
+	transmitter_pull_backoff_max_ticks = 20
+	#M2 - Back off network emit scans when energy/fluid/chemical networks repeatedly emit nothing.
+	#Heat networks are not affected.
+	network_emit_backoff_enabled = true
+	#M2 - Maximum network emit backoff in ticks.
+	# Default: 20
+	# Range: 1 ~ 200
+	network_emit_backoff_max_ticks = 20
+	#M3 - Back off repeated idle path recalculations for Logistical Transporters.
+	#Targets the TransporterStack.calculateIdle/getIdlePath hot path seen in Spark.
+	#Only applies after Mekanism already produced a no-target idle path; destination and home paths are not throttled.
+	logistical_transporter_idle_backoff_enabled = true
+	#M3 - Maximum idle path recalculation backoff in ticks.
+	# Default: 20
+	# Range: 1 ~ 200
+	logistical_transporter_idle_backoff_max_ticks = 20
+	#M4 - Client-side safe rendering for colored Logistical Transporters.
+	#When enabled on a client, ArcadiaTweaks renders Mekanism's colored Logistical Transporter layer in the cutout pass instead of the translucent pass.
+	#Server-side transporter colors are kept for item routing, and the color remains visible client-side.
+	#This avoids the client render path suspected of causing progressive FPS/memory degradation around many colored transporters.
+	client_logistical_transporter_safe_rendering_enabled = true
+	#M4 - Client-side guardrail for Mekanism transmitter model cache entries.
+	#If Mekanism's transmitter baked-model cache grows above this value, ArcadiaTweaks clears it and lets it rebuild.
+	#This is a defensive leak guard; normal colored transporter scenes should stay far below the default.
+	# Default: 4096
+	# Range: 256 ~ 65536
+	client_transmitter_model_cache_max_entries = 4096

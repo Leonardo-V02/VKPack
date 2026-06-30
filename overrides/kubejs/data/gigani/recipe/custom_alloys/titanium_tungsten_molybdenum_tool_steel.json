@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/titanium_tungsten_steel"
+  },
+  "additives": [
+    {
+      "tag": "c:gems/molybdenum"
+    },
+    {
+      "tag": "c:ingots/vanadium_steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:titanium_tungsten_molybdenum_tool_steel"
+    }
+  ],
+  "energy": 491520,
+  "time": 500
+}

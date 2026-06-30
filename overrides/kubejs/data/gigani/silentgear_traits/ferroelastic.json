@@ -1,0 +1,45 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.ferroelastic.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:repair_efficiency": {
+          "base_multiplier": 0.055,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.035,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:attribute",
+      "attribute_modifiers": {
+        "armor/feet": [
+          {
+            "attribute": "minecraft:generic.safe_fall_distance",
+            "operation": "add_value",
+            "values": [
+              0.2,
+              0.4,
+              0.6,
+              0.8,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.ferroelastic"
+  }
+}

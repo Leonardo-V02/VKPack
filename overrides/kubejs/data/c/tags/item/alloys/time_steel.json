@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tempad:time_steel",
+      "required": false
+    }
+  ]
+}

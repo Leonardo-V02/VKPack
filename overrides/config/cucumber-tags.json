@@ -1,0 +1,20 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "c:silicon": "refinedstorage:silicon",
+  "c:gems/apatite": "moremekanismprocessing:gem_apatite",
+  "c:dusts/saltpeter": "eternal_starlight:saltpeter_powder",
+  "c:raw_materials/iridium": "alltheores:raw_iridium",
+  "c:ingots/invar": "alltheores:invar_ingot",
+  "c:gems/ruby": "silentgems:ruby",
+  "c:dusts/niter": "moremekanismprocessing:dust_niter",
+  "c:gems/peridot": "silentgems:peridot",
+  "c:raw_materials/nickel": "alltheores:raw_nickel",
+  "c:ingots/constantan": "alltheores:constantan_ingot",
+  "c:gems/sapphire": "silentgems:sapphire",
+  "c:ingots/electrum": "createaddition:electrum_ingot",
+  "c:raw_materials/silver": "occultism:raw_silver",
+  "c:raw_materials/platinum": "alltheores:raw_platinum",
+  "c:ingots/graphite": "bigreactors:graphite_ingot",
+  "c:raw_materials/aluminum": "alltheores:raw_aluminum",
+  "c:rubbers": "null"
+}

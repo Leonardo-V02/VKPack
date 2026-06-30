@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "tag": "c:ingots/iridium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:ender_iridium_void_alloy"
+  }
+}

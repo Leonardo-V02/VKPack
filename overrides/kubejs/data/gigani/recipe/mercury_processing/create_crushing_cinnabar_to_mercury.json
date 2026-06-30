@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:gems/cinnabar"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "count": 1,
+      "id": "kubejs:mercury_droplet"
+    },
+    {
+      "chance": 0.4,
+      "id": "alltheores:sulfur"
+    },
+    {
+      "chance": 0.2,
+      "id": "create:experience_nugget"
+    }
+  ]
+}

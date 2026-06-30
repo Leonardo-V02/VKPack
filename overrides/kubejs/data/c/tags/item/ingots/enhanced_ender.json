@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "extendedcrafting:enhanced_ender_ingot",
+      "required": false
+    }
+  ]
+}

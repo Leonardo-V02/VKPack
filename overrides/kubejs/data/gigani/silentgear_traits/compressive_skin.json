@@ -1,0 +1,37 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.compressive_skin.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:armor": {
+          "base_multiplier": 0.032,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:armor_toughness": {
+          "base_multiplier": 0.044,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:knockback_resistance": {
+          "base_multiplier": 0.02,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        },
+        "silentgear:attack_speed": {
+          "base_multiplier": -0.006,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": false
+        }
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.compressive_skin"
+  }
+}

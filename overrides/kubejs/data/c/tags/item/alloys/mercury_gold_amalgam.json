@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kubejs:mercury_gold_amalgam",
+      "required": false
+    }
+  ]
+}

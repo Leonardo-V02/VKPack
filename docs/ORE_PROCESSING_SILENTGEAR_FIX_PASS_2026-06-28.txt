@@ -1,0 +1,26 @@
+Ore Processing + Silent Gear Fix Pass - 2026-06-28
+
+Ore loot tables scanned: 634
+Ore loot tables dropping minecraft:stone: 2
+Stone-drop loot overrides written: 2
+Raw processing recipe JSONs written: 193
+Common item tags touched: 0
+Silent Gear materials added: 0
+
+Processing aliases:
+- c:raw_materials/lepidolite -> lithium ingot/dust outputs.
+- c:raw_materials/vanadinite -> vanadium ingot/dust outputs.
+- c:raw_materials/photonium -> Create crushing bonus raw output, without bypassing Photonium's expensive photonium_block recipe.
+
+Validation:
+- JSON files checked: 2558
+- JSON errors: 0
+- Missing Silent Gear trait refs: 0
+- Empty Silent Gear material tags: 0
+- Ore-sanity recipes checked for missing output items: 193
+- Missing ore-sanity recipe output items: 0
+- Rebuilt GrindingGear jar entries: 10912
+
+Stone-drop ore fixes:
+- electrodynamics:oremonazite from electrodynamics-1.21.1-1.0.9.jar -> modern_industrialization:monazite_dust (kubejs\data\electrodynamics\loot_table\blocks\oremonazite.json)
+- electrodynamics:deepslateoremonazite from electrodynamics-1.21.1-1.0.9.jar -> modern_industrialization:monazite_dust (kubejs\data\electrodynamics\loot_table\blocks\deepslateoremonazite.json)

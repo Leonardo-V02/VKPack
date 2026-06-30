@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:rose_quartz_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "biomesoplenty:rose_quartz_chunk"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ]
+}

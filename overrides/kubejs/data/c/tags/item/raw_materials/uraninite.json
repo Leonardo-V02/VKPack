@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "powah:uraninite_raw",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/ilmenite"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF3C3132",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.ilmenite"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 15.0,
+      "armor/boots": 2.1,
+      "armor/chestplate": 5.7,
+      "armor/helmet": 2.55,
+      "armor/leggings": 4.65,
+      "armor_durability": 30.0,
+      "armor_toughness": 4.8,
+      "attack_damage": 3.1,
+      "attack_speed": -0.02,
+      "charging_value": 0,
+      "draw_speed": 0,
+      "durability": 920.0,
+      "enchantment_value": 12.0,
+      "harvest_speed": 7.1,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 1.0,
+      "magic_damage": 0.3,
+      "projectile_accuracy": 1.01,
+      "projectile_speed": 0.98,
+      "ranged_damage": 0.5,
+      "rarity": 44.0,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:oxide_skin"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.03
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:oxide_skin"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:grain_refined"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.682
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.278
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.06
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:oxide_skin"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.045
+      },
+      "repair_value": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:titaniferous_feedstock"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:oxide_skin"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:grain_refined"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.08
+      },
+      "armor": {
+        "operation": "ADD",
+        "value": 0.525
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.16
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:oxide_skin"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.675
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.48
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.2
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:oxide_skin"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.92
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.06
+      },
+      "projectile_accuracy": 1.01,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:oxide_skin"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.025
+      },
+      "ranged_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:oxide_skin"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": 1.01,
+      "projectile_speed": 1.0,
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.11
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:oxide_skin"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:grain_refined"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:brittle_cleavage"
+        }
+      ]
+    }
+  }
+}

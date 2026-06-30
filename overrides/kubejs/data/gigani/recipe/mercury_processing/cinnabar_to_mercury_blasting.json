@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "c:gems/cinnabar"
+  },
+  "result": {
+    "id": "kubejs:mercury_droplet"
+  },
+  "experience": 0.4,
+  "cookingtime": 100
+}

@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "input": {
+    "tag": "c:ingots/time_steel"
+  },
+  "additives": [
+    {
+      "tag": "c:ingots/gold_titanium_alloy"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:chronotitanium_alloy"
+    }
+  ],
+  "energy": 655360,
+  "time": 640
+}

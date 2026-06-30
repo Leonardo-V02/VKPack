@@ -1,0 +1,41 @@
+{
+  "conditions": [],
+  "description": {
+    "translate": "trait.gigani.conductive_grain.desc"
+  },
+  "effects": [
+    {
+      "type": "silentgear:number_property_modifier",
+      "property_modifiers": {
+        "silentgear:charging_value": {
+          "base_multiplier": 0.08,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:harvest_speed": {
+          "base_multiplier": 0.05,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        },
+        "silentgear:ranged_damage": {
+          "base_multiplier": 0.045,
+          "multiply_damage_ratio": true,
+          "multiply_original_value": true
+        }
+      }
+    },
+    {
+      "type": "silentgear:item_magnet",
+      "affected_items": {
+        "tag": "c:dusts/redstone"
+      },
+      "effect_range": 2.0,
+      "pull_strength": 0.045,
+      "affected_items_text_for_wiki": "redstone dust"
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "translate": "trait.gigani.conductive_grain"
+  }
+}

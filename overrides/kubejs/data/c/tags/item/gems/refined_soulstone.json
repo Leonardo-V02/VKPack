@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "malum:refined_soulstone",
+      "required": false
+    }
+  ]
+}

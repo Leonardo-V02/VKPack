@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "apotheosis:rare_material",
+    "apotheosis:epic_material",
+    {
+      "id": "#gigani:apotheosis_bridge/soul_materials",
+      "required": false
+    }
+  ]
+}

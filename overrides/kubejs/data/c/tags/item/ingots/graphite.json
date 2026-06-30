@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "bigreactors:graphite_ingot",
+      "required": false
+    },
+    {
+      "id": "extremereactors:graphite_ingot",
+      "required": false
+    }
+  ]
+}

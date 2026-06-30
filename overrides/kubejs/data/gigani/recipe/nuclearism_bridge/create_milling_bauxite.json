@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "nuclearism:bauxite"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "id": "nuclearism:bauxite_dust"
+    }
+  ]
+}

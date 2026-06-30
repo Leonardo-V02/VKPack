@@ -1,0 +1,12 @@
+﻿{
+    "type":  "immersiveengineering:alloy",
+    "input0":  {
+                   "tag":  "c:ingots/tin"
+               },
+    "input1":  {
+                   "tag":  "c:ingots/nickel"
+               },
+    "result":  {
+                   "id":  "kubejs:tin_nickel_bearing_alloy"
+               }
+}

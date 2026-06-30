@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:alloy_making/metal",
+  "ingredients": [
+    {
+      "tag": "c:ingots/lead"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "kubejs:lead_nickel_bearing_alloy"
+  }
+}

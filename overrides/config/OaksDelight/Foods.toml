@@ -1,0 +1,3 @@
+	[Foods.Chilli]
+		#Number of ticks the potion of speed is increased by (Default 200)
+		"Chilli Eaten Speed" = 200.0

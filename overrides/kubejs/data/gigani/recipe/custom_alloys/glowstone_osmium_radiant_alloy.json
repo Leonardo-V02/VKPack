@@ -1,0 +1,18 @@
+﻿{
+    "type":  "immersiveengineering:arc_furnace",
+    "input":  {
+                  "item":  "minecraft:glowstone_dust"
+              },
+    "additives":  [
+                      {
+                          "tag":  "c:ingots/osmium"
+                      }
+                  ],
+    "results":  [
+                    {
+                        "id":  "kubejs:glowstone_osmium_radiant_alloy"
+                    }
+                ],
+    "energy":  358400,
+    "time":  360
+}

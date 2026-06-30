@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearism:uranium_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:uranium_ore",
+      "required": false
+    },
+    {
+      "id": "mekanism:deepslate_uranium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:uranium_ore",
+      "required": false
+    },
+    {
+      "id": "alltheores:deepslate_uranium_ore",
+      "required": false
+    }
+  ]
+}

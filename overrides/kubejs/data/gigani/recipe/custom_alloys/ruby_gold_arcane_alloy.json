@@ -1,0 +1,17 @@
+﻿{
+    "type":  "create:mixing",
+    "heat_requirement":  "superheated",
+    "ingredients":  [
+                        {
+                            "tag":  "c:gems/ruby"
+                        },
+                        {
+                            "tag":  "c:ingots/gold"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "kubejs:ruby_gold_arcane_alloy"
+                    }
+                ]
+}

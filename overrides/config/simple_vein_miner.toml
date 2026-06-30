@@ -1,0 +1,58 @@
+[mining]
+	#Maximum number of blocks allowed in a single vein
+	#This value is naturally limited by the maximum durability of your tool
+	#Default: 256
+	# Default: 256
+	# Range: 1 ~ 16000
+	maxBlocks = 256
+	#Ticks between each break
+	#Set to 0 for instant veinmining
+	#Default: 2
+	# Default: 2
+	# Range: 0 ~ 8
+	breakInterval = 2
+	#Allows all blocks to be veinmined
+	#Default: false
+	veinmineEverything = false
+
+[drops]
+	#Whether drops teleport to the first block
+	#Default: true
+	teleportDrops = true
+	#Whether XP orbs teleport to the first block
+	#Default: true
+	teleportXp = true
+
+[blocks]
+	#List of block tags that can be vein mined
+	veinmineableTags = ["c:ores", "minecraft:logs", "minecraft:leaves"]
+	#List of blocks that can be vein mined
+	veinmineableBlocks = []
+
+[rendering]
+	#Whether the size of the highlighted vein is displayed above the hotbar
+	#Default: false
+	useCount = false
+	#Whether a highlight is rendered around targeted resource veins
+	#Default: true
+	useHighlight = true
+	#The §cred§r value of the highlight.
+	#Default: 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	redValue = 1.0
+	#The §agreen§r value of the highlight.
+	#Default: 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	greenValue = 1.0
+	#The §9blue§r value of the highlight.
+	#Default: 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	blueValue = 1.0
+	#The thickness of the highlight.
+	#Default: 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	highlightThickness = 1.0
