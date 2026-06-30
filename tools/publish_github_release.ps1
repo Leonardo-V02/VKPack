@@ -70,9 +70,9 @@ try {
 
 This release contains the open-source pack source snapshot and release artifacts.
 
-For players: use `VKPack-...-FINAL.mrpack` when present. Import it into Modrinth App; do not use GitHub's source-code zip to play.
+For players: use VKPack-...-FINAL.mrpack when present. Import it into Modrinth App; do not use GitHub's source-code zip to play.
 
-Current note: `VKPack-2026-06-30-resolved-only-DRAFT.mrpack` is a draft import pack. It resolves the Modrinth-hosted dependency set and includes overrides, but `$UnresolvedCount` files listed in `manifest/MANUAL_DOWNLOADS_REQUIRED.md` still need legal direct-download resolution or Modrinth-hosted replacements before this is truly one-click/server-complete.
+Current note: VKPack-2026-06-30-resolved-only-DRAFT.mrpack is a draft import pack. It resolves the Modrinth-hosted dependency set and includes overrides, but $UnresolvedCount files listed in manifest/MANUAL_DOWNLOADS_REQUIRED.md still need legal direct-download resolution or Modrinth-hosted replacements before this is truly one-click/server-complete.
 
 Attached/download notes:
 - Source zip: safe GitHub source snapshot.
@@ -80,7 +80,7 @@ Attached/download notes:
 - Draft mrpack: not final until manual-download blockers are resolved.
 - Final mrpack, if present: the player-facing Modrinth import file.
 
-Visual setup tutorial: see `docs/PLAYER_SETUP_TUTORIAL.md` in the source repo.
+Visual setup tutorial: see docs/PLAYER_SETUP_TUTORIAL.md in the source repo.
 "@ | Set-Content -LiteralPath $Notes -Encoding UTF8
 
   $FixedAssets = @(
@@ -101,6 +101,7 @@ Visual setup tutorial: see `docs/PLAYER_SETUP_TUTORIAL.md` in the source repo.
   }
 
   if ($ReleaseExists) {
+    & $Gh release edit $Tag --repo $RepoFull --notes-file $Notes --title "VKPack $Tag"
     & $Gh release upload $Tag @Assets --repo $RepoFull --clobber
   } else {
     & $Gh release create $Tag @Assets --repo $RepoFull --title "VKPack $Tag" --notes-file $Notes
