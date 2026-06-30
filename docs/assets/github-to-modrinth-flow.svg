@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="260" viewBox="0 0 1100 260" role="img" aria-labelledby="title desc">
+  <title id="title">VKPack GitHub to Modrinth install flow</title>
+  <desc id="desc">Download the final mrpack from GitHub Releases, import it into Modrinth, allow Modrinth to download dependencies, then launch VKPack.</desc>
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .card { fill: #111827; stroke: #38bdf8; stroke-width: 2; rx: 16; }
+      .warn { fill: #3b1f1f; stroke: #f97316; stroke-width: 2; rx: 16; }
+      .ok { fill: #123524; stroke: #22c55e; stroke-width: 2; rx: 16; }
+      .text { fill: #e5e7eb; font: 700 20px Arial, sans-serif; }
+      .small { fill: #cbd5e1; font: 15px Arial, sans-serif; }
+      .arrow { stroke: #94a3b8; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+      .badge { fill: #020617; stroke: #64748b; stroke-width: 1.5; rx: 9; }
+      .badgeText { fill: #a7f3d0; font: 700 13px Arial, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#94a3b8" />
+    </marker>
+  </defs>
+  <rect class="bg" width="1100" height="260" />
+  <rect class="card" x="40" y="55" width="190" height="120" />
+  <text class="text" x="135" y="95" text-anchor="middle">GitHub Release</text>
+  <text class="small" x="135" y="125" text-anchor="middle">Open Releases</text>
+  <text class="small" x="135" y="148" text-anchor="middle">Ignore source zips</text>
+  <path class="arrow" d="M235 115 H315" />
+  <rect class="ok" x="325" y="55" width="210" height="120" />
+  <text class="text" x="430" y="93" text-anchor="middle">Download</text>
+  <text class="small" x="430" y="123" text-anchor="middle">VKPack-...-FINAL.mrpack</text>
+  <rect class="badge" x="372" y="140" width="116" height="24" />
+  <text class="badgeText" x="430" y="157" text-anchor="middle">one file</text>
+  <path class="arrow" d="M540 115 H620" />
+  <rect class="card" x="630" y="55" width="190" height="120" />
+  <text class="text" x="725" y="93" text-anchor="middle">Modrinth App</text>
+  <text class="small" x="725" y="123" text-anchor="middle">Create Profile</text>
+  <text class="small" x="725" y="146" text-anchor="middle">Import from file</text>
+  <path class="arrow" d="M825 115 H905" />
+  <rect class="ok" x="915" y="55" width="145" height="120" />
+  <text class="text" x="987" y="95" text-anchor="middle">Launch</text>
+  <text class="small" x="987" y="125" text-anchor="middle">Modrinth pulls</text>
+  <text class="small" x="987" y="148" text-anchor="middle">dependencies</text>
+  <rect class="warn" x="325" y="195" width="495" height="42" />
+  <text class="small" x="572" y="222" text-anchor="middle">DRAFT.mrpack is for packaging tests only. Players wait for FINAL.mrpack.</text>
+</svg>

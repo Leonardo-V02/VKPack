@@ -1,4 +1,4 @@
-# Manual Downloads Required
+﻿# Manual Downloads Required
 These files did not resolve through the Modrinth hash API during export. They are not committed or bundled here because they appear to be CurseForge/manual/local files or generated packs. To make a one-click `.mrpack`, replace them with Modrinth-hosted equivalents, get redistribution permission, or fill in legal direct download URLs in `manifest/manual-downloads.template.json`.
 | Path | Size | SHA1 |
 |---|---:|---|
@@ -25,4 +25,3 @@ These files did not resolve through the Modrinth hash API during export. They ar
 | `mods\pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar` | 1982611 | `73ddcbb8a4772a36d9d4d469fdd5744fb1ede610` |
 | `mods\ZeroCore2-1.21.1-2.4.21.jar` | 1551013 | `7df2558f45c3e41bebe86a5ee2b28d56007bdbda` |
 | `resourcepacks\FA+Objects-v1.1.1.zip` | 85574 | `67a08b2463761c3da201444a0a61f7d4c689e6c3` |
-| `resourcepacks\GrindingGear Visual Atlas.zip` | 4285088 | `7c52427ad49ec5656a6f0daeff429f8a7ad7be0e` |

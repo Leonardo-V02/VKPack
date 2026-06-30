@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="330" viewBox="0 0 1100 330" role="img" aria-labelledby="title desc">
+  <title id="title">VKPack download choice guide</title>
+  <desc id="desc">Choose final mrpack to play, draft mrpack only for testing, source zip only for maintainers.</desc>
+  <defs>
+    <style>
+      .bg { fill: #0b1020; }
+      .good { fill: #062e1b; stroke: #22c55e; stroke-width: 3; rx: 18; }
+      .test { fill: #2f2507; stroke: #f59e0b; stroke-width: 3; rx: 18; }
+      .dev { fill: #172554; stroke: #60a5fa; stroke-width: 3; rx: 18; }
+      .bad { fill: #3f1515; stroke: #ef4444; stroke-width: 3; rx: 18; }
+      .title { fill: #f8fafc; font: 700 23px Arial, sans-serif; }
+      .body { fill: #dbeafe; font: 16px Arial, sans-serif; }
+      .label { fill: #ffffff; font: 700 15px Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect class="bg" width="1100" height="330" />
+  <text class="title" x="550" y="38" text-anchor="middle">Which GitHub download should I use?</text>
+  <rect class="good" x="45" y="75" width="245" height="190" />
+  <text class="title" x="168" y="115" text-anchor="middle">FINAL.mrpack</text>
+  <text class="label" x="168" y="150" text-anchor="middle">Players</text>
+  <text class="body" x="168" y="182" text-anchor="middle">Import into Modrinth.</text>
+  <text class="body" x="168" y="208" text-anchor="middle">This is the one-file</text>
+  <text class="body" x="168" y="234" text-anchor="middle">install path.</text>
+  <rect class="test" x="315" y="75" width="245" height="190" />
+  <text class="title" x="438" y="115" text-anchor="middle">DRAFT.mrpack</text>
+  <text class="label" x="438" y="150" text-anchor="middle">Pack testers</text>
+  <text class="body" x="438" y="182" text-anchor="middle">Transparent but incomplete.</text>
+  <text class="body" x="438" y="208" text-anchor="middle">Missing manual-download</text>
+  <text class="body" x="438" y="234" text-anchor="middle">dependency resolution.</text>
+  <rect class="dev" x="585" y="75" width="245" height="190" />
+  <text class="title" x="708" y="115" text-anchor="middle">Source zip</text>
+  <text class="label" x="708" y="150" text-anchor="middle">Maintainers</text>
+  <text class="body" x="708" y="182" text-anchor="middle">KubeJS/config/source.</text>
+  <text class="body" x="708" y="208" text-anchor="middle">Not a playable</text>
+  <text class="body" x="708" y="234" text-anchor="middle">Modrinth profile.</text>
+  <rect class="bad" x="855" y="75" width="200" height="190" />
+  <text class="title" x="955" y="115" text-anchor="middle">mods.zip</text>
+  <text class="label" x="955" y="150" text-anchor="middle">Do not publish</text>
+  <text class="body" x="955" y="182" text-anchor="middle">Third-party jars</text>
+  <text class="body" x="955" y="208" text-anchor="middle">do not belong</text>
+  <text class="body" x="955" y="234" text-anchor="middle">in git.</text>
+</svg>

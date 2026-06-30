@@ -45,3 +45,6 @@ build/
 *.cfe
 *.cfs
 *.si
+
+# Local maintainer-only direct download resolutions
+manifest/manual-downloads.local.json

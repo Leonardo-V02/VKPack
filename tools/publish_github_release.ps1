@@ -1,4 +1,4 @@
-param(
+﻿param(
   [string]$RepoName = "VKPack",
   [string]$Owner = "",
   [string]$ArtifactsDir = "..\release-assets-2026-06-30",
@@ -40,6 +40,10 @@ try {
   & $Git tag -a $Tag -m "VKPack public source release $Tag"
   & $Git push origin $Tag --force
 
+  $BuildSourceZip = Join-Path $Root "tools\build_source_zip.ps1"
+  if (Test-Path -LiteralPath $BuildSourceZip) {
+    & $BuildSourceZip -OutDir $ArtifactsDir
+  }
   $ArtifactPath = Resolve-Path -LiteralPath (Join-Path $Root $ArtifactsDir)
   $Notes = Join-Path $ArtifactPath "GITHUB_RELEASE_NOTES.md"
   if (!(Test-Path -LiteralPath $Notes)) {
@@ -51,18 +55,21 @@ This release contains the open-source pack source snapshot and release artifacts
 Important: `VKPack-2026-06-30-resolved-only-DRAFT.mrpack` is a draft import pack. It resolves the Modrinth-hosted dependency set and includes overrides, but files listed in `manifest/MANUAL_DOWNLOADS_REQUIRED.md` still need legal direct-download resolution or Modrinth-hosted replacements before this is truly one-click/server-complete.
 
 Attach/download notes:
+- Final mrpack, if present: the player-facing Modrinth import file.
 - Source zip: safe GitHub source snapshot.
 - GrindingGear jar: first-party mod jar owned by this pack.
 - Draft mrpack: not final until manual-download blockers are resolved.
 "@ | Set-Content -LiteralPath $Notes -Encoding UTF8
   }
 
-  $Assets = @(
+  $FixedAssets = @(
     Join-Path $ArtifactPath "VKPack-GitHub-Source-2026-06-30-source.zip",
     Join-Path $ArtifactPath "GrindingGear-1.0.0+mc1.21.1-neoforge.jar",
     Join-Path $ArtifactPath "VKPack-2026-06-30-resolved-only-DRAFT.mrpack",
     Join-Path $ArtifactPath "RELEASE_AUDIT.json"
-  ) | Where-Object { Test-Path -LiteralPath $_ }
+  )
+  $FinalMrpacks = @(Get-ChildItem -LiteralPath $ArtifactPath -File -Filter "VKPack-*-FINAL.mrpack" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })
+  $Assets = @($FixedAssets + $FinalMrpacks) | Where-Object { Test-Path -LiteralPath $_ }
 
   & $Gh release view $Tag --repo $RepoFull *> $null
   if ($LASTEXITCODE -eq 0) {
@@ -76,3 +83,4 @@ Attach/download notes:
 finally {
   Pop-Location
 }
+
