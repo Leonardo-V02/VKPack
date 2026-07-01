@@ -46,6 +46,14 @@ Set a private RCON password before opening the server publicly.
 - `GIGANI_SOFT_MAX_HEAP=64G`
 - `GIGANI_CPU_PERCENT=85`
 
-## Future One-Click Public Path
+## Public Installer Status
 
-A final `.mrpack` or packwiz installer is still the cleanest public distribution target. That pass should resolve every third-party dependency through Modrinth/public URLs instead of shipping jars in a zip.
+The repo now includes `tools/build_public_mrpack.py`, which builds a Modrinth-style installer manifest from the live client profile.
+
+Current public installer state:
+
+- `483` of `502` third-party files resolve through Modrinth or verified official FTB Maven URLs.
+- `19` files still need a legal exact download source or a tested replacement.
+- The blocker list is in `manifest/MANUAL_DOWNLOADS_REQUIRED.md`.
+
+Until that list reaches zero, use the full client/server release zips above for actual play.

@@ -1,6 +1,6 @@
 # VKPack 1.0.0 Stable
 
-This is the official first stable VKPack client/server release.
+This is the first stable VKPack client/server release.
 
 ## Download
 
@@ -15,6 +15,14 @@ This is the official first stable VKPack client/server release.
 - Immersive Portals and Portal Gun are disabled from active gameplay.
 - Client performance defaults set for high-end local use.
 - Server defaults set for 25 players, 12 view distance, 5 simulation distance, 84G max heap, 85 percent active CPU target.
+
+## Public Installer Status
+
+The source repo now includes a Modrinth-style public installer resolver.
+
+- `483` of `502` third-party files resolve through Modrinth or verified official FTB Maven URLs.
+- `19` files still need legal exact download sources or tested replacements.
+- Until that reaches zero, use the full client/server zips for play.
 
 ## Verification
 
