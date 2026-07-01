@@ -1,5 +1,6 @@
 [general]
 	#Maximum number of equipped backpacks with JEI Index Upgrade to scan (in Sophisticated Backpacks selection order). 0 means unlimited.
+	# VKPack: cap this to avoid unlimited inventory scans during JEI indexing.
 	# Default: 0
 	# Range: 0 ~ 64
-	maxEnabledBackpacksScanned = 0
+	maxEnabledBackpacksScanned = 2

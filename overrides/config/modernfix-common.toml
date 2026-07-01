@@ -1,2 +1,11 @@
-#These JEI plugins will be loaded on the main thread
-blacklist_async_jei_plugins = ["jepb:jei_plugin"]
+# These JEI plugins will be loaded on the main thread.
+# VKPack note: these plugins were seen stalling or throwing recipe registration errors
+# during client startup/runtime. Keeping them off ModernFix async JEI loading trades a
+# little startup speed for fewer concurrency-flavored crashes and hangs.
+blacklist_async_jei_plugins = [
+    "jepb:jei_plugin",
+    "farmersdelight:jei_plugin",
+    "elementalcraft:main",
+    "malum:main",
+    "electrodynamics:jei_plugin"
+]

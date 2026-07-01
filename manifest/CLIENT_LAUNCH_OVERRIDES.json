@@ -1,0 +1,28 @@
+{
+  "pack": "VKPack",
+  "profile": "client",
+  "memory": {
+    "maximum_mb": 51200,
+    "initial_heap_arg": "-Xms16G",
+    "soft_max_heap_arg": "-XX:SoftMaxHeapSize=40G"
+  },
+  "cpu": {
+    "detected_logical_processors": 20,
+    "target_percent": 85,
+    "active_processor_count_arg": "-XX:ActiveProcessorCount=17"
+  },
+  "jvm_args": [
+    "-Dfml.readTimeout=240",
+    "-Xms16G",
+    "-XX:+UseZGC",
+    "-XX:+ZGenerational",
+    "-XX:SoftMaxHeapSize=40G",
+    "-XX:ActiveProcessorCount=17",
+    "-XX:+ParallelRefProcEnabled",
+    "-XX:+DisableExplicitGC",
+    "-XX:+PerfDisableSharedMem",
+    "-Dsun.rmi.dgc.server.gcInterval=2147483646",
+    "-Dsun.rmi.dgc.client.gcInterval=2147483646"
+  ],
+  "notes": "A mod cannot force Minecraft's main tick/render thread to use 85 percent of the CPU. This profile gives Java's GC/compiler/worker sizing 17 logical processors and gives the client a 50 GB heap ceiling."
+}

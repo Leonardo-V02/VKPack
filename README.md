@@ -40,6 +40,9 @@ Server:
 - Set Ubuntu server defaults to 25 players, 12 view distance, 5 simulation distance, 84 GB max heap, 64 GB soft heap, and an 85 percent CPU target.
 - Kept the KubeJS, Silent Gear, Apotheosis, GrindingGear, recipe, texture, and performance work synced between client and server.
 
+## Client Performance Profile
+
+VKPack's high-memory client profile is documented in [docs/CLIENT_PERFORMANCE_PROFILE.md](docs/CLIENT_PERFORMANCE_PROFILE.md). It records the 50 GB heap cap, ZGC flags, 17-logical-processor JVM target, and the script used to reapply those settings to Modrinth App.
 ## Public Installer Status
 
 We are converting VKPack into a proper `.mrpack` path so players can install it through legal automatic downloads instead of sharing a giant zip forever.
