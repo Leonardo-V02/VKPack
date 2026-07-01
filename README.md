@@ -1,16 +1,16 @@
 # VKPack
 
-**VKPack 1.0.0 Stable** is the official first stable release of the VKPack NeoForge 1.21.1 modpack.
+**VKPack 1.0.0 Stable** is the first stable release of the VKPack NeoForge 1.21.1 modpack.
 
-VKPack contains the pack-owned pieces: KubeJS scripts, balance/data edits, selected configs, GrindingGear source/data, setup docs, and release manifests. Third-party mod jars are not kept in normal Git history.
+VKPack contains the new pieces: KubeJS scripts, balance/data edits, selected configs, GrindingGear source/data, setup docs, and release manifests. Third-party mod jars are not kept in normal Git history.
 
 ## Download VKPack 1.0.0 Stable
 
-| Goal | GitHub Release Asset | Size | Use It For |
+| What are you trying to do? | GitHub Release Asset | Size | What does this asset do? |
 |---|---:|---:|---|
-| Play on Windows/Modrinth App | `VKPack-Client-1.0.0.zip` | 1306.1 MB | Extract into a NeoForge 1.21.1 Modrinth profile. |
-| Host on Ubuntu | `VKPack-Ubuntu-Server-1.0.0.zip` | 1376.37 MB | Copy to the Starbook/Ubuntu server and run the included scripts. |
-| Verify downloads | `SHA256SUMS.txt` | tiny | Check file integrity. |
+| Play on Windows/Modrinth App? | `VKPack-Client-1.0.0.zip` | 1306.1 MB | Extract into a NeoForge 1.21.1 Modrinth profile. |
+| Host Server? | `VKPack-Ubuntu-Server-1.0.0.zip` | 1376.37 MB | Copy to the server machine and run the included scripts. |
+| Verify? | `SHA256SUMS.txt` | tiny | Check file integrity. |
 
 Release page: https://github.com/Leonardo-V02/VKPack/releases/tag/v1.0.0
 
