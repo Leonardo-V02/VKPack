@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "description": "Public legal direct-download sources for VKPack files that are not resolved by the Modrinth hash API. Every entry must match the listed hashes.",
+  "files": [
+    {
+      "path": "mods/ftb-ez-crystals-21.1.1.jar",
+      "fileSize": 12938,
+      "hashes": {
+        "sha1": "ff23b7d68c8ef8039d905675ef4412652750b683",
+        "sha512": "0843f40897c9d77fe9a8032639085b319c47e0a7b31a9fc1a3de7efac90ae1bb3638109d569b711a9d18cbcc0ac9828ff866c9eb77f35939bd96b8294b9407c6"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ez-crystals/21.1.1/ftb-ez-crystals-21.1.1.jar"
+      ],
+      "notes": "Official FTB Maven URL verified against the local VKPack 1.0.0 file hash."
+    },
+    {
+      "path": "mods/ftb-library-neoforge-2101.1.28.jar",
+      "fileSize": 1409760,
+      "hashes": {
+        "sha1": "de7e0fb584de4915cbab0019275adb746a7d85c0",
+        "sha512": "8d33d691ab62d5a0cab1e971fe3b4e187840d965885b60bd15c03586f83648205602210f99c79e145ee2d3f35d1dd09f5c7034ff18eaed769f3a68b7e122e355"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.28/ftb-library-neoforge-2101.1.28.jar"
+      ],
+      "notes": "Official FTB Maven URL verified against the local VKPack 1.0.0 file hash."
+    },
+    {
+      "path": "mods/ftb-ranks-neoforge-2101.1.2.jar",
+      "fileSize": 87068,
+      "hashes": {
+        "sha1": "e7c97dab02a9453c3ac00e674127b0b699fcb005",
+        "sha512": "ebfcdf7437fa3dfebea6c5a0e0d3fb8a2a265182e5c50c64b1860ab93842f6f9c02fe45f7035165c4c41d98b530ea2ebeb8c0877fb475e934aa91bce5e94c753"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-neoforge/2101.1.2/ftb-ranks-neoforge-2101.1.2.jar"
+      ],
+      "notes": "Official FTB Maven URL verified against the local VKPack 1.0.0 file hash."
+    },
+    {
+      "path": "mods/ftb-ultimine-neoforge-2101.1.15.jar",
+      "fileSize": 177109,
+      "hashes": {
+        "sha1": "c96a7cc0b52bf919660ea61c1536cebd9d5773b3",
+        "sha512": "5938cf3f58b210769539de86e97769f84fe72d60eec6a6d13ecf9d26da5d24c9863c98b70ae688eea9433aef52d0226fd2c9b6f5196012a3a2cba0792e6e3985"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ultimine-neoforge/2101.1.15/ftb-ultimine-neoforge-2101.1.15.jar"
+      ],
+      "notes": "Official FTB Maven URL verified against the local VKPack 1.0.0 file hash."
+    }
+  ]
+}

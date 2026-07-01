@@ -1,186 +1,272 @@
-[
-  {
-    "path": "mods/alltheores-3.1.5_neoforge_1.21.1.jar",
-    "size": 1631605,
-    "sha1": "b5c5719384d0334fe553bf5f3f1b2f3e31588a50",
-    "sha512": "93ab1bb605c5202535f4ce3a74e22c6bb2aaaa25c23ffda4ea78609360b4c571543de5f2c7400c3b796ed8fcc948fec68943e1000bc3fadfb642fb320cd63aee",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/Apotheosis-1.21.1-8.5.4.jar",
-    "size": 6949410,
-    "sha1": "24c28cdf26514148a92f7b8c620ec54a2cd2c9ca",
-    "sha512": "ade9da35d0dc59b6374086c4995dec5307c39a75e04d3936131f97eed777b447f7c13140ba84510061a9e429352976346e526b991d762ea7deec1712e8e5947f",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/ApothicAttributes-1.21.1-2.9.1.jar",
-    "size": 314269,
-    "sha1": "e7f669e1b45d75076200436f37c40a6dd3b6a6ff",
-    "sha512": "ed6f589effc5740b8335cb600d75c53bc12da9e0fc08780a63ddb273ecd78cd4f6095e7502bd88eb5831a9ba50655d48e30b3b5897454efef327d6b4aceec910",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/ApothicEnchanting-1.21.1-1.5.3.jar",
-    "size": 5354706,
-    "sha1": "751276a13db49a5f2202e50715b8864f5ae40cb6",
-    "sha512": "d79d06015f728dd3da8d3d97cd196759850d18f5c883e7da41823a18713437d869b20ff65cdd4083b3088d9e18cdb7f4947b3ca63fcc9966329df329d9cc2d4b",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/ApothicSpawners-1.21.1-1.3.4.jar",
-    "size": 125015,
-    "sha1": "26d701238bdb76a497a64f588409419ad067e557",
-    "sha512": "adea2019da25433a88136de4bca2e6d6ba57bf4a0d44033d7a37fa00364e5fc036b95966653b089b6d248f0d3aa1aa5ecbb4f13255637093c43286e7e384e134",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/ars_elemental-1.21.1-0.7.9.4.jar",
-    "size": 2301649,
-    "sha1": "2c68a37fa122bdf80b57d3cd583483c0445770d6",
-    "sha512": "b26ab2aa95571c1967fa4c989fc1e029fd3278813bcb2aa240f2ec03fd6bc908ebdb005dc392553afc66c62b419a7e90d42082bf4bb88472aa902db2fa9a4c84",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar",
-    "size": 22338081,
-    "sha1": "a0dec78a9c1bb7e0167e5326aaf3c58a94f3aa86",
-    "sha512": "a60182928cfa940a336a8ad97b5929dfcb74d88da31cd865e0e9522fd4a8cf06d4b829623cd362737633d7a1a21d27579391d8e494f9ecb9fbe48fc053f39bec",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/create_more_automation-0.5.2-neoforge-1.21.1.jar",
-    "size": 315501,
-    "sha1": "125b266b569b320c6a652da4381b56c4838c7353",
-    "sha512": "4cc46c3948ddc1f199786b512be863585f2fae41eb282fe9dc9d431e6ae7f740b367db7487714b528038a40f91e3a56a7ecd959c51efcf150dba51b741071b13",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/create_titan-6.1.1-neoforge-1.21.1.jar",
-    "size": 5501622,
-    "sha1": "0e12d866f9fdfbb7c9907c8262aa0396e4d4c070",
-    "sha512": "d3daabf2f70405608f207d51d408024b5a6ea038c632284fd118ad9b221c91cae229d00f03cc0556c7568e44453e57644c7e08ed5216f6830c518483ddda3796",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/culturaldelights-0.17.8.jar",
-    "size": 260547,
-    "sha1": "5c6504abf92e19b6a5b81f998a405104cad61e8f",
-    "sha512": "a51629ef60d6e184d6813cebb0ebe56e7f0c38b7122e3bcfdd9696874a43c90adda92e2130755b8ebb803ed245bcb9c2504d6fbc55da924e6df5a328532ad05f",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/FluxNetworks-1.21.1-8.0.0.jar",
-    "size": 535938,
-    "sha1": "183342f454428084748f2784c8efd748664a9f9c",
-    "sha512": "24c3ecae0e49a4e8fa9ca9cf3f99af36d185f95970249f414c8feb2f18fc2e5b3ad2700e17714c1bc5ebadf440de5dbc98fd4113a85fb9364aa2c5922a8366bf",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/ftb-ez-crystals-21.1.1.jar",
-    "size": 12938,
-    "sha1": "ff23b7d68c8ef8039d905675ef4412652750b683",
-    "sha512": "0843f40897c9d77fe9a8032639085b319c47e0a7b31a9fc1a3de7efac90ae1bb3638109d569b711a9d18cbcc0ac9828ff866c9eb77f35939bd96b8294b9407c6",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/ftb-library-neoforge-2101.1.28.jar",
-    "size": 1409760,
-    "sha1": "de7e0fb584de4915cbab0019275adb746a7d85c0",
-    "sha512": "8d33d691ab62d5a0cab1e971fe3b4e187840d965885b60bd15c03586f83648205602210f99c79e145ee2d3f35d1dd09f5c7034ff18eaed769f3a68b7e122e355",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/ftb-ranks-neoforge-2101.1.2.jar",
-    "size": 87068,
-    "sha1": "e7c97dab02a9453c3ac00e674127b0b699fcb005",
-    "sha512": "ebfcdf7437fa3dfebea6c5a0e0d3fb8a2a265182e5c50c64b1860ab93842f6f9c02fe45f7035165c4c41d98b530ea2ebeb8c0877fb475e934aa91bce5e94c753",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/ftb-ultimine-neoforge-2101.1.15.jar",
-    "size": 177109,
-    "sha1": "c96a7cc0b52bf919660ea61c1536cebd9d5773b3",
-    "sha512": "5938cf3f58b210769539de86e97769f84fe72d60eec6a6d13ecf9d26da5d24c9863c98b70ae688eea9433aef52d0226fd2c9b6f5196012a3a2cba0792e6e3985",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
-    "size": 90918,
-    "sha1": "8bce11b0b5233146051bb7b7a227247e03fe88b2",
-    "sha512": "e962cf2f43412125c97e31a265e681203f1cf3a17b6a79006e6cc91457b0cd69b894c5ed52f7b584e21795c5e105902e35223bf4004f0e4e87752d107baf51e8",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/inventorysorter-1.21.1-24.0.24.jar",
-    "size": 53363,
-    "sha1": "8c842959ecb1927e1c7049d41d024fadf329a584",
-    "sha512": "53fd25f0f3845b3d481b66a283ba10ecfdb325d111734daaa0af6a41fdacafd67b6c14e8fc1a078683606e47b7789d242b226b5adf64a966911202ab7dc1da4d",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/justenoughbreeding-neoforge-1.21.1-3.1.0.jar",
-    "size": 584391,
-    "sha1": "57efe71d4f66af02ad733d59f0f0e746697f1ce0",
-    "sha512": "15ee417a4537b04a26b14ef1d02fb86cd24221d92421622b5dccef76f81c62619e9c6affcdb2824c51a948cb11b9833877dc109838141d8a473e19af98d700be",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/moremekasuitmodules-1.2-release.jar",
-    "size": 883623,
-    "sha1": "8e7fbe0da086937648604b08149b35fc4c771542",
-    "sha512": "d41f1dde5c0979602b222bf5c1da5d9b01548a1686cc71ed67e252796bd7d14277eb6f0723a21269bbeedf7ca2d7efb310d2b0834dcde6bc74ab32a2975958ce",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/oaksdelight-1.0.9-neoforge-1.21.1.jar",
-    "size": 708986,
-    "sha1": "970adbb0aa122403ce381e2a714b33bacb36289a",
-    "sha512": "e26c76a069d23f11e7d8ef4e67bb0d9d8f54f821161030c9abafe398f94f9d06820c7b336c4e43e92a30fd796496798897e365969dd4b96846bce9680740904c",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
-    "size": 1982611,
-    "sha1": "73ddcbb8a4772a36d9d4d469fdd5744fb1ede610",
-    "sha512": "881791c970b471375e03e376ba11717a5ed8384f33abfe063bd0eeee7cc801d7380873aee19a6175bae97d65afea6711041dbb1d2ce49b71956f7ca468bbf6e5",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "mods/ZeroCore2-1.21.1-2.4.21.jar",
-    "size": 1551013,
-    "sha1": "7df2558f45c3e41bebe86a5ee2b28d56007bdbda",
-    "sha512": "c7cc17ed56eca1c0746b3391506ff207747540466efe7285f9217f08d01f30e140fe1c2b4575b45033c6a3c49267db8cb099f9f04124b5d7004bf2352019eb00",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  },
-  {
-    "path": "resourcepacks/FA+Objects-v1.1.1.zip",
-    "size": 85574,
-    "sha1": "67a08b2463761c3da201444a0a61f7d4c689e6c3",
-    "sha512": "3765d3f556c312b7f2225bbf29b34c1d38c6383ca8608f13fc7cccef70c6fc11a8687c65a209e706704aa37fb3505849eaea4aee9d7edb6c602366381cd1d1b6",
-    "downloads": [],
-    "license_or_permission_notes": ""
-  }
-]
+{
+  "schema": 1,
+  "description": "Files below were not resolved by exact SHA-1 through Modrinth. Add only legal direct-download URLs whose contents match the hashes, or replace the file with a Modrinth-hosted equivalent and rerun tools/build_public_mrpack.py.",
+  "files": [
+    {
+      "path": "mods/alltheores-3.1.5_neoforge_1.21.1.jar",
+      "fileSize": 1631605,
+      "hashes": {
+        "sha1": "b5c5719384d0334fe553bf5f3f1b2f3e31588a50",
+        "sha512": "93ab1bb605c5202535f4ce3a74e22c6bb2aaaa25c23ffda4ea78609360b4c571543de5f2c7400c3b796ed8fcc948fec68943e1000bc3fadfb642fb320cd63aee"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/Apotheosis-1.21.1-8.5.4.jar",
+      "fileSize": 6949410,
+      "hashes": {
+        "sha1": "24c28cdf26514148a92f7b8c620ec54a2cd2c9ca",
+        "sha512": "ade9da35d0dc59b6374086c4995dec5307c39a75e04d3936131f97eed777b447f7c13140ba84510061a9e429352976346e526b991d762ea7deec1712e8e5947f"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/ApothicAttributes-1.21.1-2.9.1.jar",
+      "fileSize": 314269,
+      "hashes": {
+        "sha1": "e7f669e1b45d75076200436f37c40a6dd3b6a6ff",
+        "sha512": "ed6f589effc5740b8335cb600d75c53bc12da9e0fc08780a63ddb273ecd78cd4f6095e7502bd88eb5831a9ba50655d48e30b3b5897454efef327d6b4aceec910"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/ApothicEnchanting-1.21.1-1.5.3.jar",
+      "fileSize": 5354706,
+      "hashes": {
+        "sha1": "751276a13db49a5f2202e50715b8864f5ae40cb6",
+        "sha512": "d79d06015f728dd3da8d3d97cd196759850d18f5c883e7da41823a18713437d869b20ff65cdd4083b3088d9e18cdb7f4947b3ca63fcc9966329df329d9cc2d4b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/ApothicSpawners-1.21.1-1.3.4.jar",
+      "fileSize": 125015,
+      "hashes": {
+        "sha1": "26d701238bdb76a497a64f588409419ad067e557",
+        "sha512": "adea2019da25433a88136de4bca2e6d6ba57bf4a0d44033d7a37fa00364e5fc036b95966653b089b6d248f0d3aa1aa5ecbb4f13255637093c43286e7e384e134"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/ars_elemental-1.21.1-0.7.9.4.jar",
+      "fileSize": 2301649,
+      "hashes": {
+        "sha1": "2c68a37fa122bdf80b57d3cd583483c0445770d6",
+        "sha512": "b26ab2aa95571c1967fa4c989fc1e029fd3278813bcb2aa240f2ec03fd6bc908ebdb005dc392553afc66c62b419a7e90d42082bf4bb88472aa902db2fa9a4c84"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar",
+      "fileSize": 22338081,
+      "hashes": {
+        "sha1": "a0dec78a9c1bb7e0167e5326aaf3c58a94f3aa86",
+        "sha512": "a60182928cfa940a336a8ad97b5929dfcb74d88da31cd865e0e9522fd4a8cf06d4b829623cd362737633d7a1a21d27579391d8e494f9ecb9fbe48fc053f39bec"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/create_more_automation-0.5.2-neoforge-1.21.1.jar",
+      "fileSize": 315501,
+      "hashes": {
+        "sha1": "125b266b569b320c6a652da4381b56c4838c7353",
+        "sha512": "4cc46c3948ddc1f199786b512be863585f2fae41eb282fe9dc9d431e6ae7f740b367db7487714b528038a40f91e3a56a7ecd959c51efcf150dba51b741071b13"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/create_titan-6.1.1-neoforge-1.21.1.jar",
+      "fileSize": 5501622,
+      "hashes": {
+        "sha1": "0e12d866f9fdfbb7c9907c8262aa0396e4d4c070",
+        "sha512": "d3daabf2f70405608f207d51d408024b5a6ea038c632284fd118ad9b221c91cae229d00f03cc0556c7568e44453e57644c7e08ed5216f6830c518483ddda3796"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/culturaldelights-0.17.8.jar",
+      "fileSize": 260547,
+      "hashes": {
+        "sha1": "5c6504abf92e19b6a5b81f998a405104cad61e8f",
+        "sha512": "a51629ef60d6e184d6813cebb0ebe56e7f0c38b7122e3bcfdd9696874a43c90adda92e2130755b8ebb803ed245bcb9c2504d6fbc55da924e6df5a328532ad05f"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/FluxNetworks-1.21.1-8.0.0.jar",
+      "fileSize": 535938,
+      "hashes": {
+        "sha1": "183342f454428084748f2784c8efd748664a9f9c",
+        "sha512": "24c3ecae0e49a4e8fa9ca9cf3f99af36d185f95970249f414c8feb2f18fc2e5b3ad2700e17714c1bc5ebadf440de5dbc98fd4113a85fb9364aa2c5922a8366bf"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
+      "fileSize": 90918,
+      "hashes": {
+        "sha1": "8bce11b0b5233146051bb7b7a227247e03fe88b2",
+        "sha512": "e962cf2f43412125c97e31a265e681203f1cf3a17b6a79006e6cc91457b0cd69b894c5ed52f7b584e21795c5e105902e35223bf4004f0e4e87752d107baf51e8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/inventorysorter-1.21.1-24.0.24.jar",
+      "fileSize": 53363,
+      "hashes": {
+        "sha1": "8c842959ecb1927e1c7049d41d024fadf329a584",
+        "sha512": "53fd25f0f3845b3d481b66a283ba10ecfdb325d111734daaa0af6a41fdacafd67b6c14e8fc1a078683606e47b7789d242b226b5adf64a966911202ab7dc1da4d"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/justenoughbreeding-neoforge-1.21.1-3.1.0.jar",
+      "fileSize": 584391,
+      "hashes": {
+        "sha1": "57efe71d4f66af02ad733d59f0f0e746697f1ce0",
+        "sha512": "15ee417a4537b04a26b14ef1d02fb86cd24221d92421622b5dccef76f81c62619e9c6affcdb2824c51a948cb11b9833877dc109838141d8a473e19af98d700be"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/moremekasuitmodules-1.2-release.jar",
+      "fileSize": 883623,
+      "hashes": {
+        "sha1": "8e7fbe0da086937648604b08149b35fc4c771542",
+        "sha512": "d41f1dde5c0979602b222bf5c1da5d9b01548a1686cc71ed67e252796bd7d14277eb6f0723a21269bbeedf7ca2d7efb310d2b0834dcde6bc74ab32a2975958ce"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/oaksdelight-1.0.9-neoforge-1.21.1.jar",
+      "fileSize": 708986,
+      "hashes": {
+        "sha1": "970adbb0aa122403ce381e2a714b33bacb36289a",
+        "sha512": "e26c76a069d23f11e7d8ef4e67bb0d9d8f54f821161030c9abafe398f94f9d06820c7b336c4e43e92a30fd796496798897e365969dd4b96846bce9680740904c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "fileSize": 1982611,
+      "hashes": {
+        "sha1": "73ddcbb8a4772a36d9d4d469fdd5744fb1ede610",
+        "sha512": "881791c970b471375e03e376ba11717a5ed8384f33abfe063bd0eeee7cc801d7380873aee19a6175bae97d65afea6711041dbb1d2ce49b71956f7ca468bbf6e5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "mods/ZeroCore2-1.21.1-2.4.21.jar",
+      "fileSize": 1551013,
+      "hashes": {
+        "sha1": "7df2558f45c3e41bebe86a5ee2b28d56007bdbda",
+        "sha512": "c7cc17ed56eca1c0746b3391506ff207747540466efe7285f9217f08d01f30e140fe1c2b4575b45033c6a3c49267db8cb099f9f04124b5d7004bf2352019eb00"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    },
+    {
+      "path": "resourcepacks/FA+Objects-v1.1.1.zip",
+      "fileSize": 85574,
+      "hashes": {
+        "sha1": "67a08b2463761c3da201444a0a61f7d4c689e6c3",
+        "sha512": "3765d3f556c312b7f2225bbf29b34c1d38c6383ca8608f13fc7cccef70c6fc11a8687c65a209e706704aa37fb3505849eaea4aee9d7edb6c602366381cd1d1b6"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [],
+      "notes": "Needs legal direct URL for this exact file, or a pack replacement."
+    }
+  ]
+}

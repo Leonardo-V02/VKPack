@@ -1,57 +1,80 @@
 # VKPack
 
-**VKPack 1.0.0 Stable** is the first stable release of the VKPack NeoForge 1.21.1 modpack.
+VKPack is a NeoForge `1.21.1` modpack built for our server: heavy tech, magic, building, exploration, Silent Gear/Apotheosis depth, and enough performance work to keep the whole thing from melting down.
 
-VKPack contains the new pieces: KubeJS scripts, balance/data edits, selected configs, GrindingGear source/data, setup docs, and release manifests. Third-party mod jars are not kept in normal Git history.
+`1.0.0 Stable` is the first release where the client and Ubuntu server packs are meant to match. If you just want to play, use the release zips. This repo is for the pack-owned work: KubeJS, configs, docs, GrindingGear, manifests, and build scripts. Third-party mod jars do not live in normal Git history.
 
-## Download VKPack 1.0.0 Stable
+## Download
 
-| What are you trying to do? | GitHub Release Asset | Size | What does this asset do? |
-|---|---:|---:|---|
-| Play on Windows/Modrinth App? | `VKPack-Client-1.0.0.zip` | 1306.1 MB | Extract into a NeoForge 1.21.1 Modrinth profile. |
-| Host Server? | `VKPack-Ubuntu-Server-1.0.0.zip` | 1376.37 MB | Copy to the server machine and run the included scripts. |
-| Verify? | `SHA256SUMS.txt` | tiny | Check file integrity. |
+Release page: <https://github.com/Leonardo-V02/VKPack/releases/tag/v1.0.0>
 
-Release page: https://github.com/Leonardo-V02/VKPack/releases/tag/v1.0.0
+| File | Size | Use |
+| --- | ---: | --- |
+| `VKPack-Client-1.0.0.zip` | 1306.1 MB | Windows/Modrinth App client profile. |
+| `VKPack-Ubuntu-Server-1.0.0.zip` | 1376.37 MB | Ubuntu server deploy pack. |
+| `SHA256SUMS.txt` | tiny | Verify the zips before trusting them. |
 
-A future public distribution pass can convert this to a final `.mrpack`/packwiz-style installer where every third-party download is resolved legally and automatically. For this private/friends-server stable release, the full zips are the working path.
+Do not use GitHub's automatic `Source code.zip` as a playable pack. It is source, not a complete client.
 
-## 1.0.0 Stable Fixes
+## Quick Install
 
-- BDD dragon fallback skins added for `null_male` / `null_female` texture lookups.
-- Coal Coke configured as furnace fuel at `3200` ticks, twice vanilla coal.
-- Immersive Portals and Portal Gun disabled from active client/server mods.
-- Client defaults set to 22 render distance, 8 simulation distance, VSync off, and 240 FPS cap.
-- Ubuntu server defaults set to 84 GB max heap, 64 GB soft heap, and 85 percent active CPU target.
-- Server defaults remain 25 players, 12 view distance, 5 simulation distance.
+Client:
 
-## Install
-
-Start with [INSTALL.md](INSTALL.md). The short version:
-
-1. Download `VKPack-Client-1.0.0.zip` from Releases.
-2. Open Modrinth App and create/open a NeoForge 1.21.1 profile.
+1. Download `VKPack-Client-1.0.0.zip` from the release page.
+2. Create or open a NeoForge `1.21.1` profile in Modrinth App.
 3. Extract the zip contents into that profile folder.
 4. Launch.
 
-Server setup is documented in [docs/SETUP_SPECS_AND_OPERATIONS.md](docs/SETUP_SPECS_AND_OPERATIONS.md).
+Server:
 
-## What Is Included In Source
+1. Download `VKPack-Ubuntu-Server-1.0.0.zip`.
+2. Follow [INSTALL.md](INSTALL.md) and [docs/SETUP_SPECS_AND_OPERATIONS.md](docs/SETUP_SPECS_AND_OPERATIONS.md).
+3. Set your RCON password before exposing the server.
 
-- `overrides/kubejs` - KubeJS scripts, recipes, custom data, BDD dragon fallback textures, Silent Gear/Apotheosis integration.
-- `overrides/config` - curated configs with local caches/history removed.
-- `overrides/defaultconfigs` - default world/server configs.
-- `grindinggear` - first-party GrindingGear source/data/docs.
-- `manifest` - active mod lists, sync notes, disabled-mod ledger, and release audit.
-- `tools` - existing pack audit/build/publish scripts.
+## What Changed In 1.0.0
 
-## What Is Not Kept In Git History
+- Added fallback skins for BDD dragons that were rendering black/missing.
+- Made Coal Coke work as furnace fuel at `3200` ticks, twice vanilla coal.
+- Disabled Immersive Portals and Portal Gun in the active client/server pack.
+- Set client defaults around 22 render distance, 8 simulation distance, VSync off, and 240 FPS cap.
+- Set Ubuntu server defaults to 25 players, 12 view distance, 5 simulation distance, 84 GB max heap, 64 GB soft heap, and an 85 percent CPU target.
+- Kept the KubeJS, Silent Gear, Apotheosis, GrindingGear, recipe, texture, and performance work synced between client and server.
 
-- third-party `mods/` jars,
-- full server `libraries/`,
-- saves, logs, crash reports, screenshots, local credentials, RCON passwords, and private runtime data.
+## Public Installer Status
 
-## Release Integrity
+We are converting VKPack into a proper `.mrpack` path so players can install it through legal automatic downloads instead of sharing a giant zip forever.
+
+Current state:
+
+- `tools/build_public_mrpack.py` builds the public Modrinth installer manifest from the live client profile.
+- `483` of `502` third-party files now resolve through Modrinth or verified official FTB Maven URLs.
+- `19` files still need a legal exact download source or a tested replacement; they are listed in [manifest/MANUAL_DOWNLOADS_REQUIRED.md](manifest/MANUAL_DOWNLOADS_REQUIRED.md).
+- Until that list reaches zero, the full release zips are still the reliable way to play with friends.
+
+## Repo Layout
+
+- `overrides/kubejs` - recipes, tags, startup scripts, data fixes, textures, Silent Gear/Apotheosis integration.
+- `overrides/config` - curated client/server config.
+- `overrides/defaultconfigs` - world/server defaults.
+- `grindinggear` - first-party GrindingGear source, data, and docs.
+- `manifest` - mod lists, audits, disabled-mod ledger, installer reports.
+- `pack` - generated Modrinth pack indexes and draft `.mrpack` output.
+- `tools` - audit, build, validation, and release scripts.
+
+## Not In Git
+
+This repo intentionally leaves out:
+
+- third-party mod jars,
+- full server libraries,
+- saves,
+- logs and crash reports,
+- screenshots,
+- local credentials,
+- RCON passwords,
+- private runtime data.
+
+## Checksums
 
 ```text
 46fcafd6a6c7cf38020015759e5ad9f656b22e6100ef1a3f22eec78d14edd61d  VKPack-Client-1.0.0.zip
@@ -60,4 +83,4 @@ Server setup is documented in [docs/SETUP_SPECS_AND_OPERATIONS.md](docs/SETUP_SP
 
 ## License Boundary
 
-Pack-specific scripts, docs, and first-party config/data work follow this repository's license. Third-party mods, mod assets, shaders, and resource packs remain under their own licenses.
+VKPack's scripts, configs, docs, and first-party data follow this repo's license. Mods, shaders, and resource packs stay under their own licenses.
