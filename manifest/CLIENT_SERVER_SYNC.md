@@ -1,6 +1,6 @@
 # Client / Server Sync
 
-Release: `20260701-055459`
+Release: `1.0.0`
 
 | Area | Client | Server |
 |---|---:|---:|

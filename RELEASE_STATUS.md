@@ -1,13 +1,13 @@
 # Release Status
 
-Current player-facing status: **playable private/friends release via full client/server zips**.
+Current player-facing status: **VKPack 1.0.0 Stable**.
 
-Release tag target: `gigani-20260701-055459`
+Release tag: `v1.0.0`
 
 ## Built Artifacts
 
-- `Gigani-Client-20260701-055459.zip` (1306.1 MB)
-- `Gigani-Ubuntu-Server-20260701-055459.zip` (1376.37 MB)
+- `VKPack-Client-1.0.0.zip` (1306.1 MB)
+- `VKPack-Ubuntu-Server-1.0.0.zip` (1376.37 MB)
 - `SHA256SUMS.txt`
 
 ## Verified State

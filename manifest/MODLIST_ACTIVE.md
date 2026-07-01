@@ -1,6 +1,6 @@
 # Active Mod List
 
-Release: `20260701-055459`
+Release: `1.0.0`
 
 ## Client (490)
 

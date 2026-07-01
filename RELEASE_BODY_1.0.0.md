@@ -1,11 +1,11 @@
-# Gigani / VKPack 20260701-055459
+# VKPack 1.0.0 Stable
 
-This release is the current working client/server pair for the private Gigani server rollout.
+This is the official first stable VKPack client/server release.
 
 ## Download
 
-- `Gigani-Client-20260701-055459.zip` - extract into a NeoForge 1.21.1 Modrinth profile.
-- `Gigani-Ubuntu-Server-20260701-055459.zip` - copy to Ubuntu and follow `README.md` / `INSTALL.md`.
+- `VKPack-Client-1.0.0.zip` - extract into a NeoForge 1.21.1 Modrinth profile.
+- `VKPack-Ubuntu-Server-1.0.0.zip` - copy to Ubuntu and follow `README.md` / `INSTALL.md`.
 - `SHA256SUMS.txt` - verify download integrity.
 
 ## Fixes Included
@@ -27,6 +27,6 @@ This release is the current working client/server pair for the private Gigani se
 ## Checksums
 
 ```text
-46fcafd6a6c7cf38020015759e5ad9f656b22e6100ef1a3f22eec78d14edd61d  Gigani-Client-20260701-055459.zip
-75b159bb6783a0f80c29d7547fb09a42ba419399ba0dedbe078512bd6e40f438  Gigani-Ubuntu-Server-20260701-055459.zip
+46fcafd6a6c7cf38020015759e5ad9f656b22e6100ef1a3f22eec78d14edd61d  VKPack-Client-1.0.0.zip
+75b159bb6783a0f80c29d7547fb09a42ba419399ba0dedbe078512bd6e40f438  VKPack-Ubuntu-Server-1.0.0.zip
 ```

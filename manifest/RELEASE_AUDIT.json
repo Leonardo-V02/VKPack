@@ -1,10 +1,10 @@
 {
-  "release": "20260701-055459",
-  "generated_at": "2026-07-01T13:22:32",
-  "client_zip": "Gigani-Client-20260701-055459.zip",
+  "release": "1.0.0",
+  "generated_at": "2026-07-01T15:23:59",
+  "client_zip": "VKPack-Client-1.0.0.zip",
   "client_zip_mb": 1306.1,
   "client_sha256": "46fcafd6a6c7cf38020015759e5ad9f656b22e6100ef1a3f22eec78d14edd61d",
-  "server_zip": "Gigani-Ubuntu-Server-20260701-055459.zip",
+  "server_zip": "VKPack-Ubuntu-Server-1.0.0.zip",
   "server_zip_mb": 1376.37,
   "server_sha256": "75b159bb6783a0f80c29d7547fb09a42ba419399ba0dedbe078512bd6e40f438",
   "client_active_jars": 490,
@@ -19,5 +19,7 @@
   "server_simulation_distance": 5,
   "server_xmx": "84G",
   "server_soft_max_heap": "64G",
-  "server_cpu_percent": 85
+  "server_cpu_percent": 85,
+  "release_name": "VKPack 1.0.0 Stable",
+  "tag": "v1.0.0"
 }

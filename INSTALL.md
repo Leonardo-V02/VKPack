@@ -1,13 +1,13 @@
-# Installing VKPack / Gigani
+# Installing VKPack 1.0.0 Stable
 
-## Player Client: Current Working Path
+## Player Client
 
 Use the release asset named:
 
-`Gigani-Client-20260701-055459.zip`
+`VKPack-Client-1.0.0.zip`
 
 1. Install or open the Modrinth App.
-2. Create a NeoForge `1.21.1` profile named `Gigani`, or open your existing profile folder.
+2. Create a NeoForge `1.21.1` profile named `VKPack`, or open your existing profile folder.
 3. Extract the zip contents directly into that profile folder.
 4. In Modrinth, allocate memory:
    - 12-16 GB for strong PCs without heavy shaders.
@@ -21,13 +21,13 @@ Do not use GitHub's automatic `Source code.zip` to play. That is source for main
 
 Use the release asset named:
 
-`Gigani-Ubuntu-Server-20260701-055459.zip`
+`VKPack-Ubuntu-Server-1.0.0.zip`
 
 ```bash
 sudo apt update
 sudo apt install openjdk-21-jre-headless unzip screen tmux
-unzip Gigani-Ubuntu-Server-20260701-055459.zip -d gigani-server
-cd gigani-server
+unzip VKPack-Ubuntu-Server-1.0.0.zip -d vkpack-server
+cd vkpack-server
 chmod +x *.sh
 printf 'eula=true\n' > eula.txt
 ./install-neoforge-server.sh

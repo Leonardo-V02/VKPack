@@ -1,22 +1,22 @@
-# VKPack / Gigani
+# VKPack
 
-VKPack is the source and release workspace for the **Gigani** NeoForge 1.21.1 modpack. It contains the pack-owned pieces: KubeJS scripts, balance/data edits, selected configs, GrindingGear source/data, setup docs, and release manifests.
+**VKPack 1.0.0 Stable** is the official first stable release of the VKPack NeoForge 1.21.1 modpack.
 
-This repository is designed around one clean rule: **players download a release asset; maintainers edit the repo.** Third-party mod jars are not kept in normal Git history.
+VKPack contains the pack-owned pieces: KubeJS scripts, balance/data edits, selected configs, GrindingGear source/data, setup docs, and release manifests. Third-party mod jars are not kept in normal Git history.
 
-## Current Playable Release
-
-The current tested release is **20260701-055459**.
+## Download VKPack 1.0.0 Stable
 
 | Goal | GitHub Release Asset | Size | Use It For |
 |---|---:|---:|---|
-| Play on Windows/Modrinth App | `Gigani-Client-20260701-055459.zip` | 1306.1 MB | Extract into a NeoForge 1.21.1 Modrinth profile. |
-| Host on Ubuntu | `Gigani-Ubuntu-Server-20260701-055459.zip` | 1376.37 MB | Copy to the Starbook/Ubuntu server and run the included scripts. |
+| Play on Windows/Modrinth App | `VKPack-Client-1.0.0.zip` | 1306.1 MB | Extract into a NeoForge 1.21.1 Modrinth profile. |
+| Host on Ubuntu | `VKPack-Ubuntu-Server-1.0.0.zip` | 1376.37 MB | Copy to the Starbook/Ubuntu server and run the included scripts. |
 | Verify downloads | `SHA256SUMS.txt` | tiny | Check file integrity. |
 
-A future public distribution pass should convert this to a final `.mrpack`/packwiz-style installer where every third-party download is resolved legally and automatically. For this private/friends-server release, the full zips are the working path.
+Release page: https://github.com/Leonardo-V02/VKPack/releases/tag/v1.0.0
 
-## July 1, 2026 Finishing Pass
+A future public distribution pass can convert this to a final `.mrpack`/packwiz-style installer where every third-party download is resolved legally and automatically. For this private/friends-server stable release, the full zips are the working path.
+
+## 1.0.0 Stable Fixes
 
 - BDD dragon fallback skins added for `null_male` / `null_female` texture lookups.
 - Coal Coke configured as furnace fuel at `3200` ticks, twice vanilla coal.
@@ -29,7 +29,7 @@ A future public distribution pass should convert this to a final `.mrpack`/packw
 
 Start with [INSTALL.md](INSTALL.md). The short version:
 
-1. Download the client zip from Releases.
+1. Download `VKPack-Client-1.0.0.zip` from Releases.
 2. Open Modrinth App and create/open a NeoForge 1.21.1 profile.
 3. Extract the zip contents into that profile folder.
 4. Launch.
@@ -54,8 +54,8 @@ Server setup is documented in [docs/SETUP_SPECS_AND_OPERATIONS.md](docs/SETUP_SP
 ## Release Integrity
 
 ```text
-46fcafd6a6c7cf38020015759e5ad9f656b22e6100ef1a3f22eec78d14edd61d  Gigani-Client-20260701-055459.zip
-75b159bb6783a0f80c29d7547fb09a42ba419399ba0dedbe078512bd6e40f438  Gigani-Ubuntu-Server-20260701-055459.zip
+46fcafd6a6c7cf38020015759e5ad9f656b22e6100ef1a3f22eec78d14edd61d  VKPack-Client-1.0.0.zip
+75b159bb6783a0f80c29d7547fb09a42ba419399ba0dedbe078512bd6e40f438  VKPack-Ubuntu-Server-1.0.0.zip
 ```
 
 ## License Boundary

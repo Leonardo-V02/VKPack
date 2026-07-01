@@ -1,6 +1,6 @@
 # Disabled Mods Ledger
 
-This ledger records mods intentionally kept out of active gameplay for the `20260701-055459` release.
+This ledger records mods intentionally kept out of active gameplay for the `1.0.0` release.
 
 ## Disabled For Stability
 
