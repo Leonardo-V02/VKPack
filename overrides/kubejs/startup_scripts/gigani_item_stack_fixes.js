@@ -1,4 +1,4 @@
-ItemEvents.modification(event => {
+﻿ItemEvents.modification(event => {
   const stackTo64 = id => {
     try {
       event.modify(id, item => {
@@ -19,4 +19,25 @@ ItemEvents.modification(event => {
     stackTo64('adorablehamsterpets:green_beans')
     stackTo64('adorablehamsterpets:steamed_green_beans')
   }
+  // Coal coke fuel: coal is 1600 ticks, so coke is 2x coal for furnace-style consumers.
+  const setBurnTime = (id, ticks) => {
+    try {
+      event.modify(id, item => {
+        if (typeof item.kjs$setBurnTime === 'function') {
+          item.kjs$setBurnTime(ticks)
+        } else if (typeof item.setBurnTime === 'function') {
+          item.setBurnTime(ticks)
+        } else {
+          item.burnTime = ticks
+        }
+      })
+    } catch (error) {
+      console.warn(`[Gigani] Skipped coal coke fuel fix for missing item ${id}: ${error}`)
+    }
+  }
+
+  setBurnTime('immersiveengineering:coke', 3200)
+  setBurnTime('electrodynamics:coalcoke', 3200)
+  setBurnTime('immersiveengineering:dust_coke', 800)
 })
+

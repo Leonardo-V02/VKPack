@@ -1,54 +1,51 @@
-﻿# Installing VKPack from GitHub into Modrinth
+# Installing VKPack / Gigani
 
-This page is for players. You should not need to clone this repo, install Git, copy KubeJS folders, or manually assemble a mods folder.
+## Player Client: Current Working Path
 
-## Visual Overview
+Use the release asset named:
 
-![VKPack GitHub to Modrinth setup flow](docs/assets/github-to-modrinth-flow.svg)
+`Gigani-Client-20260701-055459.zip`
 
-For the full picture walkthrough, see [docs/PLAYER_SETUP_TUTORIAL.md](docs/PLAYER_SETUP_TUTORIAL.md).
+1. Install or open the Modrinth App.
+2. Create a NeoForge `1.21.1` profile named `Gigani`, or open your existing profile folder.
+3. Extract the zip contents directly into that profile folder.
+4. In Modrinth, allocate memory:
+   - 12-16 GB for strong PCs without heavy shaders.
+   - 16-24 GB for high-resolution shaders or longer sessions.
+   - More than 24 GB usually does not help the client much.
+5. Launch the profile.
 
-## The Simple Path
+Do not use GitHub's automatic `Source code.zip` to play. That is source for maintainers, not a complete playable profile.
 
-1. Go to the VKPack GitHub **Releases** page.
-2. Download the asset ending in `FINAL.mrpack`.
-3. Open Modrinth App.
-4. Click **Create Profile**.
-5. Choose **Import from file**.
-6. Select the `.mrpack` you downloaded.
-7. Wait for Modrinth to download the referenced mods.
-8. Launch the profile.
+## Ubuntu Server
 
-That `.mrpack` is the single file you want. It contains the pack overrides and a manifest telling Modrinth where to retrieve the allowed upstream downloads.
+Use the release asset named:
 
-## What Not To Download
+`Gigani-Ubuntu-Server-20260701-055459.zip`
 
-Do not use GitHub's automatic `Source code.zip` / `Source code.tar.gz` buttons to play the pack. Those are source snapshots for maintainers and will not create a playable Modrinth profile by themselves.
+```bash
+sudo apt update
+sudo apt install openjdk-21-jre-headless unzip screen tmux
+unzip Gigani-Ubuntu-Server-20260701-055459.zip -d gigani-server
+cd gigani-server
+chmod +x *.sh
+printf 'eula=true\n' > eula.txt
+./install-neoforge-server.sh
+nano .server.env
+./start-server.sh
+```
 
-## Draft vs Final
+Set a private RCON password before opening the server publicly.
 
-A release may also contain something named like:
+## Expected Server Defaults
 
-`VKPack-2026-06-30-resolved-only-DRAFT.mrpack`
+- `max-players=25`
+- `view-distance=12`
+- `simulation-distance=5`
+- `GIGANI_XMX=84G`
+- `GIGANI_SOFT_MAX_HEAP=64G`
+- `GIGANI_CPU_PERCENT=85`
 
-That file is transparent but incomplete. It includes all Modrinth-resolved dependencies and the VKPack overrides, but it intentionally does not pretend the unresolved files are solved. At the time this guide was written, `23` files still needed legal direct-download resolution or Modrinth-hosted replacements.
+## Future One-Click Public Path
 
-Use the draft only if you are helping test packaging. Regular players should wait for `FINAL.mrpack`.
-
-## What A Working Final Release Guarantees
-
-A final VKPack `.mrpack` should include:
-
-- Minecraft `1.21.1`,
-- NeoForge `21.1.233`,
-- all Modrinth-resolved dependency download references,
-- legal direct download references or approved replacements for non-Modrinth files,
-- `kubejs/` overrides,
-- selected `config/` overrides,
-- GrindingGear visual assets,
-- first-party GrindingGear jar as a release asset if the pack requires it.
-
-## Server Compatibility
-
-The public client pack and the server pack must use matching KubeJS/config/GrindingGear versions. If you get a missing registry, missing item, or mismatch error, check that the server owner is running the server release matching the client `.mrpack` tag.
-
+A final `.mrpack` or packwiz installer is still the cleanest public distribution target. That pass should resolve every third-party dependency through Modrinth/public URLs instead of shipping jars in a zip.

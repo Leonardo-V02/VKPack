@@ -87,12 +87,6 @@
     "block_properties": false,
     "mod_name": true
   },
-  "adorablehamsterpets": {
-    "hamster_debug_info": true,
-    "hamster_bed_info": true,
-    "wild_bush_tooltips": true,
-    "hamster_genetics": true
-  },
   "extendedae": {
     "jade_chamber": true,
     "jade_wireless": true
@@ -163,6 +157,11 @@
   "framedblocks": {
     "framed_item_frame": true,
     "framed_block_generic": true
+  },
+  "lightmanscurrency": {
+    "model_variant": true,
+    "model_variant.locked": false,
+    "paygate": true
   },
   "jade_access": {
     "held_item": true,

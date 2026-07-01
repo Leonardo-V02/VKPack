@@ -48,3 +48,11 @@ build/
 
 # Local maintainer-only direct download resolutions
 manifest/manual-downloads.local.json
+
+# Local runtime caches
+**/spark/tmp/
+**/spark/tmp-client/
+**/spark/activity.json
+**/voicechat/username-cache.json
+**/voicechat/player-volumes.properties
+**/voicechat/category-volumes.properties
