@@ -1,0 +1,359 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/osmium"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF8FA7C8",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.osmium"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 22.0,
+      "armor/boots": 3.08,
+      "armor/chestplate": 8.36,
+      "armor/helmet": 3.74,
+      "armor/leggings": 6.82,
+      "armor_durability": 58.0,
+      "armor_toughness": 9.5,
+      "attack_damage": 5.1,
+      "attack_speed": -0.08,
+      "charging_value": 0.01,
+      "draw_speed": -0.08,
+      "durability": 2490,
+      "enchantment_value": 14,
+      "harvest_speed": 8.9,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 1.6,
+      "magic_damage": 1.0,
+      "projectile_accuracy": 0.98,
+      "projectile_speed": 0.94,
+      "ranged_damage": 0.8,
+      "rarity": 88,
+      "repair_value": 0.18,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:inert_matrix"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.207
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.068
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.02
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:inert_matrix"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 8.12
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.632
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 348.6
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.602
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.35
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.224
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 17.6
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:inert_matrix"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.089
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.71
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.138
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.556
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.448
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.25
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:inert_matrix"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.113
+      },
+      "repair_value": {
+        "operation": "ADD",
+        "value": 0.032
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 10.56
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.04
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": -0.028
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.007
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "charging_value": {
+        "operation": "ADD",
+        "value": 0.003
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.167
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.18
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:inert_matrix"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 1.21
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 1.14
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.352
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:inert_matrix"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "ADD",
+        "value": -0.04
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.021
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.128
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.009
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.018
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "gigani:high_density"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:wear_resistant"
+        }
+      ]
+    }
+  }
+}

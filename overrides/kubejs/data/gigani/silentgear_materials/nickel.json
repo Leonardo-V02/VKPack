@@ -1,0 +1,359 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "common"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/nickel"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFD7D4BC",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.nickel"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 14.0,
+      "armor/boots": 1.96,
+      "armor/chestplate": 5.32,
+      "armor/helmet": 2.38,
+      "armor/leggings": 4.34,
+      "armor_durability": 32.0,
+      "armor_toughness": 2.4,
+      "attack_damage": 3.1,
+      "attack_speed": -0.01,
+      "charging_value": 0.04,
+      "draw_speed": 0.0,
+      "durability": 880,
+      "enchantment_value": 16,
+      "harvest_speed": 7.1,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 0.8,
+      "magic_damage": 0.6,
+      "projectile_accuracy": 1.02,
+      "projectile_speed": 1.0,
+      "ranged_damage": 0.5,
+      "rarity": 46,
+      "repair_value": 0.14,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.073
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.055
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.003
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 4.48
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.992
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 123.2
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.278
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.21
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.14
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 9.2
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.049
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.432
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.049
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.778
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.224
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.15
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.04
+      },
+      "repair_value": {
+        "operation": "ADD",
+        "value": 0.025
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 5.52
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.005
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.0
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.007
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "charging_value": {
+        "operation": "ADD",
+        "value": 0.014
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.333
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.108
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.77
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.288
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.176
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:ductile_phase"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.0
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.0
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.009
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:corrosion_proof"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:galling_resistant"
+        }
+      ]
+    }
+  }
+}

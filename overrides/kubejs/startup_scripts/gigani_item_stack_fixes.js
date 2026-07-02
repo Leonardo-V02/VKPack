@@ -36,8 +36,18 @@
     }
   }
 
-  setBurnTime('immersiveengineering:coke', 3200)
-  setBurnTime('electrodynamics:coalcoke', 3200)
-  setBurnTime('immersiveengineering:dust_coke', 800)
+  ;[
+    'immersiveengineering:coal_coke',
+    'immersiveengineering:coke',
+    'electrodynamics:coalcoke',
+    'railcraft:coal_coke',
+    'modern_industrialization:coke'
+  ].forEach(id => setBurnTime(id, 3200))
+
+  ;[
+    'immersiveengineering:dust_coke',
+    'electrodynamics:dustcoalcoke',
+    'railcraft:dust_coal_coke'
+  ].forEach(id => setBurnTime(id, 800))
 })
 

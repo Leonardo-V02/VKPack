@@ -2,11 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "electrodynamics:ingotvanadiumsteel",
+      "id": "#c:ingots/vanadiumsteel",
       "required": false
     },
     {
-      "id": "#c:ingots/vanadiumsteel",
+      "id": "electrodynamics:ingotvanadiumsteel",
       "required": false
     }
   ]

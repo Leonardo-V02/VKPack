@@ -1,0 +1,359 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "common"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/brass"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFD9B34C",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.brass"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 11.0,
+      "armor/boots": 1.54,
+      "armor/chestplate": 4.18,
+      "armor/helmet": 1.87,
+      "armor/leggings": 3.41,
+      "armor_durability": 20.0,
+      "armor_toughness": 0.7,
+      "attack_damage": 2.5,
+      "attack_speed": 0.05,
+      "charging_value": 0.08,
+      "draw_speed": 0.05,
+      "durability": 520,
+      "enchantment_value": 20,
+      "harvest_speed": 7.2,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 1.2,
+      "magic_damage": 1.1,
+      "projectile_accuracy": 1.06,
+      "projectile_speed": 1.03,
+      "ranged_damage": 0.7,
+      "rarity": 34,
+      "repair_value": 0.1,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.05
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.055
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.013
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 2.8
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.8
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 72.8
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.296
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.385
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.196
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 6.8
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.031
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.126
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.029
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.222
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.336
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.275
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.024
+      },
+      "repair_value": {
+        "operation": "ADD",
+        "value": 0.018
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 4.08
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.025
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.017
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.021
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "charging_value": {
+        "operation": "ADD",
+        "value": 0.028
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.667
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.198
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.605
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.1
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.264
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:work_hardened"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.025
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.011
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.112
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.027
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.009
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:low_friction"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_path"
+        }
+      ]
+    }
+  }
+}

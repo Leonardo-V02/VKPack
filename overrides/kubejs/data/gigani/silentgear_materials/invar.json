@@ -1,0 +1,359 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/invar"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFC8D2C8",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.invar"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 17.0,
+      "armor/boots": 2.38,
+      "armor/chestplate": 6.46,
+      "armor/helmet": 2.89,
+      "armor/leggings": 5.27,
+      "armor_durability": 43.0,
+      "armor_toughness": 5.0,
+      "attack_damage": 3.7,
+      "attack_speed": -0.05,
+      "charging_value": 0.02,
+      "draw_speed": -0.04,
+      "durability": 1420,
+      "enchantment_value": 17,
+      "harvest_speed": 7.7,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 1.5,
+      "magic_damage": 1.1,
+      "projectile_accuracy": 1.01,
+      "projectile_speed": 0.96,
+      "ranged_damage": 0.7,
+      "rarity": 62,
+      "repair_value": 0.16,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:creep_resistant"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.118
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.059
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.013
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:creep_resistant"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 6.02
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.184
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 198.8
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.386
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_diamond_tool",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.385
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.196
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 12.4
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:creep_resistant"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.066
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.9
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.079
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.889
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.42
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.275
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:creep_resistant"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.065
+      },
+      "repair_value": {
+        "operation": "ADD",
+        "value": 0.029
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 7.44
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": -0.025
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": -0.014
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.004
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "charging_value": {
+        "operation": "ADD",
+        "value": 0.007
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 1.417
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.198
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:creep_resistant"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.935
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.6
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.33
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:creep_resistant"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "ADD",
+        "value": -0.02
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.014
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.112
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.005
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.012
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:thermal_barrier"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "gigani:fatigue_limit"
+        }
+      ]
+    }
+  }
+}

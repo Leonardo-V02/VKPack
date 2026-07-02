@@ -1,0 +1,359 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "magic"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/silver"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FFE8EEF2",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.gigani.silver"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 9.0,
+      "armor/boots": 1.26,
+      "armor/chestplate": 3.42,
+      "armor/helmet": 1.53,
+      "armor/leggings": 2.79,
+      "armor_durability": 18.0,
+      "armor_toughness": 0.5,
+      "attack_damage": 2.4,
+      "attack_speed": 0.07,
+      "charging_value": 0.16,
+      "draw_speed": 0.08,
+      "durability": 470,
+      "enchantment_value": 33,
+      "harvest_speed": 7.4,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 3.7,
+      "magic_damage": 4.2,
+      "projectile_accuracy": 1.12,
+      "projectile_speed": 1.06,
+      "ranged_damage": 1.7,
+      "rarity": 52,
+      "repair_value": 0.08,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.05
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.057
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.018
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 2.52
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.768
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 65.8
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.332
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_iron_tool",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.47
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.476
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 10.4
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.028
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.1
+      },
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.026
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 3.667
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 1.036
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 1.05
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:binding": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.021
+      },
+      "repair_value": {
+        "operation": "ADD",
+        "value": 0.014
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 6.24
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        }
+      ]
+    },
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.035
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.028
+      },
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.042
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "charging_value": {
+        "operation": "ADD",
+        "value": 0.056
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 2.75
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 0.756
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "armor": {
+        "operation": "ADD",
+        "value": 0.495
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 0.1
+      },
+      "magic_armor": {
+        "operation": "ADD",
+        "value": 0.814
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "gigani:noble_catalyst"
+        }
+      ]
+    },
+    "silentgear:cord": {
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.04
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.021
+      },
+      "ranged_damage": {
+        "operation": "ADD",
+        "value": 0.272
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        }
+      ]
+    },
+    "silentgear:fletching": {
+      "projectile_accuracy": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.054
+      },
+      "projectile_speed": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.018
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:holy"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "gigani:conductive_grain"
+        }
+      ]
+    }
+  }
+}
