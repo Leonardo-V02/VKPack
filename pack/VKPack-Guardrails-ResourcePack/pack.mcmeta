@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "supported_formats": [34, 34],
+    "description": "VKPack guardrail resource fixes for NeoForge 1.21.1"
+  }
+}

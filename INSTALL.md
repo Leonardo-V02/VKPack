@@ -37,6 +37,18 @@ nano .server.env
 
 Set a private RCON password before opening the server publicly.
 
+Optional maintainer check before launch:
+
+```bash
+python3 tools/vkpack_preflight.py --repo . --server /path/to/vkpack-server
+```
+
+On the Windows client machine, run the same check with the client profile path before publishing a new build:
+
+```powershell
+python tools/vkpack_preflight.py --client "$env:APPDATA\ModrinthApp\profiles\VKPack"
+```
+
 ## Expected Server Defaults
 
 - `max-players=25`
@@ -57,3 +69,4 @@ Current public installer state:
 - The blocker list is in `manifest/MANUAL_DOWNLOADS_REQUIRED.md`.
 
 Until that list reaches zero, use the full client/server release zips above for actual play.
+

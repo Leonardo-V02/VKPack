@@ -43,6 +43,19 @@ Server:
 ## Client Performance Profile
 
 VKPack's high-memory client profile is documented in [docs/CLIENT_PERFORMANCE_PROFILE.md](docs/CLIENT_PERFORMANCE_PROFILE.md). It records the 50 GB heap cap, ZGC flags, 17-logical-processor JVM target, and the script used to reapply those settings to Modrinth App.
+
+## Preflight Checks
+
+Before cutting a release or copying KubeJS to a server, run:
+
+```powershell
+python tools/vkpack_preflight.py --client "$env:APPDATA\ModrinthApp\profiles\VKPack"
+```
+
+The script validates pack JSON, catches missing KubeJS namespaces, flags risky keybind/options data, and summarizes known bad log patterns. It is a guardrail, not a replacement for launching the pack once before release.
+
+`pack/VKPack-Guardrails-ResourcePack` contains the standalone publishable resource-pack copy of small visual/model fixes that are also mirrored through `overrides/kubejs/assets`.
+
 ## Public Installer Status
 
 We are converting VKPack into a proper `.mrpack` path so players can install it through legal automatic downloads instead of sharing a giant zip forever.

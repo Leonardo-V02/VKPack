@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "architects_palette:block/ancient_plating_wall"
+  }
+}
