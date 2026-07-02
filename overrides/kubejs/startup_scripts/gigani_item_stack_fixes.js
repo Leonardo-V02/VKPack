@@ -1,4 +1,4 @@
-﻿ItemEvents.modification(event => {
+ItemEvents.modification(event => {
   const stackTo64 = id => {
     try {
       event.modify(id, item => {
@@ -39,15 +39,8 @@
   ;[
     'immersiveengineering:coal_coke',
     'immersiveengineering:coke',
-    'electrodynamics:coalcoke',
-    'railcraft:coal_coke',
-    'modern_industrialization:coke'
+    'electrodynamics:coalcoke'
   ].forEach(id => setBurnTime(id, 3200))
 
-  ;[
-    'immersiveengineering:dust_coke',
-    'electrodynamics:dustcoalcoke',
-    'railcraft:dust_coal_coke'
-  ].forEach(id => setBurnTime(id, 800))
+  setBurnTime('immersiveengineering:dust_coke', 800)
 })
-
